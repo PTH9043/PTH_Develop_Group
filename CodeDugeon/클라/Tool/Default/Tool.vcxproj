@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{daf7c215-7a70-45d5-8002-2712c313df60}</ProjectGuid>
+    <RootNamespace>Tool</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\\Public\\;..\\..\\Reference\\Headers\\</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\\..\\Reference\\Librarys\\; ..\\ThirdPartyLib\\</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\\Public\\;..\\..\\Reference\\Headers\\</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\\..\\Reference\\Librarys\\; ..\\ThirdPartyLib\\</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\\Public\\;..\\..\\Reference\\Headers\\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\\..\\Reference\\Librarys\\; ..\\ThirdPartyLib\\</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\\Public\\;..\\..\\Reference\\Headers\\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\\..\\Reference\\Librarys\\; ..\\ThirdPartyLib\\</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\ImGui\GraphEditor.h" />
+    <ClInclude Include="..\Public\ImGui\imconfig.h" />
+    <ClInclude Include="..\Public\ImGui\ImCurveEdit.h" />
+    <ClInclude Include="..\Public\ImGui\ImGradient.h" />
+    <ClInclude Include="..\Public\ImGui\imgui.h" />
+    <ClInclude Include="..\Public\ImGui\ImGuizmo.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_impl_dx12.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\Public\ImGui\ImSequencer.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_truetype.h" />
+    <ClInclude Include="..\Public\ImGui\ImZoomSlider.h" />
+    <ClInclude Include="..\Public\TAnimControlModel.h" />
+    <ClInclude Include="..\Public\TAnimControlView.h" />
+    <ClInclude Include="..\Public\TAssimpAnimation.h" />
+    <ClInclude Include="..\Public\TAssimpChannel.h" />
+    <ClInclude Include="..\Public\TAssimpMeshContainer.h" />
+    <ClInclude Include="..\Public\TAssimpModel.h" />
+    <ClInclude Include="..\Public\TBloodEffectView.h" />
+    <ClInclude Include="..\Public\TCameraView.h" />
+    <ClInclude Include="..\Public\TEquipModel.h" />
+    <ClInclude Include="..\Public\TFireView.h" />
+    <ClInclude Include="..\Public\TFogView.h" />
+    <ClInclude Include="..\Public\TGuizmoManager.h" />
+    <ClInclude Include="..\Public\TImGuiManager.h" />
+    <ClInclude Include="..\Public\TImGuiView.h" />
+    <ClInclude Include="..\Public\TMainCamera.h" />
+    <ClInclude Include="..\Public\TMainScene.h" />
+    <ClInclude Include="..\Public\TMainView.h" />
+    <ClInclude Include="..\Public\TMapView.h" />
+    <ClInclude Include="..\Public\TModelView.h" />
+    <ClInclude Include="..\Public\TNavigationView.h" />
+    <ClInclude Include="..\Public\ToolDefines.h" />
+    <ClInclude Include="..\Public\ToolMaker.h" />
+    <ClInclude Include="..\Public\TParticleView.h" />
+    <ClInclude Include="..\Public\TProtoMaker.h" />
+    <ClInclude Include="..\Public\TRotationEffectView.h" />
+    <ClInclude Include="..\Public\TShowAnimModelObject.h" />
+    <ClInclude Include="..\Public\TShowModelObject.h" />
+    <ClInclude Include="..\Public\TTestObject.h" />
+    <ClInclude Include="..\Public\TToolApp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\TAssimpBoneNode.h" />
+    <ClInclude Include="..\Public\TUnityModelLoader.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\TAnimControlModel.cpp" />
+    <ClCompile Include="..\Private\TAnimControlView.cpp" />
+    <ClCompile Include="..\Private\TAssimpAnimation.cpp" />
+    <ClCompile Include="..\Private\TAssimpChannel.cpp" />
+    <ClCompile Include="..\Private\TAssimpMeshContainer.cpp" />
+    <ClCompile Include="..\Private\TAssimpModel.cpp" />
+    <ClCompile Include="..\Private\TBloodEffectView.cpp" />
+    <ClCompile Include="..\Private\TCameraView.cpp" />
+    <ClCompile Include="..\Private\TEquipModel.cpp" />
+    <ClCompile Include="..\Private\TFireView.cpp" />
+    <ClCompile Include="..\Private\TFogView.cpp" />
+    <ClCompile Include="..\Private\TGuizmoManager.cpp" />
+    <ClCompile Include="..\Private\TImGuiManager.cpp" />
+    <ClCompile Include="..\Private\TImGuiView.cpp" />
+    <ClCompile Include="..\Private\TMainCamera.cpp" />
+    <ClCompile Include="..\Private\TMainScene.cpp" />
+    <ClCompile Include="..\Private\TMainView.cpp" />
+    <ClCompile Include="..\Private\TMapView.cpp" />
+    <ClCompile Include="..\Private\TModelView.cpp" />
+    <ClCompile Include="..\Private\TNavigationView.cpp" />
+    <ClCompile Include="..\Private\TParticleView.cpp" />
+    <ClCompile Include="..\Private\TProtoMaker.cpp" />
+    <ClCompile Include="..\Private\TRotationEffectView.cpp" />
+    <ClCompile Include="..\Private\TShowAnimModelObject.cpp" />
+    <ClCompile Include="..\Private\TShowModelObject.cpp" />
+    <ClCompile Include="..\Private\TTestObject.cpp" />
+    <ClCompile Include="..\Private\TToolApp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\TAssimpBoneNode.cpp" />
+    <ClCompile Include="..\Private\TUnityModelLoader.cpp" />
+    <ClCompile Include="..\Public\ImGui\GraphEditor.cpp" />
+    <ClCompile Include="..\Public\ImGui\ImCurveEdit.cpp" />
+    <ClCompile Include="..\Public\ImGui\ImGradient.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui.cpp" />
+    <ClCompile Include="..\Public\ImGui\ImGuizmo.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_impl_dx12.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="..\Public\ImGui\ImSequencer.cpp" />
+    <ClCompile Include="Tool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="Tool.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

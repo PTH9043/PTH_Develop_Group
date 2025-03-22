@@ -1,0 +1,111 @@
+#pragma once
+// =================== GAMEOBJ ===================
+typedef enum EObjID
+{
+	OBJ_WORLD, OBJ_PLAYER, OBJ_MONSTER, OBJ_ITEM, OBJ_EQUIP, OBJ_EFFECT, OBJ_PARTICLE, OBJ_WORLD_2 ,OBJ_UI, OBJ_END
+}EOBJID;
+
+typedef enum EDir
+{
+	DIR_FOR, DIR_BACK, DIR_UP, DIR_DOWN, DIR_END
+}EDIR;
+// 캐릭터 스테이트
+typedef enum ECharState
+{
+	CHAR_IDLE, CHAR_MOVE, CHAR_ATTACK, CHAR_JUMP,CHAR_FALL, CHAR_FALL_TO_IDLE, 
+	CHAR_HIT, 
+	CHAR_BLOCK, CHAR_BLOCKED, CHAR_BLOCK_HIT,
+	CHAR_ROLL_NOR, CHAR_DIE, CHAR_END
+}ECHARSTATE;
+// ================= BOSS ========================
+typedef enum EPlayerState
+{
+	PL_ONEHAND, PL_TWOHAND, PL_MAGIC, PL_SHORT, PL_END
+}EPLSTATE;
+// ================= BOSS ========================
+typedef enum EBossState
+{
+	BOSS_SP1_READY, BOSS_SP2_READY, BOSS_SP3_READY, BOSS_SP4_READY, BOSS_SP1, BOSS_SP2, BOSS_SP3, BOSS_SP4, BOSS_NEXT_PAGE,
+	BOSS_SP1_END, BOSS_SP2_END, BOSS_SP3_END, BOSS_SP4_END,
+	BOSS_END
+}EBOSSSTATE;
+// =================== SCENE ===================
+typedef enum ESceneID
+{
+	SCN_INTRO, SCN_STG1, SCN_STG2, SCN_STG3, SCN_STG4, SCN_BOSS1, SCN_END
+}ESCENEID;
+
+typedef enum EDepolymentID
+{
+	DPY_FLOOR1, DPY_FLOOR2, DPY_FLOOR3, DPY_WALL1,
+	DPY_WALL2, DPY_POTAL, DPY_MONSTERSPAWNER, DPY_PLAYERSPAWNER, DPY_END
+}EDPYID;
+
+typedef enum ESceneActiveID
+{
+	SCA_FLOOR, SCA_WALL, SCA_POTAL, SCA_END
+ }ESCAID;
+
+typedef enum ESpawnID
+{
+	SP_PLAYER, SP_MONSTER, SP_END
+}ESPID;
+
+typedef enum EWallID
+{
+	WALL_LR, WALL_DW
+}EWALLID;
+// =================== UI ===================
+typedef enum EUserInterfaceID
+{
+	USIF_BAR, USIF_END
+}EUSIFID;
+// =================== ITEM ===================
+typedef enum EItemID
+{
+	ITEM_EQUIP, ITEM_FOOD, ITEM_BOW, ITEM_END
+}EITEMID;
+
+typedef enum EEquipID
+{
+	EQUIP_WEAPON, EQUIP_MAGIC, EQUIP_SHIELD, EQUIP_END
+}EEQUIPID;
+
+typedef enum EWeaponID
+{
+	WEAP_SWORD, WEAP_BOW, WEAP_MAGIC, WEAP_LUNCHER, WEAP_END
+}EWEAPONID;
+
+typedef enum ESwordID
+{
+	SWORD_ONE, SWORD_TWO, SWORD_DAGGER, SWORD_BOSS, SWORD_END
+}ESWORDID;
+
+typedef enum EEquipPos
+{
+	EP_RIGHT_ONEHAND_POS, EP_LEFT_ONEHAND_POS,
+	EP_RIGHT_TWOHAND_POS, EP_LEFT_TWOHAND_POS ,
+	EP_RIGHT_SHORT_POS , EP_LEFT_SHORT_POS,
+	EP_END
+}EEQUIPPOS;
+
+typedef enum EPosionType
+{
+	POT_HP, POT_MP, POT_END
+}EPOSIONTYPE;
+
+// 최대 32개 채널까지 동시 재생이 가능
+enum CHANNELID { SOUND_EFFECT, SOUND_BGM, SOUND_PLAYER, SOUND_ABOMIGREEN, 
+	SOUND_DEMONASS, SOUND_DEMONAXE, SOUND_DEMONESS, SOUND_SKELTONARCHER, SOUND_ZOMBIEGIRL,
+	SOUND_FOOT, SOUND_INVENTORY, MAXCHANNEL };
+// ====================================== PARTICLE ======================================
+
+typedef enum EParticleType
+{
+	PTCL_BLOOD, PTCL_BOSS,PTCL_END
+}EPARTICLETYPE;
+
+typedef enum EEffectType
+{
+	EFCT_BLOOD, EFCT_END
+}EEFFECTTYPE;

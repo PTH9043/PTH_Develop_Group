@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F64D14CE-318E-4A55-B8BA-57339E22590C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Reference/Headers/;../Public/</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dinput8.lib;dxguid.lib;Engine.lib;DirectXTKd.lib;Effects11d.lib;fmodL_vc.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <Manifest />
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Reference/Headers/;../Public/</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dinput8.lib;dxguid.lib;Engine.lib;DirectXTK.lib;fmod_vc.lib;Effects11.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\AIController_Sabito.h" />
+    <ClInclude Include="..\Public\AIController_Zako.h" />
+    <ClInclude Include="..\Public\AIConViewer.h" />
+    <ClInclude Include="..\Public\AI_CharController.h" />
+    <ClInclude Include="..\Public\BrokenRock.h" />
+    <ClInclude Include="..\Public\WindBall.h" />
+    <ClInclude Include="..\Public\Akaza.h" />
+    <ClInclude Include="..\Public\Akaza_GamePad_Controller.h" />
+    <ClInclude Include="..\Public\Akaza_KeyBoard_Controller.h" />
+    <ClInclude Include="..\Public\Animal.h" />
+    <ClInclude Include="..\Public\Battle_Manager.h" />
+    <ClInclude Include="..\Public\Boss.h" />
+    <ClInclude Include="..\Public\Camera_Cinematic.h" />
+    <ClInclude Include="..\Public\Camera_CutScene.h" />
+    <ClInclude Include="..\Public\Camera_Free.h" />
+    <ClInclude Include="..\Public\Camera_Manager.h" />
+    <ClInclude Include="..\Public\CutSceneModul.h" />
+    <ClInclude Include="..\Public\Character.h" />
+    <ClInclude Include="..\Public\CutSceneTex.h" />
+    <ClInclude Include="..\Public\CutScene_Manager.h" />
+    <ClInclude Include="..\Public\CutScene_ModelController.h" />
+    <ClInclude Include="..\Public\Level_Ending.h" />
+    <ClInclude Include="..\Public\Level_MiniGame.h" />
+    <ClInclude Include="..\Public\Level_Rattan.h" />
+    <ClInclude Include="..\Public\MapGroupObject.h" />
+    <ClInclude Include="..\Public\MiniGame_Model.h" />
+    <ClInclude Include="..\Public\MiniGame_Note.h" />
+    <ClInclude Include="..\Public\NPC_Item.h" />
+    <ClInclude Include="..\Public\Player_GamePad_Controller.h" />
+    <ClInclude Include="..\Public\Projectile.h" />
+    <ClInclude Include="..\Public\Sabito_GamePad_Controller.h" />
+    <ClInclude Include="..\Public\Sabito_KeyBoard_Controller.h" />
+    <ClInclude Include="..\Public\Debug_Camera.h" />
+    <ClInclude Include="..\Public\Debug_RenderObj.h" />
+    <ClInclude Include="..\Public\Level_Battle.h" />
+    <ClInclude Include="..\Public\Level_Mode.h" />
+    <ClInclude Include="..\Public\Level_Select.h" />
+    <ClInclude Include="..\Public\Level_Story.h" />
+    <ClInclude Include="..\Public\MapCollider.h" />
+    <ClInclude Include="..\Public\MapLight.h" />
+    <ClInclude Include="..\Public\Oni.h" />
+    <ClInclude Include="..\Public\NPC.h" />
+    <ClInclude Include="..\Public\Player_KeyBoard_Controller.h" />
+    <ClInclude Include="..\Public\Item.h" />
+    <ClInclude Include="..\Public\Client_Com_Macro.h" />
+    <ClInclude Include="..\Public\Client_Defines.h" />
+    <ClInclude Include="..\Public\Client_Layer_Macro.h" />
+    <ClInclude Include="..\Public\Client_Proto_Macro.h" />
+    <ClInclude Include="..\Public\CObjectView.h" />
+    <ClInclude Include="..\Public\CameraLight.h" />
+    <ClInclude Include="..\Public\Sabito.h" />
+    <ClInclude Include="..\Public\Minimap_Track.h" />
+    <ClInclude Include="..\Public\Select_Item.h" />
+    <ClInclude Include="..\Public\Sheath.h" />
+    <ClInclude Include="..\Public\Story_Tanjiro.h" />
+    <ClInclude Include="..\Public\Story_Tanjiro_KeyBoard_Controller.h" />
+    <ClInclude Include="..\Public\Story_Tanjiro_GamePad_Controller.h" />
+    <ClInclude Include="..\Public\Tanjiro.h" />
+    <ClInclude Include="..\Public\Tanjiro_GamePad_Controller.h" />
+    <ClInclude Include="..\Public\Tanjiro_KeyBoard_Controller.h" />
+    <ClInclude Include="..\Public\TeOni.h" />
+    <ClInclude Include="..\Public\TeOni_Rock.h" />
+    <ClInclude Include="..\Public\TeOni_Te.h" />
+    <ClInclude Include="..\Public\TimeControlViewer.h" />
+    <ClInclude Include="..\Public\MapGround.h" />
+    <ClInclude Include="..\Public\MapObject.h" />
+    <ClInclude Include="..\Public\Player.h" />
+    <ClInclude Include="..\Public\ShaderView.h" />
+    <ClInclude Include="..\Public\Sword.h" />
+    <ClInclude Include="..\Public\TrailObject.h" />
+    <ClInclude Include="..\Public\UI_Boss.h" />
+    <ClInclude Include="..\Public\UI_CharSelect.h" />
+    <ClInclude Include="..\Public\UI_Combo.h" />
+    <ClInclude Include="..\Public\UI_Dialogue.h" />
+    <ClInclude Include="..\Public\UI_DirIcon.h" />
+    <ClInclude Include="..\Public\UI_DirMap.h" />
+    <ClInclude Include="..\Public\UI_HP.h" />
+    <ClInclude Include="..\Public\UI_Lines.h" />
+    <ClInclude Include="..\Public\UI_MiniGame.h" />
+    <ClInclude Include="..\Public\UI_Minimap.h" />
+    <ClInclude Include="..\Public\UI_Icon.h" />
+    <ClInclude Include="..\Public\UI_Quest.h" />
+    <ClInclude Include="..\Public\UI_Select_Model.h" />
+    <ClInclude Include="..\Public\UI_Ultimate.h" />
+    <ClInclude Include="..\Public\Zako.h" />
+    <ClInclude Include="..\Public\Zako2.h" />
+    <ClInclude Include="..\Public\Zako3.h" />
+    <ClInclude Include="..\Public\Zenitsu.h" />
+    <ClInclude Include="..\Public\Pawn.h" />
+    <ClInclude Include="..\Public\ImGuiClass.h" />
+    <ClInclude Include="..\Public\ImGuiClass_Manager.h" />
+    <ClInclude Include="..\Public\ImGui\imconfig.h" />
+    <ClInclude Include="..\Public\ImGui\imgui.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_truetype.h" />
+    <ClInclude Include="..\Public\Level_GamePlay.h" />
+    <ClInclude Include="..\Public\Level_Loading.h" />
+    <ClInclude Include="..\Public\Level_Logo.h" />
+    <ClInclude Include="..\Public\Loader.h" />
+    <ClInclude Include="..\public\MainApp.h" />
+    <ClInclude Include="..\Public\MainView.h" />
+    <ClInclude Include="..\Public\UI.h" />
+    <ClInclude Include="..\Public\Zenitsu_GamePad_Controller.h" />
+    <ClInclude Include="..\Public\Zenitsu_KeyBoard_Controller.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\AIController_Sabito.cpp" />
+    <ClCompile Include="..\Private\AIController_Zako.cpp" />
+    <ClCompile Include="..\Private\AIConViewer.cpp" />
+    <ClCompile Include="..\Private\AI_CharController.cpp" />
+    <ClCompile Include="..\Private\BrokenRock.cpp" />
+    <ClCompile Include="..\Private\WindBall.cpp" />
+    <ClCompile Include="..\Private\Akaza.cpp" />
+    <ClCompile Include="..\Private\Akaza_GamePad_Controller.cpp" />
+    <ClCompile Include="..\Private\Akaza_KeyBoard_Controller.cpp" />
+    <ClCompile Include="..\Private\Animal.cpp" />
+    <ClCompile Include="..\Private\Battle_Manager.cpp" />
+    <ClCompile Include="..\Private\Boss.cpp" />
+    <ClCompile Include="..\Private\Camera_Cinematic.cpp" />
+    <ClCompile Include="..\Private\Camera_CutScene.cpp" />
+    <ClCompile Include="..\Private\Camera_Free.cpp" />
+    <ClCompile Include="..\Private\Camera_Manager.cpp" />
+    <ClCompile Include="..\Private\CutSceneModul.cpp" />
+    <ClCompile Include="..\Private\Character.cpp" />
+    <ClCompile Include="..\Private\CutSceneTex.cpp" />
+    <ClCompile Include="..\Private\CutScene_Manager.cpp" />
+    <ClCompile Include="..\Private\CutScene_ModelController.cpp" />
+    <ClCompile Include="..\Private\Level_Ending.cpp" />
+    <ClCompile Include="..\Private\Level_MiniGame.cpp" />
+    <ClCompile Include="..\Private\Level_Rattan.cpp" />
+    <ClCompile Include="..\Private\MapGroupObject.cpp" />
+    <ClCompile Include="..\Private\MiniGame_Model.cpp" />
+    <ClCompile Include="..\Private\MiniGame_Note.cpp" />
+    <ClCompile Include="..\Private\NPC_Item.cpp" />
+    <ClCompile Include="..\Private\Player_GamePad_Controller.cpp" />
+    <ClCompile Include="..\Private\Projectile.cpp" />
+    <ClCompile Include="..\Private\Sabito_GamePad_Controller.cpp" />
+    <ClCompile Include="..\Private\Sabito_KeyBoard_Controller.cpp" />
+    <ClCompile Include="..\Private\Debug_Camera.cpp" />
+    <ClCompile Include="..\Private\Debug_RenderObj.cpp" />
+    <ClCompile Include="..\Private\Level_Battle.cpp" />
+    <ClCompile Include="..\Private\Level_Mode.cpp" />
+    <ClCompile Include="..\Private\Level_Select.cpp" />
+    <ClCompile Include="..\Private\Level_Story.cpp" />
+    <ClCompile Include="..\Private\MapCollider.cpp" />
+    <ClCompile Include="..\Private\MapLight.cpp" />
+    <ClCompile Include="..\Private\Oni.cpp" />
+    <ClCompile Include="..\Private\NPC.cpp" />
+    <ClCompile Include="..\Private\Player_KeyBoard_Controller.cpp" />
+    <ClCompile Include="..\Private\Item.cpp" />
+    <ClCompile Include="..\Private\CObjectView.cpp" />
+    <ClCompile Include="..\Private\CameraLight.cpp" />
+    <ClCompile Include="..\Private\Sabito.cpp" />
+    <ClCompile Include="..\Private\Minimap_Track.cpp" />
+    <ClCompile Include="..\Private\Select_Item.cpp" />
+    <ClCompile Include="..\Private\Sheath.cpp" />
+    <ClCompile Include="..\Private\Story_Tanjiro.cpp" />
+    <ClCompile Include="..\Private\Story_Tanjiro_KeyBoard_Controller.cpp" />
+    <ClCompile Include="..\Private\Story_Tanjiro_GamePad_Controller.cpp" />
+    <ClCompile Include="..\Private\Tanjiro.cpp" />
+    <ClCompile Include="..\Private\Tanjiro_GamePad_Controller.cpp" />
+    <ClCompile Include="..\Private\Tanjiro_KeyBoard_Controller.cpp" />
+    <ClCompile Include="..\Private\TeOni.cpp" />
+    <ClCompile Include="..\Private\TeOni_Rock.cpp" />
+    <ClCompile Include="..\Private\TeOni_Te.cpp" />
+    <ClCompile Include="..\Private\TimeControlViewer.cpp" />
+    <ClCompile Include="..\Private\MapGround.cpp" />
+    <ClCompile Include="..\Private\MapObject.cpp" />
+    <ClCompile Include="..\Private\Player.cpp" />
+    <ClCompile Include="..\Private\ShaderView.cpp" />
+    <ClCompile Include="..\Private\Sword.cpp" />
+    <ClCompile Include="..\Private\TrailObject.cpp" />
+    <ClCompile Include="..\Private\UI.cpp" />
+    <ClCompile Include="..\Private\UI_Boss.cpp" />
+    <ClCompile Include="..\Private\UI_CharSelect.cpp" />
+    <ClCompile Include="..\Private\UI_Combo.cpp" />
+    <ClCompile Include="..\Private\UI_Dialogue.cpp" />
+    <ClCompile Include="..\Private\UI_DirIcon.cpp" />
+    <ClCompile Include="..\Private\UI_DirMap.cpp" />
+    <ClCompile Include="..\Private\UI_HP.cpp" />
+    <ClCompile Include="..\Private\UI_Lines.cpp" />
+    <ClCompile Include="..\Private\UI_MiniGame.cpp" />
+    <ClCompile Include="..\Private\UI_Minimap.cpp" />
+    <ClCompile Include="..\Private\UI_Icon.cpp" />
+    <ClCompile Include="..\Private\UI_Quest.cpp" />
+    <ClCompile Include="..\Private\UI_Select_Model.cpp" />
+    <ClCompile Include="..\Private\UI_Ultimate.cpp" />
+    <ClCompile Include="..\Private\Zako.cpp" />
+    <ClCompile Include="..\Private\Zako2.cpp" />
+    <ClCompile Include="..\Private\Zako3.cpp" />
+    <ClCompile Include="..\Private\Zenitsu.cpp" />
+    <ClCompile Include="..\Private\Pawn.cpp" />
+    <ClCompile Include="..\Private\ImGuiClass.cpp" />
+    <ClCompile Include="..\Private\ImGuiClass_Manager.cpp" />
+    <ClCompile Include="..\Private\Level_GamePlay.cpp" />
+    <ClCompile Include="..\Private\Level_Loading.cpp" />
+    <ClCompile Include="..\Private\Level_Logo.cpp" />
+    <ClCompile Include="..\Private\Loader.cpp" />
+    <ClCompile Include="..\private\MainApp.cpp" />
+    <ClCompile Include="..\Private\MainView.cpp" />
+    <ClCompile Include="..\Private\Zenitsu_GamePad_Controller.cpp" />
+    <ClCompile Include="..\Private\Zenitsu_KeyBoard_Controller.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Public\ImGui\imgui.ini" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

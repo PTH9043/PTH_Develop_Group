@@ -1,0 +1,14 @@
+#ifndef _PTH_FRAMEWORK_TOOL_PUBLIC_TOOLMKAER_H
+#define _PTH_FRAMEWORK_TOOL_PUBLIC_TOOLMKAER_H
+
+#define PROTO_ACTOR_SHOWMODELOBJECT L"Proto_Actor_ShowModelObject"
+#define PROTO_ACTOR_SHOWANIMMODELOBJECT L"Proto_Actor_ShowAnimModelObject"
+#define PROTO_ACTOR_ANIMCONTROLMODELOBJECT L"Proto_Actor_AnimControlModelObject"
+#define PROTO_ACTOR_SHOWTERRAIN L"Proto_Actor_Showterrain"
+#define PROTO_ACTOR_MAINCAMERA L"Proto_Actor_MainCamera"
+
+#define LAYER_SHOWMODELL L"Layer_ShowModel"
+
+#define PROTO_RES_TOOLAUDIO L"Tool_Res_ToolAudio"
+
+#endif // _PTH_FRAMEWORK_TOOL_PUBLIC_TOOLMKAER_H

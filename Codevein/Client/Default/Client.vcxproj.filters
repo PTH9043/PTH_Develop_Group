@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="PTH_Framework.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CImGui_Manager.cpp">
+      <Filter>Client\01.ImGui\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGameObject_Client.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CBackground.cpp">
+      <Filter>Client\04.UI\00.Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLoader.cpp">
+      <Filter>Client\02.Level\00.Loading_Level\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Loading.cpp">
+      <Filter>Client\02.Level\00.Loading_Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Logo.cpp">
+      <Filter>Client\02.Level\02.Logo_Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_GamePlay.cpp">
+      <Filter>Client\02.Level\03.GameStage1_Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CIMGUI.cpp">
+      <Filter>Client\01.ImGui\01.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMapTool.cpp">
+      <Filter>Client\01.ImGui\04.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CTerrain.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamera_Free.cpp">
+      <Filter>Client\03.GameObject\01.Normal\02.CameraFree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CButton.cpp">
+      <Filter>Client\04.UI\01.Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CText.cpp">
+      <Filter>Client\04.UI\02.Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Tool.cpp">
+      <Filter>Client\02.Level\01.Level_Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamera_Tool.cpp">
+      <Filter>Client\03.GameObject\01.Normal\03.CamreaTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CObjectTool.cpp">
+      <Filter>Client\01.ImGui\03.ObjectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamera_Logo.cpp">
+      <Filter>Client\03.GameObject\01.Normal\04.Camera_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWorldObj_Manager.cpp">
+      <Filter>Client\95.DataManager\Manager\World_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CDebugModel.cpp">
+      <Filter>Client\03.GameObject\01.Normal\00.DebugModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSkyBox.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CManager.cpp">
+      <Filter>Client\95.DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CData_Manager.cpp">
+      <Filter>Client\95.DataManager\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CFloor_Terrain.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\02.WorldObj\FloorTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWall.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\03. Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCharacter.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamTool.cpp">
+      <Filter>Client\01.ImGui\05.CamTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPawn.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayer.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CStateMachine.cpp">
+      <Filter>Client\60.State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayer_Manager.cpp">
+      <Filter>Client\95.DataManager\Manager\Player_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerStateMachine.cpp">
+      <Filter>Client\60.State\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CItem.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CEquipment.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWeapon.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CItem_Manager.cpp">
+      <Filter>Client\95.DataManager\Manager\Item_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CItemTool.cpp">
+      <Filter>Client\01.ImGui\06.ItemTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CTwoHandSword.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\TwoHandSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGiantDevil.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\GiantDevil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHammer.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\COneHandSword.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\OneHandSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGiantDevilStateMachine.cpp">
+      <Filter>Client\60.State\MonsterState\CGiantDevilStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonster_Manager.cpp">
+      <Filter>Client\95.DataManager\Manager\Monster_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCubeObj.cpp">
+      <Filter>Client\03.GameObject\01.Normal\05.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGunSword.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\GunSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonsterState.cpp">
+      <Filter>Client\60.State\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHalberd.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\Halberd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonkeyDevil.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\MonkeyDevil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonkeyDevilStateMachine.cpp">
+      <Filter>Client\60.State\MonsterState\MonkeyStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWolfDevil.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\WolfDevil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWolfDevilStateMachine.cpp">
+      <Filter>Client\60.State\MonsterState\WolfDevilStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainGame.cpp">
+      <Filter>Client\00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainView.cpp">
+      <Filter>Client\01.ImGui\02.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CVariable_Manager.cpp">
+      <Filter>Client\95.DataManager\Manager\Variable_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CUrchinDevil.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\UrchinDevil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CUrchinDevilStateMachine.cpp">
+      <Filter>Client\60.State\MonsterState\UrchinDevilStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGiantWhiteDevil.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\GiantWhiteDevil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGWhiteDevilStateMachine.cpp">
+      <Filter>Client\60.State\MonsterState\GiantWhiteDevilStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAncientHannibal.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\AncientHannibal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAncHanibalStateMachine.cpp">
+      <Filter>Client\60.State\MonsterState\AncientHannibalStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CBullet.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CStageMananger.cpp">
+      <Filter>Client\95.DataManager\Manager\StageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CRegion.cpp">
+      <Filter>Client\10.Stage\Region</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNavigationTool.cpp">
+      <Filter>Client\01.ImGui\07.NavigationTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CStage.cpp">
+      <Filter>Client\10.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CBar.cpp">
+      <Filter>Client\04.UI\03.Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHpBar.cpp">
+      <Filter>Client\04.UI\03.Bar\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CUITool.cpp">
+      <Filter>Client\01.ImGui\08.UITool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMpBar.cpp">
+      <Filter>Client\04.UI\03.Bar\MpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CInventory.cpp">
+      <Filter>Client\04.UI\04.Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSlot.cpp">
+      <Filter>Client\04.UI\05.Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CItemSlot.cpp">
+      <Filter>Client\04.UI\05.Slot\CItemSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMinimap.cpp">
+      <Filter>Client\04.UI\07.Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamera_Minimap.cpp">
+      <Filter>Client\03.GameObject\01.Normal\06.CameraMinimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCheckPoints.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\05.CheckPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWorldObj.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCheckPointInterface.cpp">
+      <Filter>Client\04.UI\08.CheckPointsInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMoveToCheckPointsImg.cpp">
+      <Filter>Client\04.UI\08.CheckPointsInterface\MoveToCheckPointImg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CUI_LoadImg.cpp">
+      <Filter>Client\04.UI\09.Loading_Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMuffler.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Muffler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CKnownKey_UI.cpp">
+      <Filter>Client\04.UI\10.KnownKey</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerUIController.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player\PlayerUIController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\C2DEffectParticle.cpp">
+      <Filter>Client\05.Effect_Particle\2DEffectParitlce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CEffect_Manager.cpp">
+      <Filter>Client\05.Effect_Particle\Effect_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGateKeeperWoman.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\GateKeeperWoman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGKWStateMachine.cpp">
+      <Filter>Client\60.State\MonsterState\GateKeeperWomanState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CEffect_ParticleTool.cpp">
+      <Filter>Client\01.ImGui\09.EffectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CParticle.cpp">
+      <Filter>Client\05.Effect_Particle\Paritlce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CEffectParticleGroup.cpp">
+      <Filter>Client\05.Effect_Particle\EffectParticleGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerEPControlGroup.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player\PlayerEffectParticleController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CEffect.cpp">
+      <Filter>Client\05.Effect_Particle\CEffectGroup\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CEffectGroup.cpp">
+      <Filter>Client\05.Effect_Particle\CEffectGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonsterEPController.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\Paretns\MonsterEPController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWOEffect.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\07.WorldObjectEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonster.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\Paretns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAncEPController.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\AncientHannibal\CAncEPController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCinematicCamera.cpp">
+      <Filter>Client\03.GameObject\01.Normal\07.CinematicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPotal.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\08.Potal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGkwEpController.cpp">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\GateKeeperWoman\CGkwEPController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_GamePlay2.cpp">
+      <Filter>Client\02.Level\04.GameStatge2_Level</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </ClInclude>
+    <ClInclude Include="PTH_Framework.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainGame.h">
+      <Filter>Client\00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>Client\98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CImGui_Manager.h">
+      <Filter>Client\01.ImGui\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGameObject_Client.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CBackground.h">
+      <Filter>Client\04.UI\00.Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLoader.h">
+      <Filter>Client\02.Level\00.Loading_Level\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Loading.h">
+      <Filter>Client\02.Level\00.Loading_Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Logo.h">
+      <Filter>Client\02.Level\02.Logo_Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_GamePlay.h">
+      <Filter>Client\02.Level\03.GameStage1_Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CIMGUI.h">
+      <Filter>Client\01.ImGui\01.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMapTool.h">
+      <Filter>Client\01.ImGui\04.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Proto_Macro.h">
+      <Filter>Client\98.Defines\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Layer_Macro.h">
+      <Filter>Client\98.Defines\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Com_Macro.h">
+      <Filter>Client\98.Defines\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainView.h">
+      <Filter>Client\01.ImGui\02.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CTerrain.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamera_Free.h">
+      <Filter>Client\03.GameObject\01.Normal\02.CameraFree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CButton.h">
+      <Filter>Client\04.UI\01.Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CText.h">
+      <Filter>Client\04.UI\02.Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Tool.h">
+      <Filter>Client\02.Level\01.Level_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamera_Tool.h">
+      <Filter>Client\03.GameObject\01.Normal\03.CamreaTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CObjectTool.h">
+      <Filter>Client\01.ImGui\03.ObjectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamera_Logo.h">
+      <Filter>Client\03.GameObject\01.Normal\04.Camera_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWorldObj_Manager.h">
+      <Filter>Client\95.DataManager\Manager\World_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSkyBox.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CData_Manager.h">
+      <Filter>Client\95.DataManager\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CFloor_Terrain.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\02.WorldObj\FloorTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWall.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\03. Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCharacter.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro.h">
+      <Filter>Client\98.Defines\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="assertions.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="forwards.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json_features.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json_tool.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json-forwards.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="reader.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="value.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="writer.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamTool.h">
+      <Filter>Client\01.ImGui\05.CamTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Struct.h">
+      <Filter>Client\98.Defines\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPawn.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayer.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CManager.h">
+      <Filter>Client\95.DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CDebugModel.h">
+      <Filter>Client\03.GameObject\01.Normal\00.DebugModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CStateMachine.h">
+      <Filter>Client\60.State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayer_Manager.h">
+      <Filter>Client\95.DataManager\Manager\Player_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerStateMachine.h">
+      <Filter>Client\60.State\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CItem.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CEquipment.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWeapon.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CItem_Manager.h">
+      <Filter>Client\95.DataManager\Manager\Item_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CItemTool.h">
+      <Filter>Client\01.ImGui\06.ItemTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CTwoHandSword.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\TwoHandSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGiantDevil.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\GiantDevil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHammer.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\COneHandSword.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\OneHandSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGiantDevilStateMachine.h">
+      <Filter>Client\60.State\MonsterState\CGiantDevilStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonster_Manager.h">
+      <Filter>Client\95.DataManager\Manager\Monster_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Bin\Shader\Shader_Defines.hpp">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCubeObj.h">
+      <Filter>Client\03.GameObject\01.Normal\05.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGunSword.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\GunSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonsterState.h">
+      <Filter>Client\60.State\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHalberd.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\Halberd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonkeyDevil.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\MonkeyDevil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonkeyDevilStateMachine.h">
+      <Filter>Client\60.State\MonsterState\MonkeyStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWolfDevil.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\WolfDevil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWolfDevilStateMachine.h">
+      <Filter>Client\60.State\MonsterState\WolfDevilStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CVariable_Manager.h">
+      <Filter>Client\95.DataManager\Manager\Variable_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CUrchinDevil.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\UrchinDevil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CUrchinDevilStateMachine.h">
+      <Filter>Client\60.State\MonsterState\UrchinDevilStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGiantWhiteDevil.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\GiantWhiteDevil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGWhiteDevilStateMachine.h">
+      <Filter>Client\60.State\MonsterState\GiantWhiteDevilStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAncientHannibal.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\AncientHannibal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAncHanibalStateMachine.h">
+      <Filter>Client\60.State\MonsterState\AncientHannibalStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CBullet.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CStageMananger.h">
+      <Filter>Client\95.DataManager\Manager\StageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CRegion.h">
+      <Filter>Client\10.Stage\Region</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNavigationTool.h">
+      <Filter>Client\01.ImGui\07.NavigationTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CStage.h">
+      <Filter>Client\10.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CBar.h">
+      <Filter>Client\04.UI\03.Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHpBar.h">
+      <Filter>Client\04.UI\03.Bar\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CUITool.h">
+      <Filter>Client\01.ImGui\08.UITool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMpBar.h">
+      <Filter>Client\04.UI\03.Bar\MpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CInventory.h">
+      <Filter>Client\04.UI\04.Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSlot.h">
+      <Filter>Client\04.UI\05.Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CItemSlot.h">
+      <Filter>Client\04.UI\05.Slot\CItemSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMinimap.h">
+      <Filter>Client\04.UI\07.Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamera_Minimap.h">
+      <Filter>Client\03.GameObject\01.Normal\06.CameraMinimap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCheckPoints.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\05.CheckPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWorldObj.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCheckPointInterface.h">
+      <Filter>Client\04.UI\08.CheckPointsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMoveToCheckPointsImg.h">
+      <Filter>Client\04.UI\08.CheckPointsInterface\MoveToCheckPointImg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CUI_LoadImg.h">
+      <Filter>Client\04.UI\09.Loading_Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMuffler.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Muffler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CKnownKey_UI.h">
+      <Filter>Client\04.UI\10.KnownKey</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerUIController.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player\PlayerUIController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CEffect_Manager.h">
+      <Filter>Client\05.Effect_Particle\Effect_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGateKeeperWoman.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\GateKeeperWoman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGKWStateMachine.h">
+      <Filter>Client\60.State\MonsterState\GateKeeperWomanState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CEffect_ParticleTool.h">
+      <Filter>Client\01.ImGui\09.EffectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CParticle.h">
+      <Filter>Client\05.Effect_Particle\Paritlce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CEffectParticleGroup.h">
+      <Filter>Client\05.Effect_Particle\EffectParticleGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerEPControlGroup.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player\PlayerEffectParticleController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CEffect.h">
+      <Filter>Client\05.Effect_Particle\CEffectGroup\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CEffectGroup.h">
+      <Filter>Client\05.Effect_Particle\CEffectGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonsterEPController.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\Paretns\MonsterEPController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWOEffect.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\07.WorldObjectEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\C2DEffectParticle.h">
+      <Filter>Client\05.Effect_Particle\2DEffectParitlce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonster.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\Paretns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAncEPController.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\AncientHannibal\CAncEPController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCinematicCamera.h">
+      <Filter>Client\03.GameObject\01.Normal\07.CinematicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPotal.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\08.Potal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGkwEpController.h">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\GateKeeperWoman\CGkwEPController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_GamePlay2.h">
+      <Filter>Client\02.Level\04.GameStatge2_Level</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </Image>
+    <Image Include="PTH_Framework.ico">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{e8ed8692-e0c2-4861-99fc-b1a6900d3c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{6065ae27-b923-4fd6-a79c-70f56d306172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject">
+      <UniqueIdentifier>{975b84dc-f793-4b31-adb4-61ecf1be698a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client">
+      <UniqueIdentifier>{d13ef692-a479-4fc6-b2ac-0a03bbde9295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\99.SkyBox">
+      <UniqueIdentifier>{5eb0e818-1cc1-4ceb-9c35-e24f83fb2806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect">
+      <UniqueIdentifier>{8d1b0ee3-f39e-4342-8def-2f4342d206df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui">
+      <UniqueIdentifier>{cc1348b4-a88b-469d-94c1-b758f3eb03b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json">
+      <UniqueIdentifier>{717722e8-e69c-4bf8-b351-724a4b0da684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn">
+      <UniqueIdentifier>{82d3cbc4-3564-4db4-a64a-b412247434c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character">
+      <UniqueIdentifier>{0bbd629a-136d-4838-a2b6-aeedea0736af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player">
+      <UniqueIdentifier>{256612e8-3e60-437d-a34b-665ba8bb94f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster">
+      <UniqueIdentifier>{701a4a6b-9b06-417f-9b2a-76f2cea44a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\GiantDevil">
+      <UniqueIdentifier>{1aac7d6f-1623-4ca5-8fd1-92fb45c731ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\MonkeyDevil">
+      <UniqueIdentifier>{786ac08c-6038-4de0-a600-13da24b90c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\01.Normal">
+      <UniqueIdentifier>{83502ba7-0210-4e90-bc47-fa1135bb2b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\01.Normal\02.CameraFree">
+      <UniqueIdentifier>{df08bc6d-646a-4d57-ab5f-8e7ebe591089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\01.Normal\03.CamreaTool">
+      <UniqueIdentifier>{421c1f2c-31a8-4cfd-94cc-7a5d5bfb983e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\01.Normal\05.Cube">
+      <UniqueIdentifier>{3cfd8556-1cab-4375-b27b-c3063c4d170c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\01.Normal\04.Camera_Logo">
+      <UniqueIdentifier>{6bfdfce2-da38-4fa6-aff0-b4a4c64687f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\01.Normal\00.DebugModel">
+      <UniqueIdentifier>{a45ca9dd-544b-4678-83ba-b7c83b58270d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02.Level">
+      <UniqueIdentifier>{a3fa170e-13e4-44be-b54d-e48e5606da78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02.Level\00.Loading_Level">
+      <UniqueIdentifier>{c4bc16a2-090f-4a4c-8e7a-78d1b60910ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02.Level\00.Loading_Level\Loader">
+      <UniqueIdentifier>{3c0d96f5-228a-4a0c-8b9a-a9c2221d10a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02.Level\02.Logo_Level">
+      <UniqueIdentifier>{f1d51e94-ebd0-4264-82ae-8080c25499f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02.Level\01.Level_Tool">
+      <UniqueIdentifier>{7a69918d-cd50-41d2-8f2c-e8e6ef3da597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\00.MainGame">
+      <UniqueIdentifier>{5ce3942c-9ba9-464f-baa3-10810e9491e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui">
+      <UniqueIdentifier>{02382ec0-f402-40ed-aeb8-697ebb58d646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\01.Parents">
+      <UniqueIdentifier>{9b904a09-89b5-4830-a81e-00b21b8f6971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\00.Manager">
+      <UniqueIdentifier>{0613c7ba-2686-4a96-a99c-55b93d6e001b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\02.MainView">
+      <UniqueIdentifier>{655fb216-5fe8-4d8d-b688-e1b1642f7803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\04.MapTool">
+      <UniqueIdentifier>{84a6deff-748f-4a3f-8da3-ac337364ad2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\03.ObjectTool">
+      <UniqueIdentifier>{a12ca9f8-bb1c-446c-9ede-eb450bfba114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\05.CamTool">
+      <UniqueIdentifier>{7e0783b1-c289-4c0b-a445-f9c551c89e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\06.ItemTool">
+      <UniqueIdentifier>{2013e584-fd76-4f7f-aaf1-c43b2e62fb43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI">
+      <UniqueIdentifier>{63f60404-400f-49f2-a9fc-61c47806ee44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\00.Background">
+      <UniqueIdentifier>{feb9c6d4-7145-4ee6-8dd6-ac3cebad7f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\01.Button">
+      <UniqueIdentifier>{0261e605-e0a9-4a7b-84f8-8a4dd8406f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\01.Button\TextButton">
+      <UniqueIdentifier>{cb090616-1617-42a7-8e08-0f833b0595ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\02.Text">
+      <UniqueIdentifier>{8ffbd5ef-d5fb-4367-82bf-3f708295eca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager">
+      <UniqueIdentifier>{a455028a-678b-48dd-9db7-4a46e3c496e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager\Manager">
+      <UniqueIdentifier>{c040f559-7354-46cd-a02f-454d8dcb6430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager\Manager\World_Manager">
+      <UniqueIdentifier>{55fe996a-8b9f-4c3d-8892-ef110517fd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager\Manager\Player_Manager">
+      <UniqueIdentifier>{1f048456-75c3-42e5-8727-894da42cf212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager\Manager\Item_Manager">
+      <UniqueIdentifier>{a44172b8-8a1b-48cc-b0ca-c272d1c13f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager\Manager\Monster_Manager">
+      <UniqueIdentifier>{f99f546f-c1ea-4e21-9b90-1b24e9297f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\98.Defines">
+      <UniqueIdentifier>{4079492b-aa16-496a-aa27-0c2d50e30446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\98.Defines\Macros">
+      <UniqueIdentifier>{6bb46847-8924-4cf1-a45b-065babc927ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State">
+      <UniqueIdentifier>{526745c6-459a-4013-a631-362680f04412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\PlayerState">
+      <UniqueIdentifier>{82e4f4ff-eb22-4b2d-a4bd-633aeb7b18d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\MonsterState">
+      <UniqueIdentifier>{5daae0e9-f52c-4765-8c19-72a325d2d0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\MonsterState\CGiantDevilStateMachine">
+      <UniqueIdentifier>{21bd7566-1646-45a5-843b-a7f3bde8f3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\MonsterState\MonkeyStateMachine">
+      <UniqueIdentifier>{a62a6f00-1537-4c6d-a451-c7aeacde8b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\MonsterState\WolfDevilStateMachine">
+      <UniqueIdentifier>{50f1bad5-cee6-42bd-94d5-449fc35ed1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager\Manager\Variable_Manager">
+      <UniqueIdentifier>{e61c1503-b5cf-47a2-9d40-4f5f7dffcca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\UrchinDevil">
+      <UniqueIdentifier>{73f2fa18-156a-4752-a720-a375f1382b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\MonsterState\UrchinDevilStateMachine">
+      <UniqueIdentifier>{aed170a9-ce79-4aaa-9e64-703ff011b5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\GiantWhiteDevil">
+      <UniqueIdentifier>{7443cb85-d77b-418f-80dd-ea7ef46f5977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\MonsterState\GiantWhiteDevilStateMachine">
+      <UniqueIdentifier>{002f799c-fc52-4bca-acec-8014ee662905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\WolfDevil">
+      <UniqueIdentifier>{d7e48e3f-8603-4275-8914-30f5420ba28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\MonsterState\AncientHannibalStateMachine">
+      <UniqueIdentifier>{0672e0a1-bdd6-4ead-b5c0-dd1c8771b4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss">
+      <UniqueIdentifier>{255a7170-0e0f-47d2-9e43-ceb29f3c251a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\AncientHannibal">
+      <UniqueIdentifier>{d2ecbb70-00c9-4580-8e3b-87da6658761b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\10.Stage">
+      <UniqueIdentifier>{050d1ffb-5371-439b-b7c0-9df97a5f7a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager\Manager\StageManager">
+      <UniqueIdentifier>{9f8aa9d0-71e7-444c-82c9-49561ad377b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\07.NavigationTool">
+      <UniqueIdentifier>{4c8a094a-5734-4150-95e8-d45e81ae6db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\95.DataManager\Manager\SkyBox_Manager">
+      <UniqueIdentifier>{aae171fd-5875-441b-9718-4484a6143b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\10.Stage\Region">
+      <UniqueIdentifier>{11a327bb-1dce-4a8d-8aa4-570136395942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\03.Bar">
+      <UniqueIdentifier>{5fe7ce2b-2447-442a-a640-10be75f09bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\03.Bar\HpBar">
+      <UniqueIdentifier>{c46463a7-82c2-4d92-a525-301544448faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\03.Bar\MpBar">
+      <UniqueIdentifier>{158602e6-1bdf-4ea7-8c14-3a7b52e81483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\08.UITool">
+      <UniqueIdentifier>{1c047c74-7d41-48ca-8943-2d92b176a297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\04.Inventory">
+      <UniqueIdentifier>{376db659-8a7c-49ab-8e6f-926e7d586a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\05.Slot">
+      <UniqueIdentifier>{bc28662f-254d-4563-bbc0-a9dd5db4dd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\05.Slot\CItemSlot">
+      <UniqueIdentifier>{fbe42db1-75de-4a47-b7f8-fb5c2e9dc831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\07.Minimap">
+      <UniqueIdentifier>{228b7dae-4ba1-4698-a068-3ecb447d2100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\99.Ect">
+      <UniqueIdentifier>{ecead535-c9c4-4b97-8966-aa1db21ad6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\01.Normal\06.CameraMinimap">
+      <UniqueIdentifier>{8c2947ac-4b9d-4497-a052-12b138cafeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\06.MovePoint">
+      <UniqueIdentifier>{80f9ec7f-b657-4faa-affd-8d54b5814c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\08.CheckPointsInterface">
+      <UniqueIdentifier>{fe075d26-04f5-4364-9f57-45bcadecc641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\08.CheckPointsInterface\MoveToCheckPointImg">
+      <UniqueIdentifier>{c8aed2d7-db25-4622-8408-65c84f297319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\09.Loading_Animation">
+      <UniqueIdentifier>{05573f39-f17d-47c1-8e7a-8fe0f22d7d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\10.KnownKey">
+      <UniqueIdentifier>{8e0bcaae-220f-48ea-8e25-1ad2a42a7ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player\PlayerUIController">
+      <UniqueIdentifier>{3608088c-b5ca-4502-b49a-0820009224a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\04.UI\01.Button\ArrowButton">
+      <UniqueIdentifier>{903ce53b-94d0-4446-a9ee-83e2930e5e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\GateKeeperWoman">
+      <UniqueIdentifier>{d0b9a01b-d6ea-4618-9474-fc96d028127f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\60.State\MonsterState\GateKeeperWomanState">
+      <UniqueIdentifier>{515f49b4-6a98-4253-a273-1fff4c8c8c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\01.ImGui\09.EffectTool">
+      <UniqueIdentifier>{340a47cc-f7b3-471a-8e3a-c4b8a2cc6781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05.Effect_Particle">
+      <UniqueIdentifier>{4650d14e-3460-4008-ba5b-b6d02a043231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05.Effect_Particle\Effect_Manager">
+      <UniqueIdentifier>{023294fd-5cda-43bd-9e06-c4f305197230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02.Level\03.GameStage1_Level">
+      <UniqueIdentifier>{fe8101e5-1c31-4c5f-b6d0-aac1a0b71f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Player\PlayerEffectParticleController">
+      <UniqueIdentifier>{32dafa46-2fb9-4d84-b0bb-7cb14cc4d8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05.Effect_Particle\Paritlce">
+      <UniqueIdentifier>{de30395f-851f-4b67-982c-e2792ef66203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05.Effect_Particle\2DEffectParitlce">
+      <UniqueIdentifier>{875f536f-6724-4fea-b2a2-712759d4f503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05.Effect_Particle\EffectParticleGroup">
+      <UniqueIdentifier>{5d459700-e96c-4646-9ccd-2427a625af89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05.Effect_Particle\CEffectGroup">
+      <UniqueIdentifier>{5c7acbbd-607d-41d5-bb8c-4559e7ad7769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\05.Effect_Particle\CEffectGroup\Effect">
+      <UniqueIdentifier>{af70311b-16ea-4334-bd87-336113c9b266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\Paretns">
+      <UniqueIdentifier>{49effd95-4952-4b6c-9857-c07ba4ae8b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\Paretns\MonsterEPController">
+      <UniqueIdentifier>{7346c389-1555-40c9-953a-fd1ed997d852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\AncientHannibal\CAncEPController">
+      <UniqueIdentifier>{ee83932c-0cf5-45fb-8856-b7f399f883c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\01.Normal\07.CinematicCamera">
+      <UniqueIdentifier>{c8c98076-9c69-49f3-8cb5-1170d21fb539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\00.Pawn\00.Character\Monster\00.Boss\GateKeeperWoman\CGkwEPController">
+      <UniqueIdentifier>{fea3e1f2-ce41-4314-bbbf-cd281e2690b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\02.Level\04.GameStatge2_Level">
+      <UniqueIdentifier>{c5a00691-1e3e-418d-a5db-fa451d90afd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects">
+      <UniqueIdentifier>{57484151-98a3-4f5c-8edf-17cf49879fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\03. Wall">
+      <UniqueIdentifier>{081f4337-0a9d-496c-8e98-ba65b2c0fc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\01.Terrain">
+      <UniqueIdentifier>{7d7f47d1-a921-4073-9510-85a7ed5fdfbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\02.WorldObj">
+      <UniqueIdentifier>{b3576a53-b477-4127-a7e4-3db1a69a234d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\02.WorldObj\FloorTerrain">
+      <UniqueIdentifier>{92dee3ce-c6e6-4bf1-b576-a6a1f5d9458d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\05.CheckPoint">
+      <UniqueIdentifier>{c7f75add-bb24-4971-8a29-69c725d10713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\06.FireParticle">
+      <UniqueIdentifier>{ffeecdf6-1b78-4d82-b0b8-d3eba5be2949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\07.WorldObjectEffect">
+      <UniqueIdentifier>{436fb5ea-e8c1-4f7f-8a98-2d266789128a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\01.WorldObjects\08.Potal">
+      <UniqueIdentifier>{61dc4029-24a8-447b-9261-04739bee8aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item">
+      <UniqueIdentifier>{a2830031-e5f1-4ecc-aa08-c691aff07669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Equip">
+      <UniqueIdentifier>{dfcb395c-06c3-4214-940b-3c288582b446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon">
+      <UniqueIdentifier>{efc3e61d-3d20-4f98-8b06-16bdc61a2b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\TwoHandSword">
+      <UniqueIdentifier>{f8edf38a-5ae8-4de1-8d1a-c1205e27c3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\Hammer">
+      <UniqueIdentifier>{4380fcfc-6623-485c-9bd1-6d9a6e1cf9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\OneHandSword">
+      <UniqueIdentifier>{8458113c-e077-43b4-983c-61778fd8de82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\GunSword">
+      <UniqueIdentifier>{9af1f3fc-118f-4d9f-a08f-bf98a5a0b9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Weapon\Halberd">
+      <UniqueIdentifier>{52057ba2-f762-4b7b-a70d-00f1a393b277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Equip\Muffler">
+      <UniqueIdentifier>{9af12cb7-f687-4d31-8478-264962b8d31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\03.GameObject\00.CGameObject_Client\02.Item\Bullet">
+      <UniqueIdentifier>{3d31dfed-9996-4c9b-b768-0887752bfb57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PTH_Framework.rc">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\Shader\Shader_VtTex.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxNorTex.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxCubeTex.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxModel.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxAnimModel.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxModel_Equip.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_Point_Instance.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_Rect_Instance.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_2DEffectParticle.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_Particle.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\ImGui</Filter>
+    </None>
+    <None Include="json_valueiterator.inl">
+      <Filter>Client\03.GameObject\00.CGameObject_Client\99.SkyBox\99.Ect\Json</Filter>
+    </None>
+  </ItemGroup>
+</Project>

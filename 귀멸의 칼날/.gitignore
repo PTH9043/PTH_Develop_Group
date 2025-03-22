@@ -1,0 +1,8 @@
+*.db
+.vs/
+ipch/
+Debug/
+x64/
+Reference/
+Bin/
+*.ini

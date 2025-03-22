@@ -1,0 +1,1606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{39535b89-52a8-471d-9058-89255aa174cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\Struct">
+      <UniqueIdentifier>{6de7b64e-83a6-4752-9894-66cec341b659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass">
+      <UniqueIdentifier>{8c86b252-dbdb-427e-9827-a47f55dee782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\Device">
+      <UniqueIdentifier>{3e41f507-8c14-4976-96e8-344995a2e592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\Command">
+      <UniqueIdentifier>{c5ec7109-a828-4020-9a78-d69cfc943d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\Command\GPU">
+      <UniqueIdentifier>{f421da4a-1d8b-4fef-89d8-9eac70314c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\GlobalConstants">
+      <UniqueIdentifier>{d1d7604a-7ca3-424b-ae6d-804b8d961115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\ShaderBuffer">
+      <UniqueIdentifier>{f1f364ed-abfa-40b4-9351-183544a80d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\StructedBuffer">
+      <UniqueIdentifier>{53671a04-d598-4c92-93b9-8841b773b2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\TableDescriptor">
+      <UniqueIdentifier>{7e767d63-bf69-486b-bba3-ec3594e15b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\RootSignature">
+      <UniqueIdentifier>{936693f7-98c6-4420-8f0f-135fbda2c605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\SwapChains">
+      <UniqueIdentifier>{d080eea8-4a5e-4e2f-95aa-1466b4ed1ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Instance">
+      <UniqueIdentifier>{f3310adc-3721-40c0-a896-a88a419174b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Instance\Game">
+      <UniqueIdentifier>{6d510d9a-4d3b-4ace-90ed-bee5bd6c03cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager">
+      <UniqueIdentifier>{0a145115-e42f-4f2f-969c-77a071efa5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\GraphicDevice">
+      <UniqueIdentifier>{1ac1a1db-a83c-45d8-97ef-03b2023d1dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource">
+      <UniqueIdentifier>{81064a1a-8eed-474c-aa97-d3a2d14f5e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\TextGroup">
+      <UniqueIdentifier>{b209d61e-d30a-4584-bc16-167021c564f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\TextGroup\Texture">
+      <UniqueIdentifier>{a3a0470f-6abe-4de2-89b8-26b37a12fa98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\Shader">
+      <UniqueIdentifier>{64052136-665d-4575-b472-b863fd894583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\Shader\Compute">
+      <UniqueIdentifier>{bb925018-1e83-4ce1-903c-13d98542468f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\Command\Compute">
+      <UniqueIdentifier>{9507d151-3dbd-41fc-a592-a7337b4469ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\ResourceManager">
+      <UniqueIdentifier>{9ca511da-29ab-4890-b2af-4fe95bebe1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Utility">
+      <UniqueIdentifier>{a16fa7a0-3f61-4c5a-9668-e3e121efbd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Utility\RenderTargetGroup">
+      <UniqueIdentifier>{bfddea0a-d0fe-4b5d-b3f4-cb1a27ee326d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\RenderTargetManager">
+      <UniqueIdentifier>{393ef3a5-7e44-4b0f-a37b-540889e2cb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer">
+      <UniqueIdentifier>{bcf7bdc7-6f46-424f-9d0f-4c8235f1111a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer\Rect">
+      <UniqueIdentifier>{4a7a585f-cc5d-4ee2-b33f-f549973ef9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor">
+      <UniqueIdentifier>{0d518e3b-ea8b-4f4e-9967-e1f30f483955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn">
+      <UniqueIdentifier>{52f1163c-78dc-4394-baea-fec550bf3e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\02.Camera">
+      <UniqueIdentifier>{e15d0f09-c1b8-44d6-b9b1-5e840055bcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component">
+      <UniqueIdentifier>{4f70f2b5-7a18-45ff-a900-80092b6c7c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Transform">
+      <UniqueIdentifier>{125a0b54-6c80-4124-b35f-8f09087700b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\ShaderBufferManager">
+      <UniqueIdentifier>{d005d701-1f5b-4029-8d5c-300c2fdd6bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\PipeLine">
+      <UniqueIdentifier>{a1e1ef3e-120a-47b3-b089-965005441b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Utility\Frustom">
+      <UniqueIdentifier>{5bdd26da-93b2-43a7-951f-5ecb7a5ea815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Default">
+      <UniqueIdentifier>{f366d738-a619-4489-810d-cfc20246c072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Default\Cube">
+      <UniqueIdentifier>{8a7334eb-e29b-41d7-8cab-aa7bd2129b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Default\Debugging">
+      <UniqueIdentifier>{7b1ee622-d741-4230-9e24-de1cf618b103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Default\Sphere">
+      <UniqueIdentifier>{0546f690-36a2-4a1e-8261-549e0ebdd190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\ActorManager">
+      <UniqueIdentifier>{aa651a47-e01b-48fd-873f-e464644ef5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\ActorManager\Group">
+      <UniqueIdentifier>{16f5e381-93ac-4105-a78f-b3adde437454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{b217ba5e-7f75-4e68-bac5-77110a84f9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\Loader">
+      <UniqueIdentifier>{93b6bb8f-661c-454c-a3f2-0971d4188102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\Loader\Resource">
+      <UniqueIdentifier>{cd3596ff-462c-4747-ba89-b16484e82d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\SceneManager">
+      <UniqueIdentifier>{7275cf29-8733-4a30-8ae1-15639d644161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Utility\Timer">
+      <UniqueIdentifier>{b5efe7c2-fb63-468f-ade3-075e83f22914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\TimerManager">
+      <UniqueIdentifier>{d43b08f1-918b-4837-b457-b7cb8ae23a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\FilePathManager">
+      <UniqueIdentifier>{3862186b-f818-40f4-88f1-8822ea65145d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\ComponentManager">
+      <UniqueIdentifier>{5a11fa2c-fa68-4ccf-aaf4-41b752be5886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\Light">
+      <UniqueIdentifier>{ba78e63a-a7c3-42ab-88a4-a202344ab348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Renderer">
+      <UniqueIdentifier>{c7454cc4-9788-4a19-9577-bee9b6d67b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\02.Camera\DefferedCamera">
+      <UniqueIdentifier>{1c70b4ba-f29b-4882-8602-e1a35c144020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer\Cube">
+      <UniqueIdentifier>{a71e00b7-7e30-41bf-8092-51a66f4825ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer\Sphere">
+      <UniqueIdentifier>{380e7c92-c557-4869-b26f-4d3a9e9ec590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile">
+      <UniqueIdentifier>{55f4e238-5f9b-49ec-a8dc-27fc9cc738c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common">
+      <UniqueIdentifier>{8f4e86dc-0191-4926-be05-3beba5a10d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\NonAlpha">
+      <UniqueIdentifier>{104e7551-0d78-4507-ab6e-17a48b75c41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\RTS">
+      <UniqueIdentifier>{a3ff3e2a-6b15-4090-a652-6c31b7ba2d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\Model">
+      <UniqueIdentifier>{f2315302-8a69-4e80-8ac4-1fe20879186f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\Model\MeshContainer">
+      <UniqueIdentifier>{03083128-7f83-4e82-bdc0-b16cfcfc79ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\Model\BoneNode">
+      <UniqueIdentifier>{e764c4cc-9c7e-4f2a-a1a5-68aec43b4d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\Model\Animation">
+      <UniqueIdentifier>{43242ec3-8438-4280-a9ee-813880c340f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\Model\Animation\Channel">
+      <UniqueIdentifier>{4e47c13d-362f-48d9-947f-4e7ce0f6d165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\RectTransform">
+      <UniqueIdentifier>{92e28880-4fea-4f56-9003-42e0aab6b1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\UserInterface">
+      <UniqueIdentifier>{bae89e40-752e-42aa-82a1-4ad2516638ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\InputManager">
+      <UniqueIdentifier>{0451c500-0dec-4e63-8fca-4d0ab513a986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Super">
+      <UniqueIdentifier>{0ca7bdf7-e603-4f6f-b136-53e28db7347a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Super\Object">
+      <UniqueIdentifier>{0422184e-8c7e-4a97-bcb8-f65d291283aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Super\Base">
+      <UniqueIdentifier>{9f88f402-6580-4c6d-9e57-26991de1c9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Network">
+      <UniqueIdentifier>{558750bb-ac4b-4610-aa42-d72cfef50944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\ThreadManager">
+      <UniqueIdentifier>{bd0c8d4c-97e1-459e-87f8-3e51b45defd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Utility\Thread">
+      <UniqueIdentifier>{d5eec6f4-ca46-431b-9276-38d887215866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\ImGui">
+      <UniqueIdentifier>{af4a8a41-0a31-4c27-bf04-56b0c5b8d87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Network\NetBaseController">
+      <UniqueIdentifier>{651250be-40f1-44d3-b60a-7bf9447b8e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Network\ProcessedData">
+      <UniqueIdentifier>{a486d5be-e9c9-4f42-b6e4-7671fb4aeb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Debug">
+      <UniqueIdentifier>{d750533b-13fe-4621-a569-5a590816defe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Needs">
+      <UniqueIdentifier>{8df4b430-0bd2-4c76-87a7-92acda718222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Needs\Method">
+      <UniqueIdentifier>{fc89b5e1-6801-4d75-a0d1-ad4ef71e3fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Needs\Delegate">
+      <UniqueIdentifier>{64fe0bea-9dcd-417e-8810-880060e45da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Needs\MemoryPool">
+      <UniqueIdentifier>{fc441c1a-e190-47b4-b00c-f587f2ae8725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Needs\ServerUtility">
+      <UniqueIdentifier>{be3812da-4c30-4d9b-9003-aa2d14cdd06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Needs\String">
+      <UniqueIdentifier>{04497f82-a600-45dd-a32e-0455bc44c87f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer\Plane">
+      <UniqueIdentifier>{62b4d9f9-8d83-459b-bdba-cc5dd438e2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\Picking">
+      <UniqueIdentifier>{b599057d-c5cf-4133-ba2a-87b2ed7f3239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer\Grid">
+      <UniqueIdentifier>{273e34ea-5dc2-4e96-ad2c-6ca47c07bff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\Model\BoneNode\RootBone">
+      <UniqueIdentifier>{6e67b329-eba8-4e14-9657-3c4c6876f086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\ParticleSystem">
+      <UniqueIdentifier>{e4f79b37-006b-4b31-8e44-ae802ade536a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Particle">
+      <UniqueIdentifier>{982d9e6b-71d2-4598-b604-f60e724487e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer\Point">
+      <UniqueIdentifier>{0b1da262-21ff-4d98-aa2f-a65e96d8c7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle">
+      <UniqueIdentifier>{928235cc-88bf-4ff1-9c0e-69ea85e24001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Collider">
+      <UniqueIdentifier>{b296dd99-2437-4100-90a3-0ed9acc49a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer\Cell">
+      <UniqueIdentifier>{81c93ff4-a441-4622-ad24-a0585534d1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\AudioSystemManager">
+      <UniqueIdentifier>{be4c05c9-cf3c-445a-8610-de39adb6f6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\AudioSystem">
+      <UniqueIdentifier>{4bf28cdb-fdb8-4dc5-999c-7faeb29cd113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\AudioSystem\Sound">
+      <UniqueIdentifier>{c768e6d2-3e14-4c43-973d-98d132aae2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21.Event">
+      <UniqueIdentifier>{c12926f2-c35e-46f9-b262-0d6d645dad88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21.Event\AnimEvent">
+      <UniqueIdentifier>{45c419df-057d-49e5-ba1b-ba6cd71d3a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21.Event\AnimEvent\Parents">
+      <UniqueIdentifier>{0609ab3e-fad7-44e5-aba8-0a27acbd5a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Character">
+      <UniqueIdentifier>{53992b2e-1ae2-4f5a-b793-384b5066f9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Controller">
+      <UniqueIdentifier>{c4b8fbfd-e4fc-43ca-b550-4eee1d89d8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\CharacterManager">
+      <UniqueIdentifier>{58de3f35-05ef-4b50-b6e5-59ecb076bd59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Default\DefaultCell">
+      <UniqueIdentifier>{241a23b1-5e19-4ea5-b5cb-866f6be8f3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Navigation">
+      <UniqueIdentifier>{c6030694-0a18-45f6-a083-9d1c1d550a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Navigation\Cell">
+      <UniqueIdentifier>{4bce2516-bbaf-4005-af5d-f5c4a13087d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Navigation\Stage">
+      <UniqueIdentifier>{edf13c4a-b79a-4147-9530-0635fcf40222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Navigation\Region">
+      <UniqueIdentifier>{b7e1f845-bf2d-477e-9b3d-9a8124b96e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\StageManager">
+      <UniqueIdentifier>{f7620c82-c508-4c6d-acbb-a5cbb7ebb702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Default\Grid">
+      <UniqueIdentifier>{2fae5188-b2c3-4398-ba45-07fdc20558a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Fire">
+      <UniqueIdentifier>{f12e0191-f2dd-4490-98d7-bed2903e327f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Fire">
+      <UniqueIdentifier>{f96801a0-abf0-4089-8031-2322dbac3367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\Fog">
+      <UniqueIdentifier>{cefa7e93-486e-4f57-a754-a6975f840292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Fog">
+      <UniqueIdentifier>{0fa71142-cf1a-4653-aeca-5caf75b682fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Light">
+      <UniqueIdentifier>{933ad2d2-108d-4c7f-9abd-62fec8dfff4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\ImGui\Guizmo">
+      <UniqueIdentifier>{9464c2af-e4de-4527-8928-c326dcaa5b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Light\Original">
+      <UniqueIdentifier>{cd1f6e0f-2f7c-4556-a4c4-6f5da750c266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\MapLayout">
+      <UniqueIdentifier>{d0a4a055-d6ec-4027-bcd7-cc08aebddc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\ModelMaterial">
+      <UniqueIdentifier>{41ddb949-cf9a-4b1c-a746-0302a98af7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\MaterialManager">
+      <UniqueIdentifier>{6a40f9e3-f716-49ae-96ca-95f6fd36f1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Battle">
+      <UniqueIdentifier>{7d70bf76-39be-4ef4-bd47-8b24bbced0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Character\Player">
+      <UniqueIdentifier>{2a33b868-2b2e-449c-936a-59b7bee1a2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.PlayerJob">
+      <UniqueIdentifier>{e12dabc0-b8f0-4e63-ac1b-7c82f5526fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Controller\Input">
+      <UniqueIdentifier>{c529b1d4-5e06-430b-ae99-27b1bc65fad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Item">
+      <UniqueIdentifier>{e3ae5dd9-2913-4ef1-9713-b30f8a7e30db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Item\Equip">
+      <UniqueIdentifier>{353774c7-46a5-453e-90da-1632ce265f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DxClass\Command\Render">
+      <UniqueIdentifier>{00d8aaee-0be5-4d40-8da7-75d8480beac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\HdrBloomBlur">
+      <UniqueIdentifier>{5ef97c52-d6c8-4703-9de2-c9dd896bf7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\Blood">
+      <UniqueIdentifier>{a330dd0a-0030-477b-961a-5dba8f853aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\Flare">
+      <UniqueIdentifier>{e545ef2d-ad8d-49ae-b96e-5ea3b8bef3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\Original">
+      <UniqueIdentifier>{4cb87c57-efae-41d9-a93e-18aea1ae0ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\Animate">
+      <UniqueIdentifier>{61f62721-37c6-4962-a824-e9ebae19d886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\MeshFilter">
+      <UniqueIdentifier>{3f88704d-1300-4917-9cd1-6720fadc8544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Needs\Axis">
+      <UniqueIdentifier>{68210971-72e2-4253-8c55-07d568f6f798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\02.Camera\LightCamera">
+      <UniqueIdentifier>{9cc2be41-00f5-4313-b0e9-bf566c3061ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Item\Equip\Weapon">
+      <UniqueIdentifier>{c5cf7c8c-64b5-451c-90b9-e8841ca88449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\FootPrint">
+      <UniqueIdentifier>{d5ff3202-cf55-409f-b962-639a4bf20bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\Trail">
+      <UniqueIdentifier>{95bb4918-4363-4a4d-938e-40ef03a836ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\Attack">
+      <UniqueIdentifier>{221a4e1c-6eda-4f3f-97f7-e54cee192a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Resource\VIBuffer\Trail">
+      <UniqueIdentifier>{cebd3a68-bab7-4404-8cdd-08729171ff12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Trail">
+      <UniqueIdentifier>{90ca5135-faf0-4327-bc67-9f9123439717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\Math">
+      <UniqueIdentifier>{f8396fb7-7c86-4dd6-a3db-ac218cf9eb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Input">
+      <UniqueIdentifier>{66c229d0-027b-4124-b00b-5daacd01f105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Item\Equip\Defensive">
+      <UniqueIdentifier>{361b8236-ad3c-4587-b0c4-96e161645e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Outline">
+      <UniqueIdentifier>{2a53e5f9-6b0e-4792-a8ee-802911b68873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Network\NetworkQuery">
+      <UniqueIdentifier>{487bf57c-27ba-41bc-80fa-ba307f3367fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\Guard">
+      <UniqueIdentifier>{2f98755e-8a2d-47b8-bec7-20f54b6a2c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Guard">
+      <UniqueIdentifier>{5957ec3d-3796-4aef-9491-3be38623ff09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\01.Pawn\Blood">
+      <UniqueIdentifier>{c3ad2a19-e5db-4de0-af50-76fc8be88fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\Slash">
+      <UniqueIdentifier>{7392c637-1c6f-42ff-80b2-4ce2835cd3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\Dust">
+      <UniqueIdentifier>{ee206eb8-baf0-4b7f-814a-72add600c983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Blood">
+      <UniqueIdentifier>{b09b3e38-cdd5-40b2-9de9-56ab64611621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Dust">
+      <UniqueIdentifier>{c1034cff-f121-402c-8b99-ca77b5268a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor\Mat">
+      <UniqueIdentifier>{f43b278d-e1d1-417d-8137-b0113b4fa983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Mat">
+      <UniqueIdentifier>{069db005-ae2a-4488-9604-b3ca4cd4ee33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\Rotation">
+      <UniqueIdentifier>{9a6204ae-a069-4a90-a8ed-d8110cf0aecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\OpenChest">
+      <UniqueIdentifier>{f3e2974c-968b-4830-9ab3-76aa0ab61e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\Common\Particle\Heal">
+      <UniqueIdentifier>{ff851950-a394-4e04-89e7-3e476c24a52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.ShaderFile\UI">
+      <UniqueIdentifier>{2465e371-ae53-4c40-9e01-3f1b157389a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Utility\Font">
+      <UniqueIdentifier>{8b977eb7-f2d1-4575-9bf9-23ae97e7d388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager\FontManager">
+      <UniqueIdentifier>{4d076d5d-2275-40e0-b8bc-96d308a65c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Network\NetworkSend">
+      <UniqueIdentifier>{3f3c8566-84ab-4351-9969-d85d0fe1b491}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\private\EngineStruct.cpp">
+      <Filter>99.Default\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UObject.cpp">
+      <Filter>95.Super\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UCloneObject.cpp">
+      <Filter>95.Super\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UBase.cpp">
+      <Filter>95.Super\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDevice.cpp">
+      <Filter>02.DxClass\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UCommand.cpp">
+      <Filter>02.DxClass\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UGpuCommand.cpp">
+      <Filter>02.DxClass\Command\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UGlobalConstantBuffer.cpp">
+      <Filter>02.DxClass\GlobalConstants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UMethod.cpp">
+      <Filter>97.Needs\Method</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UShaderConstantBuffer.cpp">
+      <Filter>02.DxClass\ShaderBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UShaderStructedBuffer.cpp">
+      <Filter>02.DxClass\StructedBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UTableDescriptor.cpp">
+      <Filter>02.DxClass\TableDescriptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\URootSignature.cpp">
+      <Filter>02.DxClass\RootSignature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\USwapChain.cpp">
+      <Filter>02.DxClass\SwapChains</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UGameInstance.cpp">
+      <Filter>00.Instance\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UGraphicDevice.cpp">
+      <Filter>01.Manager\GraphicDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UTexture.cpp">
+      <Filter>07.Resource\TextGroup\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UTexGroup.cpp">
+      <Filter>07.Resource\TextGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UResource.cpp">
+      <Filter>07.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UShader.cpp">
+      <Filter>07.Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UComputeShader.cpp">
+      <Filter>07.Resource\Shader\Compute</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UComputeCommand.cpp">
+      <Filter>02.DxClass\Command\Compute</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UResourceManager.cpp">
+      <Filter>01.Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\URenderTargetGroup.cpp">
+      <Filter>03.Utility\RenderTargetGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\URenderTargetManager.cpp">
+      <Filter>01.Manager\RenderTargetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBuffer.cpp">
+      <Filter>07.Resource\VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBufferRect.cpp">
+      <Filter>07.Resource\VIBuffer\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UActor.cpp">
+      <Filter>05.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UComponent.cpp">
+      <Filter>06.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UShaderBufferManager.cpp">
+      <Filter>01.Manager\ShaderBufferManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UPipeLine.cpp">
+      <Filter>01.Manager\PipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UCamera.cpp">
+      <Filter>05.Actor\02.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UFrustomCulling.cpp">
+      <Filter>03.Utility\Frustom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UPawn.cpp">
+      <Filter>05.Actor\01.Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDefaultSphere.cpp">
+      <Filter>05.Actor\01.Pawn\Default\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDefaultDebugging.cpp">
+      <Filter>05.Actor\01.Pawn\Default\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDefaultCube.cpp">
+      <Filter>05.Actor\01.Pawn\Default\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UActorManager.cpp">
+      <Filter>01.Manager\ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UActorGroup.cpp">
+      <Filter>01.Manager\ActorManager\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UScene.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDelegate.cpp">
+      <Filter>97.Needs\Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ULoader.cpp">
+      <Filter>04.Scene\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UResourceLoader.cpp">
+      <Filter>04.Scene\Loader\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\USceneManager.cpp">
+      <Filter>01.Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UTimer.cpp">
+      <Filter>03.Utility\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UTimerManager.cpp">
+      <Filter>01.Manager\TimerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UFilePathManager.cpp">
+      <Filter>01.Manager\FilePathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UComponentManager.cpp">
+      <Filter>01.Manager\ComponentManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ULight.cpp">
+      <Filter>04.Scene\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\URenderer.cpp">
+      <Filter>06.Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDefferedCamera.cpp">
+      <Filter>05.Actor\02.Camera\DefferedCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBufferCube.cpp">
+      <Filter>07.Resource\VIBuffer\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBufferSphere.cpp">
+      <Filter>07.Resource\VIBuffer\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UModel.cpp">
+      <Filter>07.Resource\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UBoneNode.cpp">
+      <Filter>07.Resource\Model\BoneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UMeshContainer.cpp">
+      <Filter>07.Resource\Model\MeshContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UAnimation.cpp">
+      <Filter>07.Resource\Model\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UAnimModel.cpp">
+      <Filter>07.Resource\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\URectTransform.cpp">
+      <Filter>06.Component\RectTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UUserInterface.cpp">
+      <Filter>05.Actor\01.Pawn\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UInputManager.cpp">
+      <Filter>01.Manager\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ServerUtility.cpp">
+      <Filter>97.Needs\ServerUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CustomMemory.cpp">
+      <Filter>97.Needs\MemoryPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UThreadManager.cpp">
+      <Filter>01.Manager\ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UWorkThread.cpp">
+      <Filter>03.Utility\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\imgui_widgets.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\imgui_tables.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\imgui_impl_win32.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\imgui_impl_dx12.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\imgui_draw.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\imgui_demo.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\imgui.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UNetworkBaseController.cpp">
+      <Filter>20.Network\NetBaseController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UProcessedData.cpp">
+      <Filter>20.Network\ProcessedData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CustomString.cpp">
+      <Filter>97.Needs\String</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBufferPlane.cpp">
+      <Filter>07.Resource\VIBuffer\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UPicking.cpp">
+      <Filter>01.Manager\Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UCell.cpp">
+      <Filter>06.Component\Navigation\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UNavigation.cpp">
+      <Filter>06.Component\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBufferGrid.cpp">
+      <Filter>07.Resource\VIBuffer\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\URootBoneNode.cpp">
+      <Filter>07.Resource\Model\BoneNode\RootBone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UComputeRootSignature.cpp">
+      <Filter>02.DxClass\RootSignature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UParticleSystem.cpp">
+      <Filter>07.Resource\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UParticle.cpp">
+      <Filter>05.Actor\01.Pawn\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBufferPoint.cpp">
+      <Filter>07.Resource\VIBuffer\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UCollider.cpp">
+      <Filter>06.Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBufferCell.cpp">
+      <Filter>07.Resource\VIBuffer\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\URegion.cpp">
+      <Filter>06.Component\Navigation\Region</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UAnimChannel.cpp">
+      <Filter>07.Resource\Model\Animation\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AnimEventParents.cpp">
+      <Filter>21.Event\AnimEvent\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AnimOccursEvents.cpp">
+      <Filter>21.Event\AnimEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AnimSectionEvents.cpp">
+      <Filter>21.Event\AnimEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UAudioSystemManager.cpp">
+      <Filter>01.Manager\AudioSystemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\USound.cpp">
+      <Filter>07.Resource\AudioSystem\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UAudioSystem.cpp">
+      <Filter>07.Resource\AudioSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UCharacter.cpp">
+      <Filter>05.Actor\01.Pawn\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UCharacterManager.cpp">
+      <Filter>01.Manager\CharacterManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UController.cpp">
+      <Filter>06.Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDefaultCell.cpp">
+      <Filter>05.Actor\01.Pawn\Default\DefaultCell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UStage.cpp">
+      <Filter>06.Component\Navigation\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UStageManager.cpp">
+      <Filter>01.Manager\StageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UGrid.cpp">
+      <Filter>05.Actor\01.Pawn\Default\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UFire.cpp">
+      <Filter>05.Actor\01.Pawn\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UFog.cpp">
+      <Filter>05.Actor\Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\ImGradient.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\GraphEditor.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\ImCurveEdit.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\ImGuizmo.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\ImGui\ImSequencer.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UMapLayout.cpp">
+      <Filter>06.Component\MapLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UTransform.cpp">
+      <Filter>06.Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UModelMaterial.cpp">
+      <Filter>06.Component\ModelMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UMaterialManager.cpp">
+      <Filter>01.Manager\MaterialManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UShadowCamera.cpp">
+      <Filter>05.Actor\02.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UCombatCollGroupComp.cpp">
+      <Filter>06.Component\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UPlayer.cpp">
+      <Filter>05.Actor\01.Pawn\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UPlayerJob.cpp">
+      <Filter>08.PlayerJob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UAnimationController.cpp">
+      <Filter>06.Component\Controller\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UItem.cpp">
+      <Filter>05.Actor\01.Pawn\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UEquipment.cpp">
+      <Filter>05.Actor\01.Pawn\Item\Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\URenderCommand.cpp">
+      <Filter>02.DxClass\Command\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\USmallDefferedCamera.cpp">
+      <Filter>05.Actor\02.Camera\DefferedCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UMeshFilter.cpp">
+      <Filter>06.Component\MeshFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UAxis.cpp">
+      <Filter>97.Needs\Axis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ULightCamera.cpp">
+      <Filter>05.Actor\02.Camera\LightCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UWeapon.cpp">
+      <Filter>05.Actor\01.Pawn\Item\Equip\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDefensiveGear.cpp">
+      <Filter>05.Actor\01.Pawn\Item\Equip\Defensive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UTrail.cpp">
+      <Filter>05.Actor\Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UVIBufferTrail.cpp">
+      <Filter>07.Resource\VIBuffer\Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\public\MathLib\CusMath.cpp">
+      <Filter>99.Default\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UInputReceiver.cpp">
+      <Filter>06.Component\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UNetworkQueryProcessing.cpp">
+      <Filter>20.Network\NetworkQuery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UGuard.cpp">
+      <Filter>05.Actor\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UBlood.cpp">
+      <Filter>05.Actor\01.Pawn\Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UDust.cpp">
+      <Filter>05.Actor\Dust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UMat.cpp">
+      <Filter>05.Actor\Mat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UFont.cpp">
+      <Filter>03.Utility\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UFontManager.cpp">
+      <Filter>01.Manager\FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UNetworkSender.cpp">
+      <Filter>20.Network\NetworkSend</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\public\EngineDefine.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngineConcept.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngineEnum.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngineTypedef.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngineFunction.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngineMacro.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngineMake.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngineShaderParam.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EngineStruct.h">
+      <Filter>99.Default\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UObject.h">
+      <Filter>95.Super\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UCloneObject.h">
+      <Filter>95.Super\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UBase.h">
+      <Filter>95.Super\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDevice.h">
+      <Filter>02.DxClass\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UCommand.h">
+      <Filter>02.DxClass\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UGpuCommand.h">
+      <Filter>02.DxClass\Command\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UGlobalConstantBuffer.h">
+      <Filter>02.DxClass\GlobalConstants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UMethod.h">
+      <Filter>97.Needs\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UShaderConstantBuffer.h">
+      <Filter>02.DxClass\ShaderBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UShaderStructedBuffer.h">
+      <Filter>02.DxClass\StructedBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UTableDescriptor.h">
+      <Filter>02.DxClass\TableDescriptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\URootSignature.h">
+      <Filter>02.DxClass\RootSignature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\USwapChain.h">
+      <Filter>02.DxClass\SwapChains</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UGameInstance.h">
+      <Filter>00.Instance\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UGraphicDevice.h">
+      <Filter>01.Manager\GraphicDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UTexture.h">
+      <Filter>07.Resource\TextGroup\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UTexGroup.h">
+      <Filter>07.Resource\TextGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UResource.h">
+      <Filter>07.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UShader.h">
+      <Filter>07.Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UComputeShader.h">
+      <Filter>07.Resource\Shader\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UComputeCommand.h">
+      <Filter>02.DxClass\Command\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UResourceManager.h">
+      <Filter>01.Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\URenderTargetGroup.h">
+      <Filter>03.Utility\RenderTargetGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\URenderTargetManager.h">
+      <Filter>01.Manager\RenderTargetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBuffer.h">
+      <Filter>07.Resource\VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBufferRect.h">
+      <Filter>07.Resource\VIBuffer\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UActor.h">
+      <Filter>05.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UComponent.h">
+      <Filter>06.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UShaderBufferManager.h">
+      <Filter>01.Manager\ShaderBufferManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UPipeLine.h">
+      <Filter>01.Manager\PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UCamera.h">
+      <Filter>05.Actor\02.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UFrustomCulling.h">
+      <Filter>03.Utility\Frustom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UPawn.h">
+      <Filter>05.Actor\01.Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDefaultSphere.h">
+      <Filter>05.Actor\01.Pawn\Default\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDefaultDebugging.h">
+      <Filter>05.Actor\01.Pawn\Default\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDefaultCube.h">
+      <Filter>05.Actor\01.Pawn\Default\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UActorManager.h">
+      <Filter>01.Manager\ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UActorGroup.h">
+      <Filter>01.Manager\ActorManager\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UScene.h">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDelegate.h">
+      <Filter>97.Needs\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ULoader.h">
+      <Filter>04.Scene\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UResourceLoader.h">
+      <Filter>04.Scene\Loader\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\USceneManager.h">
+      <Filter>01.Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UTimer.h">
+      <Filter>03.Utility\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UTimerManager.h">
+      <Filter>01.Manager\TimerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UFilePathManager.h">
+      <Filter>01.Manager\FilePathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UComponentManager.h">
+      <Filter>01.Manager\ComponentManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ULight.h">
+      <Filter>04.Scene\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\URenderer.h">
+      <Filter>06.Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDefferedCamera.h">
+      <Filter>05.Actor\02.Camera\DefferedCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBufferCube.h">
+      <Filter>07.Resource\VIBuffer\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBufferSphere.h">
+      <Filter>07.Resource\VIBuffer\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UModel.h">
+      <Filter>07.Resource\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UBoneNode.h">
+      <Filter>07.Resource\Model\BoneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UMeshContainer.h">
+      <Filter>07.Resource\Model\MeshContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UAnimation.h">
+      <Filter>07.Resource\Model\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UAnimModel.h">
+      <Filter>07.Resource\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\URectTransform.h">
+      <Filter>06.Component\RectTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UUserInterface.h">
+      <Filter>05.Actor\01.Pawn\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UInputManager.h">
+      <Filter>01.Manager\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ServerUtility.h">
+      <Filter>97.Needs\ServerUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CustomMemory.h">
+      <Filter>97.Needs\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UThreadManager.h">
+      <Filter>01.Manager\ThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UWorkThread.h">
+      <Filter>03.Utility\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EnginePacket.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\imstb_truetype.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\imstb_textedit.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\imstb_rectpack.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\imgui_internal.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\imgui_impl_win32.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\imgui_impl_dx12.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\imgui.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\imconfig.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UNetworkBaseController.h">
+      <Filter>20.Network\NetBaseController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UProcessedData.h">
+      <Filter>20.Network\ProcessedData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CustomString.h">
+      <Filter>97.Needs\String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBufferPlane.h">
+      <Filter>07.Resource\VIBuffer\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UPicking.h">
+      <Filter>01.Manager\Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UCell.h">
+      <Filter>06.Component\Navigation\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UNavigation.h">
+      <Filter>06.Component\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBufferGrid.h">
+      <Filter>07.Resource\VIBuffer\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\URootBoneNode.h">
+      <Filter>07.Resource\Model\BoneNode\RootBone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UComputeRootSignature.h">
+      <Filter>02.DxClass\RootSignature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UParticleSystem.h">
+      <Filter>07.Resource\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UParticle.h">
+      <Filter>05.Actor\01.Pawn\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBufferPoint.h">
+      <Filter>07.Resource\VIBuffer\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UCollider.h">
+      <Filter>06.Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBufferCell.h">
+      <Filter>07.Resource\VIBuffer\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\URegion.h">
+      <Filter>06.Component\Navigation\Region</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UAnimChannel.h">
+      <Filter>07.Resource\Model\Animation\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AnimEventParents.h">
+      <Filter>21.Event\AnimEvent\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AnimOccursEvents.h">
+      <Filter>21.Event\AnimEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AnimSectionEvents.h">
+      <Filter>21.Event\AnimEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UAudioSystemManager.h">
+      <Filter>01.Manager\AudioSystemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\USound.h">
+      <Filter>07.Resource\AudioSystem\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UAudioSystem.h">
+      <Filter>07.Resource\AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UCharacter.h">
+      <Filter>05.Actor\01.Pawn\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UCharacterManager.h">
+      <Filter>01.Manager\CharacterManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UController.h">
+      <Filter>06.Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDefaultCell.h">
+      <Filter>05.Actor\01.Pawn\Default\DefaultCell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UStage.h">
+      <Filter>06.Component\Navigation\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UStageManager.h">
+      <Filter>01.Manager\StageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UGrid.h">
+      <Filter>05.Actor\01.Pawn\Default\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UFire.h">
+      <Filter>05.Actor\01.Pawn\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UFog.h">
+      <Filter>05.Actor\Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\ImGradient.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\GraphEditor.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\ImCurveEdit.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\ImGuizmo.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\ImSequencer.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui\ImZoomSlider.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UMapLayout.h">
+      <Filter>06.Component\MapLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UTransform.h">
+      <Filter>06.Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UModelMaterial.h">
+      <Filter>06.Component\ModelMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UMaterialManager.h">
+      <Filter>01.Manager\MaterialManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UShadowCamera.h">
+      <Filter>05.Actor\02.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UCombatCollGroupComp.h">
+      <Filter>06.Component\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UPlayer.h">
+      <Filter>05.Actor\01.Pawn\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UPlayerJob.h">
+      <Filter>08.PlayerJob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UAnimationController.h">
+      <Filter>06.Component\Controller\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UItem.h">
+      <Filter>05.Actor\01.Pawn\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UEquipment.h">
+      <Filter>05.Actor\01.Pawn\Item\Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\URenderCommand.h">
+      <Filter>02.DxClass\Command\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\USmallDefferedCamera.h">
+      <Filter>05.Actor\02.Camera\DefferedCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UMeshFilter.h">
+      <Filter>06.Component\MeshFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UAxis.h">
+      <Filter>97.Needs\Axis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ULightCamera.h">
+      <Filter>05.Actor\02.Camera\LightCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UWeapon.h">
+      <Filter>05.Actor\01.Pawn\Item\Equip\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDefensiveGear.h">
+      <Filter>05.Actor\01.Pawn\Item\Equip\Defensive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UTrail.h">
+      <Filter>05.Actor\Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UVIBufferTrail.h">
+      <Filter>07.Resource\VIBuffer\Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MathLib\CusMath.h">
+      <Filter>99.Default\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UInputReceiver.h">
+      <Filter>06.Component\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UNetworkQueryProcessing.h">
+      <Filter>20.Network\NetworkQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UGuard.h">
+      <Filter>05.Actor\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UBlood.h">
+      <Filter>05.Actor\01.Pawn\Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UDust.h">
+      <Filter>05.Actor\Dust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UMat.h">
+      <Filter>05.Actor\Mat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UFont.h">
+      <Filter>03.Utility\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UFontManager.h">
+      <Filter>01.Manager\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UNetworkSender.h">
+      <Filter>20.Network\NetworkSend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Shader\ShaderGrobalFunc.hlsli">
+      <Filter>98.ShaderFile\Common</Filter>
+    </None>
+    <None Include="..\..\Shader\ShaderParams.hlsli">
+      <Filter>98.ShaderFile\Common</Filter>
+    </None>
+    <None Include="..\..\Shader\ComputeFunc.hlsli">
+      <Filter>98.ShaderFile\Common\Particle</Filter>
+    </None>
+    <None Include="..\..\Shader\LightShaderParam.hlsli">
+      <Filter>98.ShaderFile\Common\Light</Filter>
+    </None>
+    <None Include="..\..\Shader\LightShaderFunc.hlsli">
+      <Filter>98.ShaderFile\Common\Light\Original</Filter>
+    </None>
+    <None Include="..\public\MathLib\CusMath.inl">
+      <Filter>99.Default\Math</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Shader\Rect.hlsl">
+      <Filter>98.ShaderFile\Common\NonAlpha</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\FinalDeffered.hlsl">
+      <Filter>98.ShaderFile\RTS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\BlendDeffered.hlsl">
+      <Filter>98.ShaderFile\RTS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\AnimModel.hlsl">
+      <Filter>98.ShaderFile\Common\NonAlpha</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Model.hlsl">
+      <Filter>98.ShaderFile\Common\NonAlpha</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\ScreenRenderObj.hlsl">
+      <Filter>98.ShaderFile\Debug</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\DebugDefaultObject.hlsl">
+      <Filter>98.ShaderFile\Debug</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Debug2DTarget.hlsl">
+      <Filter>98.ShaderFile\Debug</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\NormalObject.hlsl">
+      <Filter>98.ShaderFile\Common\NonAlpha</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Grid.hlsl">
+      <Filter>98.ShaderFile\Common\NonAlpha</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\3DNormalCube.hlsl">
+      <Filter>98.ShaderFile\Common\NonAlpha</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DFire.hlsl">
+      <Filter>98.ShaderFile\Common\Fire</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DFog.hlsl">
+      <Filter>98.ShaderFile\Common\Fog</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\LightDirection.hlsl">
+      <Filter>98.ShaderFile\Common\Light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\LightPoint.hlsl">
+      <Filter>98.ShaderFile\Common\Light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\DebugCell.hlsl">
+      <Filter>98.ShaderFile\Debug</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shadow.hlsl">
+      <Filter>98.ShaderFile\Common\Light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\DebugDefaultObjectWhite.hlsl">
+      <Filter>98.ShaderFile\Debug</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Hdr.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\HorizontalBlur.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\VerticalBlur.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Bloom.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\DownSampling.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\UpSampling.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleBlood.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Blood</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DBloodEffect.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Blood</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleFlare.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Flare</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DEmitParticle.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Flare</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticle.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Original</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DParticle.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Original</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DAnimateParticle.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Animate</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\ComputeAnimation.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Animate</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleFootPrint.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\FootPrint</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DFootPrint.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\FootPrint</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleAttack.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Attack</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DAttackEffect.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Attack</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Trail.hlsl">
+      <Filter>98.ShaderFile\Common\Trail</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Equipment.hlsl">
+      <Filter>98.ShaderFile\Common\NonAlpha</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\NorPos.hlsl">
+      <Filter>98.ShaderFile\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\DepthRecord.hlsl">
+      <Filter>98.ShaderFile\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\AnimDepthRecord.hlsl">
+      <Filter>98.ShaderFile\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\AnimNorPos.hlsl">
+      <Filter>98.ShaderFile\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\DownSamplingTwo.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Guard.hlsl">
+      <Filter>98.ShaderFile\Guard</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleSlash.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Slash</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DSlash.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Slash</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\GrayScale.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\UpSamplingGray.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Blood.hlsl">
+      <Filter>98.ShaderFile\Blood</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Dust.hlsl">
+      <Filter>98.ShaderFile\Dust</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Mat.hlsl">
+      <Filter>98.ShaderFile\Mat</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\HdrTwo.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DRotationEffect.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Rotation</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleRotation.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Rotation</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleHeal.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Heal</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DHeal.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Heal</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleOpenChest.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\OpenChest</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Compute2DOpenChest.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\OpenChest</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleAttackTwo.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Attack</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\DefaultHighlightUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\ButtonUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DParticleSkull.hlsl">
+      <Filter>98.ShaderFile\Common\Particle\Heal</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\LoadingUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\BackGroundUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\PleaseWaitUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\LoadingDotUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\HpBarUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\DefaultUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\CoolTimeUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\GageUI.hlsl">
+      <Filter>98.ShaderFile\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\MiddleRenderScreen.hlsl">
+      <Filter>98.ShaderFile\RTS</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\MotionBlur.hlsl">
+      <Filter>98.ShaderFile\Common\HdrBloomBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\ShadowAnim.hlsl">
+      <Filter>98.ShaderFile\Common\Light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\ShadowEquipment.hlsl">
+      <Filter>98.ShaderFile\Common\Light</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\2DFireShadow.hlsl">
+      <Filter>98.ShaderFile\Common\Fire</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

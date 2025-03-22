@@ -1,0 +1,54 @@
+#pragma once
+#include"imgui.h"
+#include"imgui_internal.h"
+#include"imgui_impl_dx11.h"
+#include "imgui_impl_win32.h"
+#include "CBase.h"
+#include "Engine_Defines.h"
+#include "Client_Defines.h"
+
+BEGIN(Client)
+
+class CIMGUI : public CBase
+{
+public:
+	typedef struct tagWindowDesc
+	{
+		tagWindowDesc() = default;
+		tagWindowDesc(const char* _pName, const _int& _imGuiFlags, const ImVec2& _v2StartPos = ImVec2(0.f, 0.f), const _bool& _bEnable = true)
+			: pName(_pName), imGuiWindowFlags(_imGuiFlags), v2Pos(_v2StartPos), bEnable(_bEnable)
+		{}
+
+		const char* pName = nullptr;
+		_int									imGuiWindowFlags;
+		ImVec2							v2Pos;
+		_bool								bEnable;
+	}WINDESC;
+protected:
+	explicit CIMGUI(ID3D11Device* _pDevice, ID3D11DeviceContext* _pContext);
+	virtual ~CIMGUI() = default;
+public:
+	const _bool& Is_Open() const { return m_bOpen; }
+	void Set_Open(const _bool& _bOpen) { m_bOpen = _bOpen; }
+	// Get Name
+	const char* Get_Name() const { return m_pName; }
+public:
+	virtual HRESULT NativeConstruct();
+	virtual HRESULT NativeConstruct_Tool();
+	virtual HRESULT Tick(const _double& _dDeltaSeconds);
+	virtual HRESULT Render();
+	virtual HRESULT Release_Tool();
+protected:
+	virtual void Show_Window() = 0;
+protected:
+	// Device, Context
+	ID3D11Device*					m_pDevice = nullptr;
+	ID3D11DeviceContext*		m_pContext = nullptr;
+	// Open
+	_bool										m_bOpen = false;
+	const char*							m_pName = nullptr;
+public:
+	virtual void Free() override;
+};
+
+END

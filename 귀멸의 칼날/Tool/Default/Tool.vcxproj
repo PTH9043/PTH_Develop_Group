@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e8e068f9-0b2e-4d2a-a284-5ccceaf49a2e}</ProjectGuid>
+    <RootNamespace>Tool</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\Bin\</OutDir>
+    <MultiProcFXC>false</MultiProcFXC>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Public\;..\..\Reference\Headers\;</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dinput8.lib;dxguid.lib;Engine.lib;DirectXTKd.lib;Effects11d.lib;fmodL_vc.lib;assimp-vc140-mtd.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Reference\Librarys\;..\ThirdPartyLib\;</AdditionalLibraryDirectories>
+      <IncrementalLinkDatabaseFile>$(OutDir)$(TargetName).ilk</IncrementalLinkDatabaseFile>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Public\;..\..\Reference\Headers\;</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dinput8.lib;dxguid.lib;Engine.lib;DirectXTK.lib;fmod_vc.lib;Effects11.lib;assimp-vc140-mt.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Reference\Librarys\;..\ThirdPartyLib\;</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+      <IncrementalLinkDatabaseFile>$(OutDir)$(TargetName).ilk</IncrementalLinkDatabaseFile>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Animation_Tool.h" />
+    <ClInclude Include="..\Public\AnimViewerModel.h" />
+    <ClInclude Include="..\Public\AnimViewer_Tool.h" />
+    <ClInclude Include="..\Public\Camera_Cinematic_Tool.h" />
+    <ClInclude Include="..\Public\Camera_Free_Tool.h" />
+    <ClInclude Include="..\Public\Camera_Tool.h" />
+    <ClInclude Include="..\Public\CamViewer_Tool.h" />
+    <ClInclude Include="..\Public\Channel_Tool.h" />
+    <ClInclude Include="..\Public\Character_Tool.h" />
+    <ClInclude Include="..\Public\CutSceneCamera_Tool.h" />
+    <ClInclude Include="..\Public\CutSceneEffectGroup_Tool.h" />
+    <ClInclude Include="..\Public\CutSceneEffect_Tool.h" />
+    <ClInclude Include="..\Public\CutSceneModel_Tool.h" />
+    <ClInclude Include="..\Public\CutSceneTex_Tool.h" />
+    <ClInclude Include="..\Public\CutSceneViewer_Tool.h" />
+    <ClInclude Include="..\Public\Debug_RenderObj_Tool.h" />
+    <ClInclude Include="..\Public\Effect_Tool.h" />
+    <ClInclude Include="..\Public\FilePathViewer_Tool.h" />
+    <ClInclude Include="..\Public\HierarchyNode_Tool.h" />
+    <ClInclude Include="..\Public\ImGui\imconfig.h" />
+    <ClInclude Include="..\Public\ImGui\imgui.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="..\Public\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\Public\ImGui\imstb_truetype.h" />
+    <ClInclude Include="..\Public\Item_Tool.h" />
+    <ClInclude Include="..\Public\MapGround_Tool.h" />
+    <ClInclude Include="..\Public\MapObj_Tool.h" />
+    <ClInclude Include="..\Public\MapViewer_Tool.h" />
+    <ClInclude Include="..\Public\MeshContainer_Tool.h" />
+    <ClInclude Include="..\Public\Model_Tool.h" />
+    <ClInclude Include="..\Public\GameObject_Tool.h" />
+    <ClInclude Include="..\Public\ImGuiClass_Manager_Tool.h" />
+    <ClInclude Include="..\Public\ImGuiClass_Tool.h" />
+    <ClInclude Include="..\Public\ImGui_UI_Tool.h" />
+    <ClInclude Include="..\Public\Level_Loading_Tool.h" />
+    <ClInclude Include="..\Public\Level_Main_Tool.h" />
+    <ClInclude Include="..\Public\Loader_Tool.h" />
+    <ClInclude Include="..\Public\MainApp_Tool.h" />
+    <ClInclude Include="..\Public\MainView_Tool.h" />
+    <ClInclude Include="..\Public\Monster_Tool.h" />
+    <ClInclude Include="..\Public\Pawn_Tool.h" />
+    <ClInclude Include="..\Public\ShaderView_Tool.h" />
+    <ClInclude Include="..\Public\Sword_Tool.h" />
+    <ClInclude Include="..\Public\Test_Instance.h" />
+    <ClInclude Include="..\Public\Test_Shader_Tool.h" />
+    <ClInclude Include="..\Public\Tool_Com_Macro.h" />
+    <ClInclude Include="..\Public\Tool_Defines.h" />
+    <ClInclude Include="..\Public\Tool_Layer_Macro.h" />
+    <ClInclude Include="..\Public\Tool_Proto_Macro.h" />
+    <ClInclude Include="..\Public\UI_Tool.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\Animation_Tool.cpp" />
+    <ClCompile Include="..\Private\AnimViewerModel.cpp" />
+    <ClCompile Include="..\Private\AnimViewer_Tool.cpp" />
+    <ClCompile Include="..\Private\Camera_Cinematic_Tool.cpp" />
+    <ClCompile Include="..\Private\Camera_Free_Tool.cpp" />
+    <ClCompile Include="..\Private\Camera_Tool.cpp" />
+    <ClCompile Include="..\Private\CamViewer_Tool.cpp" />
+    <ClCompile Include="..\Private\Channel_Tool.cpp" />
+    <ClCompile Include="..\Private\Character_Tool.cpp" />
+    <ClCompile Include="..\Private\CutSceneCamera_Tool.cpp" />
+    <ClCompile Include="..\Private\CutSceneEffectGroup_Tool.cpp" />
+    <ClCompile Include="..\Private\CutSceneEffect_Tool.cpp" />
+    <ClCompile Include="..\Private\CutSceneModel_Tool.cpp" />
+    <ClCompile Include="..\Private\CutSceneTex_Tool.cpp" />
+    <ClCompile Include="..\Private\CutSceneViewer_Tool.cpp" />
+    <ClCompile Include="..\Private\Debug_RenderObj_Tool.cpp" />
+    <ClCompile Include="..\Private\Effect_Tool.cpp" />
+    <ClCompile Include="..\Private\FilePathViewer_Tool.cpp" />
+    <ClCompile Include="..\Private\HierarchyNode_Tool.cpp" />
+    <ClCompile Include="..\Private\Item_Tool.cpp" />
+    <ClCompile Include="..\Private\MapGround_Tool.cpp" />
+    <ClCompile Include="..\Private\MapObj_Tool.cpp" />
+    <ClCompile Include="..\Private\MapViewer_Tool.cpp" />
+    <ClCompile Include="..\Private\MeshContainer_Tool.cpp" />
+    <ClCompile Include="..\Private\Model_Tool.cpp" />
+    <ClCompile Include="..\Private\GameObject_Tool.cpp" />
+    <ClCompile Include="..\Private\ImGuiClass_Tool.cpp" />
+    <ClCompile Include="..\Private\ImGuiClass_Manager_Tool.cpp" />
+    <ClCompile Include="..\Private\ImGui_UI_Tool.cpp" />
+    <ClCompile Include="..\Private\Level_Loading_Tool.cpp" />
+    <ClCompile Include="..\Private\Level_Main_Tool.cpp" />
+    <ClCompile Include="..\Private\Loader_Tool.cpp" />
+    <ClCompile Include="..\Private\MainApp_Tool.cpp" />
+    <ClCompile Include="..\Private\MainView_Tool.cpp" />
+    <ClCompile Include="..\Private\Monster_Tool.cpp" />
+    <ClCompile Include="..\Private\Pawn_Tool.cpp" />
+    <ClCompile Include="..\Private\ShaderView_Tool.cpp" />
+    <ClCompile Include="..\Private\Sword_Tool.cpp" />
+    <ClCompile Include="..\Private\Test_Instance.cpp" />
+    <ClCompile Include="..\Private\Test_Shader_Tool.cpp" />
+    <ClCompile Include="..\Private\UI_Tool.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="..\Public\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Tool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="Tool.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

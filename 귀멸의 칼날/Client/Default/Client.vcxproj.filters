@@ -1,0 +1,1002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{c6a15d80-7bef-4c3c-880c-6bb839a1fa5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{b6117cc5-dd4b-4eff-a287-3508e9f129b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{74de7bb4-a752-40c6-aa2d-61a989eaa40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{dc15e265-abab-4ba0-9424-8145499e92b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading">
+      <UniqueIdentifier>{cfaae44d-954c-42b3-86c3-b6c92a04cff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Logo">
+      <UniqueIdentifier>{0c968da0-7b3c-4c1d-961b-d23c844fd942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading\Loader">
+      <UniqueIdentifier>{fe011e95-6a77-460a-86c9-8dcf06ea458e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ImGui">
+      <UniqueIdentifier>{75bce2c8-8b0f-455a-b207-76240b11cecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines\ImGui">
+      <UniqueIdentifier>{322f4ead-72cb-45a6-9363-a0c74e367bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ImGui\Manager">
+      <UniqueIdentifier>{75894f0b-ce1b-491f-ab18-e810549ab4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ImGui\MainView">
+      <UniqueIdentifier>{222ad39c-e19a-45ac-ab3b-7caac5bde17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn">
+      <UniqueIdentifier>{81ebd98e-c7bf-47db-a34e-8d84baef48b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character">
+      <UniqueIdentifier>{2a1943ed-8f70-4ddd-9641-1e5f054a86e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player">
+      <UniqueIdentifier>{fc3c1cec-f438-489a-81c8-8af6d1e8e13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Zenitsu">
+      <UniqueIdentifier>{3a48db9d-fb87-41b8-bc5d-44a225b97873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI">
+      <UniqueIdentifier>{eec1606b-758e-443f-8a57-16461721bcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ImGui\ObjectView">
+      <UniqueIdentifier>{85ee33d6-bfca-4730-82c3-763c8edf58d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_HP">
+      <UniqueIdentifier>{963f7221-8756-4bd2-b371-68a3ebd1d979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Combo">
+      <UniqueIdentifier>{26dfc66d-8a56-4543-a26c-000ae13a96b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Ultimate">
+      <UniqueIdentifier>{a15afc8b-0b96-410e-8f62-04b054408b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_MiniMap">
+      <UniqueIdentifier>{7e2abbc0-8e6c-492a-a331-7be30c78354e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Item">
+      <UniqueIdentifier>{6ebf5c2b-5c5b-48d4-b90e-b43626a5ad83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Item\Sword">
+      <UniqueIdentifier>{3cd421cb-fcbf-48d1-9d86-ebb489ca8d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Item\Trail">
+      <UniqueIdentifier>{f5d38d63-c4db-4b04-836c-874fde7fdc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ImGui\LevelControl">
+      <UniqueIdentifier>{e6ed454c-acea-4a74-a082-9763cd58c6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Sabito">
+      <UniqueIdentifier>{b7a42f19-cff5-42bb-bfdf-fa9b8ee3bed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera">
+      <UniqueIdentifier>{727075c0-3e71-4e4a-84ef-db24bed0760a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_MiniMap\Minimap_Track">
+      <UniqueIdentifier>{bb550aca-7c9c-42ea-a580-fcf288593eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Dialogue">
+      <UniqueIdentifier>{50db30a7-34f5-435b-9886-d4756e36c39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Zenitsu\Controller">
+      <UniqueIdentifier>{cf753df5-c34d-46d7-975d-434cf3adbcb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Player_Controller">
+      <UniqueIdentifier>{6352969a-281a-4488-a28d-c4fe7d6b0229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Sabito\AI">
+      <UniqueIdentifier>{af5b781b-316d-4966-bdc1-261ba0632208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MapObject">
+      <UniqueIdentifier>{14fa608f-2784-4269-9bbb-2f83cf392236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_CharSelect">
+      <UniqueIdentifier>{ce19af6c-36ed-4b33-b53e-c67f52c3c3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Select">
+      <UniqueIdentifier>{9b596fdc-d13b-4956-ba53-61fe52871222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Battle">
+      <UniqueIdentifier>{a63ef8af-ef38-4ede-b451-63dccd9d1a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Story">
+      <UniqueIdentifier>{9ca04fc8-bcc5-4842-89a3-f64ddf42a06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Item\Sheath">
+      <UniqueIdentifier>{3330fb2d-0efd-4ce0-a2f4-af65aa38a533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="90.DebugGameObject">
+      <UniqueIdentifier>{013f95ef-5a80-44e9-b19b-9beacd3a4a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ImGui\ShaderDebug">
+      <UniqueIdentifier>{dfa5b4c8-5ddb-44d1-a967-7e82decfdf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Collision">
+      <UniqueIdentifier>{6486dc28-1401-4b33-93ca-b56fd1a40d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Manager">
+      <UniqueIdentifier>{946789a7-0397-47c3-87eb-d7afa77041f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Manager\Battle">
+      <UniqueIdentifier>{ad21ce6d-83a7-4208-bed2-9de5a5305215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Animal">
+      <UniqueIdentifier>{3a234807-c2ec-430d-a355-041daef31672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ImGui\AIController">
+      <UniqueIdentifier>{9c1dcf84-1aa9-47d3-aa4d-2f205969eca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\NPC">
+      <UniqueIdentifier>{c2c63075-b034-4ab0-8fa4-2b8022079019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Icon">
+      <UniqueIdentifier>{77e4e09a-5d34-487a-ae3d-b964d9bf78a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Quest">
+      <UniqueIdentifier>{1b327a31-abfc-49ce-a701-5f97b0169e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_CharSelect\UI_Select_Model">
+      <UniqueIdentifier>{bd33472c-ccf3-4527-b8af-bafbac450612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_CharSelect\UI_Select_Model\Select_Item">
+      <UniqueIdentifier>{1c7226c7-9db4-4079-9fca-08bb67a3894f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera\Debug_Camera">
+      <UniqueIdentifier>{86e27a29-7763-413f-9e2a-869db221471b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Oni">
+      <UniqueIdentifier>{1d17475a-2593-4a93-a137-821d5945f057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Oni\Zako">
+      <UniqueIdentifier>{dbb6c1aa-fa9f-4252-a9c2-072448f07f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Oni\Zako\AI">
+      <UniqueIdentifier>{aca068c2-b824-4849-bf03-762cbfc091d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MapObject\MapLight">
+      <UniqueIdentifier>{6e21f1a1-3e3e-4cf9-8eec-2a6b742b5c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MapObject\MapGround">
+      <UniqueIdentifier>{8e08dee6-b1d5-45c8-98dc-b3692eabe518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MapObject\MapObject">
+      <UniqueIdentifier>{1beb2111-71cf-4b87-9017-cfca95525caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MapObject\MapCollider">
+      <UniqueIdentifier>{40c98db8-1b4c-430d-9807-a62d2640fbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Char_AI">
+      <UniqueIdentifier>{6bf5f546-7f78-4f11-9af7-b792f6691f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Char_AI\PlayerBrain">
+      <UniqueIdentifier>{5ee494ff-7d29-4a1d-b661-4ed50c5d974e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Mode">
+      <UniqueIdentifier>{d0556dc5-e16c-4ffc-a22b-5203060faa33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\GamePlay">
+      <UniqueIdentifier>{0a602ef1-700e-496e-ba4e-fc044fcb7c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Dir">
+      <UniqueIdentifier>{46f3178d-e2b5-4a2c-81ac-52df2a12b4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Dir\UI_DirMap">
+      <UniqueIdentifier>{36721c0d-1c88-41dc-81ba-45ce61e11dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Dir\UI_DirIcon">
+      <UniqueIdentifier>{9ced148d-5423-4126-9f3a-68f0c050eff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Story_Tanjiro">
+      <UniqueIdentifier>{e5d3c0b4-1652-4638-af41-3887884b6361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\MiniGame">
+      <UniqueIdentifier>{d0cfd3f7-555d-4eca-9a7c-7ddf20cdb2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_MiniGame">
+      <UniqueIdentifier>{51248a69-b388-4765-9ce8-24b544c4eafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera\Camera_Free">
+      <UniqueIdentifier>{8e6ec441-79ff-4a79-b057-30d440a7747b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera\CameraLight">
+      <UniqueIdentifier>{cf69616e-3312-470a-b3bd-96461d734598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera\Camera_Cinematic">
+      <UniqueIdentifier>{1c072248-5ca0-4dd8-811b-53863ff87695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_MiniGame\MiniGame_Note">
+      <UniqueIdentifier>{cb7f8a4b-4fbe-4146-8f89-1c2f3e700679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Manager\Camera">
+      <UniqueIdentifier>{b63482a9-8541-4da2-b7b3-71233ffb18ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Boss">
+      <UniqueIdentifier>{8d4f9fef-a67f-4bce-b21e-8ba7b84154bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Boss\TeOni">
+      <UniqueIdentifier>{971cf772-ee75-4eca-9b7f-b8b016fbfb06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Boss\TeOni\AI">
+      <UniqueIdentifier>{54daa55f-4128-4d13-873d-d1755e1119c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Rattan">
+      <UniqueIdentifier>{082b1311-c649-41f4-a436-b74e55b77ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_MiniGame\MiniGame_Model">
+      <UniqueIdentifier>{6031a3a2-572f-4da7-a4b3-632603b33174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_MiniGame\MiniGame">
+      <UniqueIdentifier>{8d265352-9aff-4ad5-ad41-6f7b8af43626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\NPC\NPC_Item">
+      <UniqueIdentifier>{b3900f04-e6a5-48de-8d3a-a674c8af5e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Boss\TeOni\Rock">
+      <UniqueIdentifier>{44809775-235c-4bc9-ae81-bbbb4a8bfe79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Akaza">
+      <UniqueIdentifier>{3257fcc5-42d0-4b45-b0e9-b65362a7c5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Akaza\Controller">
+      <UniqueIdentifier>{c158bd03-3e55-4e51-906f-d3d3e9477be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera\Camera_CutScene">
+      <UniqueIdentifier>{454b998d-8d46-49d2-9abc-4ecaa93383fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15.CutScene">
+      <UniqueIdentifier>{4bd7969e-d738-46d0-b852-a63e04e9de5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15.CutScene\Tex">
+      <UniqueIdentifier>{1ca10828-6d4b-49f9-a54c-553015205c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15.CutScene\ModelController">
+      <UniqueIdentifier>{fcd25b5f-7209-4f23-b515-8e99c146b593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Tanjiro">
+      <UniqueIdentifier>{0be09d58-2c63-4f90-81fb-813bac8467cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Ending">
+      <UniqueIdentifier>{b1dc5547-9f9b-4f7e-891d-8f408bfedae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Manager\CutSceneManager">
+      <UniqueIdentifier>{48c6e991-5b7f-4145-ba30-249a9d93fef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Boss">
+      <UniqueIdentifier>{051d34bd-f4f8-421d-b243-fce52c3f5c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Player_Controller\KeyBoard">
+      <UniqueIdentifier>{e8a33220-f629-42fd-a780-424f8bbb4eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Player_Controller\GamePad">
+      <UniqueIdentifier>{9b627d09-6b00-448c-b713-25712e48305b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Akaza\Controller\KeyBoard">
+      <UniqueIdentifier>{3659d8e8-08c1-49e1-ad86-c64fd1e37e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Akaza\Controller\GamePad">
+      <UniqueIdentifier>{5c2c5ed0-69a9-4aeb-af42-ae04fd77e89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Story_Tanjiro\Pad">
+      <UniqueIdentifier>{5b03dea2-1396-4ed5-b89f-6871e66eaf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Tanjiro\GamePad">
+      <UniqueIdentifier>{a85ac71b-d60a-44e3-9a3d-3f4e35eb6071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Zenitsu\GamePad">
+      <UniqueIdentifier>{d56dede9-17e6-4441-9fd8-b395325c58b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Tanjiro\KeyBoard">
+      <UniqueIdentifier>{76995055-6ec3-4f7d-ba72-498f7c742d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Story_Tanjiro\KeyBoard">
+      <UniqueIdentifier>{f56248ed-0918-4e61-a8fc-c4db666ea7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Sabito\GamePad">
+      <UniqueIdentifier>{10af5ca5-5d02-4f83-8d18-d70afdd676d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Sabito\KeyBoard">
+      <UniqueIdentifier>{92ad2976-7fe6-436e-b592-c68765b2c19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.UI\UI_Lines">
+      <UniqueIdentifier>{432b1725-681b-4eee-bb88-787df83af0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Nezuko">
+      <UniqueIdentifier>{463b683e-41c6-4920-8631-ad6023b9c280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Boss\TeOni\OniTe">
+      <UniqueIdentifier>{f31b83f7-e94e-4246-b111-895d4b1b9ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Projectile">
+      <UniqueIdentifier>{e762143d-0a54-4312-b51d-4e72f8897581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject-Pawn\Character\Player\Akaza\Projectile">
+      <UniqueIdentifier>{63135980-6fdc-4d8e-8c00-394d5b5cad8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Levels\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGuiClass.h">
+      <Filter>10.ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imconfig.h">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imgui.h">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imgui_impl_dx11.h">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imgui_impl_win32.h">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imgui_internal.h">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imstb_rectpack.h">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imstb_textedit.h">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imstb_truetype.h">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGuiClass_Manager.h">
+      <Filter>10.ImGui\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainView.h">
+      <Filter>10.ImGui\MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Pawn.h">
+      <Filter>02.GameObject-Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Character.h">
+      <Filter>02.GameObject-Pawn\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Com_Macro.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Layer_Macro.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Proto_Macro.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zenitsu.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Zenitsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObject-Pawn\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ShaderView.h">
+      <Filter>10.ImGui\ShaderDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CObjectView.h">
+      <Filter>10.ImGui\ObjectView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_HP.h">
+      <Filter>05.UI\UI_HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Combo.h">
+      <Filter>05.UI\UI_Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Ultimate.h">
+      <Filter>05.UI\UI_Ultimate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item.h">
+      <Filter>02.GameObject-Pawn\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sword.h">
+      <Filter>02.GameObject-Pawn\Item\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TrailObject.h">
+      <Filter>02.GameObject-Pawn\Item\Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TimeControlViewer.h">
+      <Filter>10.ImGui\LevelControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Minimap.h">
+      <Filter>05.UI\UI_MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sabito.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Sabito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Minimap_Track.h">
+      <Filter>05.UI\UI_MiniMap\Minimap_Track</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CameraLight.h">
+      <Filter>04.Camera\CameraLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zenitsu_KeyBoard_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Zenitsu\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AIController_Sabito.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Sabito\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Dialogue.h">
+      <Filter>05.UI\UI_Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_CharSelect.h">
+      <Filter>05.UI\UI_CharSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Select.h">
+      <Filter>01.Levels\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Battle.h">
+      <Filter>01.Levels\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Story.h">
+      <Filter>01.Levels\Story</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Select_Model.h">
+      <Filter>05.UI\UI_CharSelect\UI_Select_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Battle_Manager.h">
+      <Filter>20.Manager\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AI_CharController.h">
+      <Filter>02.GameObject-Pawn\Character\Char_AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sheath.h">
+      <Filter>02.GameObject-Pawn\Item\Sheath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Debug_RenderObj.h">
+      <Filter>90.DebugGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Animal.h">
+      <Filter>02.GameObject-Pawn\Animal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AIConViewer.h">
+      <Filter>10.ImGui\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Select_Item.h">
+      <Filter>05.UI\UI_CharSelect\UI_Select_Model\Select_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NPC.h">
+      <Filter>02.GameObject-Pawn\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Icon.h">
+      <Filter>05.UI\UI_Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Quest.h">
+      <Filter>05.UI\UI_Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Debug_Camera.h">
+      <Filter>04.Camera\Debug_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Oni.h">
+      <Filter>02.GameObject-Pawn\Character\Oni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zako.h">
+      <Filter>02.GameObject-Pawn\Character\Oni\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AIController_Zako.h">
+      <Filter>02.GameObject-Pawn\Character\Oni\Zako\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapGround.h">
+      <Filter>03.MapObject\MapGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapObject.h">
+      <Filter>03.MapObject\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapLight.h">
+      <Filter>03.MapObject\MapLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_DirMap.h">
+      <Filter>05.UI\UI_Dir\UI_DirMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapCollider.h">
+      <Filter>03.MapObject\MapCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zako2.h">
+      <Filter>02.GameObject-Pawn\Character\Oni\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sabito_KeyBoard_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Sabito\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Mode.h">
+      <Filter>01.Levels\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_MiniGame.h">
+      <Filter>01.Levels\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_DirIcon.h">
+      <Filter>05.UI\UI_Dir\UI_DirIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Story_Tanjiro.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Story_Tanjiro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>04.Camera\Camera_Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Cinematic.h">
+      <Filter>04.Camera\Camera_Cinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MiniGame_Note.h">
+      <Filter>05.UI\UI_MiniGame\MiniGame_Note</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Manager.h">
+      <Filter>20.Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss.h">
+      <Filter>02.GameObject-Pawn\Character\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TeOni.h">
+      <Filter>02.GameObject-Pawn\Character\Boss\TeOni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Rattan.h">
+      <Filter>01.Levels\Rattan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MiniGame_Model.h">
+      <Filter>05.UI\UI_MiniGame\MiniGame_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MiniGame.h">
+      <Filter>05.UI\UI_MiniGame\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapGroupObject.h">
+      <Filter>03.MapObject\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NPC_Item.h">
+      <Filter>02.GameObject-Pawn\NPC\NPC_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TeOni_Rock.h">
+      <Filter>02.GameObject-Pawn\Character\Boss\TeOni\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Akaza.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Akaza</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_CutScene.h">
+      <Filter>04.Camera\Camera_CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutSceneModul.h">
+      <Filter>15.CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutSceneTex.h">
+      <Filter>15.CutScene\Tex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zako3.h">
+      <Filter>02.GameObject-Pawn\Character\Oni\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutScene_ModelController.h">
+      <Filter>15.CutScene\ModelController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tanjiro.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Tanjiro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Ending.h">
+      <Filter>01.Levels\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CutScene_Manager.h">
+      <Filter>20.Manager\CutSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Story_Tanjiro_KeyBoard_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Story_Tanjiro\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tanjiro_KeyBoard_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Tanjiro\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Boss.h">
+      <Filter>05.UI\UI_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_KeyBoard_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Player_Controller\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_GamePad_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Player_Controller\GamePad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Akaza_KeyBoard_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Akaza\Controller\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Akaza_GamePad_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Akaza\Controller\GamePad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Story_Tanjiro_GamePad_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Story_Tanjiro\Pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tanjiro_GamePad_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Tanjiro\GamePad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zenitsu_GamePad_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Zenitsu\GamePad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sabito_GamePad_Controller.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Sabito\GamePad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Lines.h">
+      <Filter>05.UI\UI_Lines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TeOni_Te.h">
+      <Filter>02.GameObject-Pawn\Character\Boss\TeOni\OniTe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Projectile.h">
+      <Filter>02.GameObject-Pawn\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WindBall.h">
+      <Filter>02.GameObject-Pawn\Character\Player\Akaza\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BrokenRock.h">
+      <Filter>03.MapObject\MapObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Levels\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGuiClass.cpp">
+      <Filter>10.ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui.cpp">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_demo.cpp">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_draw.cpp">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_impl_dx11.cpp">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_impl_win32.cpp">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_tables.cpp">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_widgets.cpp">
+      <Filter>99.Defines\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGuiClass_Manager.cpp">
+      <Filter>10.ImGui\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainView.cpp">
+      <Filter>10.ImGui\MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Pawn.cpp">
+      <Filter>02.GameObject-Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Character.cpp">
+      <Filter>02.GameObject-Pawn\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zenitsu.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Zenitsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ShaderView.cpp">
+      <Filter>10.ImGui\ShaderDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CObjectView.cpp">
+      <Filter>10.ImGui\ObjectView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_HP.cpp">
+      <Filter>05.UI\UI_HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Combo.cpp">
+      <Filter>05.UI\UI_Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Ultimate.cpp">
+      <Filter>05.UI\UI_Ultimate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item.cpp">
+      <Filter>02.GameObject-Pawn\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sword.cpp">
+      <Filter>02.GameObject-Pawn\Item\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TrailObject.cpp">
+      <Filter>02.GameObject-Pawn\Item\Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TimeControlViewer.cpp">
+      <Filter>10.ImGui\LevelControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Minimap.cpp">
+      <Filter>05.UI\UI_MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sabito.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Sabito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Minimap_Track.cpp">
+      <Filter>05.UI\UI_MiniMap\Minimap_Track</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CameraLight.cpp">
+      <Filter>04.Camera\CameraLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zenitsu_KeyBoard_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Zenitsu\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AIController_Sabito.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Sabito\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Dialogue.cpp">
+      <Filter>05.UI\UI_Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_CharSelect.cpp">
+      <Filter>05.UI\UI_CharSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Select.cpp">
+      <Filter>01.Levels\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Battle.cpp">
+      <Filter>01.Levels\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Story.cpp">
+      <Filter>01.Levels\Story</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Select_Model.cpp">
+      <Filter>05.UI\UI_CharSelect\UI_Select_Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Battle_Manager.cpp">
+      <Filter>20.Manager\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AI_CharController.cpp">
+      <Filter>02.GameObject-Pawn\Character\Char_AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sheath.cpp">
+      <Filter>02.GameObject-Pawn\Item\Sheath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Debug_RenderObj.cpp">
+      <Filter>90.DebugGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Animal.cpp">
+      <Filter>02.GameObject-Pawn\Animal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AIConViewer.cpp">
+      <Filter>10.ImGui\AIController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Select_Item.cpp">
+      <Filter>05.UI\UI_CharSelect\UI_Select_Model\Select_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NPC.cpp">
+      <Filter>02.GameObject-Pawn\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Icon.cpp">
+      <Filter>05.UI\UI_Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Quest.cpp">
+      <Filter>05.UI\UI_Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Debug_Camera.cpp">
+      <Filter>04.Camera\Debug_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Oni.cpp">
+      <Filter>02.GameObject-Pawn\Character\Oni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zako.cpp">
+      <Filter>02.GameObject-Pawn\Character\Oni\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AIController_Zako.cpp">
+      <Filter>02.GameObject-Pawn\Character\Oni\Zako\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapGround.cpp">
+      <Filter>03.MapObject\MapGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapObject.cpp">
+      <Filter>03.MapObject\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapLight.cpp">
+      <Filter>03.MapObject\MapLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_DirMap.cpp">
+      <Filter>05.UI\UI_Dir\UI_DirMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapCollider.cpp">
+      <Filter>03.MapObject\MapCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zako2.cpp">
+      <Filter>02.GameObject-Pawn\Character\Oni\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sabito_KeyBoard_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Sabito\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Mode.cpp">
+      <Filter>01.Levels\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_DirIcon.cpp">
+      <Filter>05.UI\UI_Dir\UI_DirIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Story_Tanjiro.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Story_Tanjiro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_MiniGame.cpp">
+      <Filter>01.Levels\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>04.Camera\Camera_Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Cinematic.cpp">
+      <Filter>04.Camera\Camera_Cinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MiniGame_Note.cpp">
+      <Filter>05.UI\UI_MiniGame\MiniGame_Note</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Manager.cpp">
+      <Filter>20.Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss.cpp">
+      <Filter>02.GameObject-Pawn\Character\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TeOni.cpp">
+      <Filter>02.GameObject-Pawn\Character\Boss\TeOni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Rattan.cpp">
+      <Filter>01.Levels\Rattan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MiniGame_Model.cpp">
+      <Filter>05.UI\UI_MiniGame\MiniGame_Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MiniGame.cpp">
+      <Filter>05.UI\UI_MiniGame\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapGroupObject.cpp">
+      <Filter>03.MapObject\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NPC_Item.cpp">
+      <Filter>02.GameObject-Pawn\NPC\NPC_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TeOni_Rock.cpp">
+      <Filter>02.GameObject-Pawn\Character\Boss\TeOni\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Akaza.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Akaza</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_CutScene.cpp">
+      <Filter>04.Camera\Camera_CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutSceneModul.cpp">
+      <Filter>15.CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutSceneTex.cpp">
+      <Filter>15.CutScene\Tex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zako3.cpp">
+      <Filter>02.GameObject-Pawn\Character\Oni\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutScene_ModelController.cpp">
+      <Filter>15.CutScene\ModelController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tanjiro.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Tanjiro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Ending.cpp">
+      <Filter>01.Levels\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CutScene_Manager.cpp">
+      <Filter>20.Manager\CutSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Story_Tanjiro_KeyBoard_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Story_Tanjiro\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tanjiro_KeyBoard_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Tanjiro\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Boss.cpp">
+      <Filter>05.UI\UI_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_KeyBoard_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Player_Controller\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_GamePad_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Player_Controller\GamePad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Akaza_KeyBoard_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Akaza\Controller\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Akaza_GamePad_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Akaza\Controller\GamePad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Story_Tanjiro_GamePad_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Story_Tanjiro\Pad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tanjiro_GamePad_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Tanjiro\GamePad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zenitsu_GamePad_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Zenitsu\GamePad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sabito_GamePad_Controller.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Sabito\GamePad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Lines.cpp">
+      <Filter>05.UI\UI_Lines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TeOni_Te.cpp">
+      <Filter>02.GameObject-Pawn\Character\Boss\TeOni\OniTe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Projectile.cpp">
+      <Filter>02.GameObject-Pawn\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WindBall.cpp">
+      <Filter>02.GameObject-Pawn\Character\Player\Akaza\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BrokenRock.cpp">
+      <Filter>03.MapObject\MapObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Public\ImGui\imgui.ini">
+      <Filter>99.Defines\ImGui</Filter>
+    </None>
+  </ItemGroup>
+</Project>

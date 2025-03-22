@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{fc8b797d-9de3-44ae-b6fb-f37920a62e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\Ects">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.ToolApp">
+      <UniqueIdentifier>{c391732e-65d6-407b-b3a0-b2bec519d102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.TestObject">
+      <UniqueIdentifier>{a2c96dd7-b3bc-4a61-a218-0a92d4e34656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera">
+      <UniqueIdentifier>{7f200341-c113-4bbe-88af-fbb991bc661e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{d98156e8-4470-4a21-b08b-d96b502ead44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.AssimpLoad">
+      <UniqueIdentifier>{6a1da9c6-2ccd-4f65-acb8-06a4d6dfd267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.AssimpLoad\MeshContainer">
+      <UniqueIdentifier>{a197a90c-63f5-4cf2-93b5-8a94f55c95bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.AssimpLoad\BoneNode">
+      <UniqueIdentifier>{88181ac4-b150-4cb6-b4a4-b5c37131ef68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.AssimpLoad\Animation">
+      <UniqueIdentifier>{0e6feb76-ad08-48d4-bcf7-d27fe2fd9dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.AssimpLoad\Animation\Channel">
+      <UniqueIdentifier>{8030e1ba-89c0-4b65-bba2-21b67a85f001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Defines">
+      <UniqueIdentifier>{29413899-746b-4cf3-9492-35009ea7a7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui">
+      <UniqueIdentifier>{a15e2982-0c86-49a7-9423-09f3f75a35d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manager">
+      <UniqueIdentifier>{8a9cc8b2-ff5a-423b-9483-d0b8819b2628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\ImGui">
+      <UniqueIdentifier>{8e6a5e89-062b-45be-9d9a-7d087c633a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\MainView">
+      <UniqueIdentifier>{987c6277-00f6-4811-a06e-ab18cd254282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\Model">
+      <UniqueIdentifier>{64224bff-3468-4885-8617-9ba24e9bfe07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="90.ShowModel">
+      <UniqueIdentifier>{5fbdec0a-1c2f-4284-ad66-7fbd4092c90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="90.ShowModel\Anim">
+      <UniqueIdentifier>{b5957300-6878-4226-bf9b-8378f74cd042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="90.ShowModel\Model">
+      <UniqueIdentifier>{2faa2d8d-82f0-4422-b94f-5ee6bb8c311b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\Animation">
+      <UniqueIdentifier>{dbb78db6-b5d0-457c-8b79-994d82f8147d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="90.ShowModel\AnimControlModel">
+      <UniqueIdentifier>{c9991766-7321-4751-b857-159b2259d33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\CameraView">
+      <UniqueIdentifier>{7c700fb0-fd1f-41e0-94e9-dc7fab7dae42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\Navigation">
+      <UniqueIdentifier>{8b370064-78ad-4a89-b112-ad0dbb5ab91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\TParticleView">
+      <UniqueIdentifier>{5e071f80-7abf-440a-a39b-8cb71be5bae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\Effect">
+      <UniqueIdentifier>{3fcb00dd-b2f4-48ed-9b2f-2489b963041f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\Fire">
+      <UniqueIdentifier>{6b86b3d3-f1a2-4cdb-a69b-ff472050760f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\Fog">
+      <UniqueIdentifier>{cadca361-3da4-4704-a243-a4892ba2a8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.UnityModelLoader">
+      <UniqueIdentifier>{8865f372-efc9-448e-8080-496dba07d68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.ProtoMaker">
+      <UniqueIdentifier>{97cb2792-1399-4c46-b07d-c15593346f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ImGui\MapView">
+      <UniqueIdentifier>{9d76bb7f-cbe1-483d-a2c5-401411eccd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\ImGui\Guizmo">
+      <UniqueIdentifier>{8135f72d-c259-4b60-a417-25ec751b32c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="91.GuizmoManager">
+      <UniqueIdentifier>{cb1408c4-57f9-4a13-8033-3b803b012428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="90.ShowModel\EquipModel">
+      <UniqueIdentifier>{686548e4-cf48-48af-a915-26ef59c85f72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\ToolDefines.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ToolMaker.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TToolApp.h">
+      <Filter>00.ToolApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TTestObject.h">
+      <Filter>05.TestObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TMainCamera.h">
+      <Filter>04.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TMainScene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TAssimpModel.h">
+      <Filter>97.AssimpLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TAssimpMeshContainer.h">
+      <Filter>97.AssimpLoad\MeshContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TAssimpBoneNode.h">
+      <Filter>97.AssimpLoad\BoneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TAssimpAnimation.h">
+      <Filter>97.AssimpLoad\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TAssimpChannel.h">
+      <Filter>97.AssimpLoad\Animation\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imconfig.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imgui.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imgui_impl_dx12.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imgui_impl_win32.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imgui_internal.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imstb_rectpack.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imstb_textedit.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\imstb_truetype.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TImGuiManager.h">
+      <Filter>01.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TMainView.h">
+      <Filter>03.ImGui\MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TImGuiView.h">
+      <Filter>03.ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TModelView.h">
+      <Filter>03.ImGui\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TShowAnimModelObject.h">
+      <Filter>90.ShowModel\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TShowModelObject.h">
+      <Filter>90.ShowModel\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TProtoMaker.h">
+      <Filter>95.ProtoMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TAnimControlView.h">
+      <Filter>03.ImGui\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TAnimControlModel.h">
+      <Filter>90.ShowModel\AnimControlModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TCameraView.h">
+      <Filter>03.ImGui\CameraView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TNavigationView.h">
+      <Filter>03.ImGui\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TParticleView.h">
+      <Filter>03.ImGui\TParticleView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TRotationEffectView.h">
+      <Filter>03.ImGui\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TBloodEffectView.h">
+      <Filter>03.ImGui\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TFireView.h">
+      <Filter>03.ImGui\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TFogView.h">
+      <Filter>03.ImGui\Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TUnityModelLoader.h">
+      <Filter>96.UnityModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TMapView.h">
+      <Filter>03.ImGui\MapView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\GraphEditor.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\ImCurveEdit.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\ImGradient.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\ImGuizmo.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\ImSequencer.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui\ImZoomSlider.h">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TGuizmoManager.h">
+      <Filter>91.GuizmoManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TEquipModel.h">
+      <Filter>90.ShowModel\EquipModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\TToolApp.cpp">
+      <Filter>00.ToolApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TTestObject.cpp">
+      <Filter>05.TestObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TMainCamera.cpp">
+      <Filter>04.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TMainScene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TAssimpModel.cpp">
+      <Filter>97.AssimpLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TAssimpMeshContainer.cpp">
+      <Filter>97.AssimpLoad\MeshContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TAssimpBoneNode.cpp">
+      <Filter>97.AssimpLoad\BoneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TAssimpAnimation.cpp">
+      <Filter>97.AssimpLoad\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TAssimpChannel.cpp">
+      <Filter>97.AssimpLoad\Animation\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_demo.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_draw.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_impl_dx12.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_impl_win32.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_tables.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\imgui_widgets.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TImGuiView.cpp">
+      <Filter>03.ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TMainView.cpp">
+      <Filter>03.ImGui\MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TImGuiManager.cpp">
+      <Filter>01.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TModelView.cpp">
+      <Filter>03.ImGui\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TShowAnimModelObject.cpp">
+      <Filter>90.ShowModel\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TShowModelObject.cpp">
+      <Filter>90.ShowModel\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TAnimControlView.cpp">
+      <Filter>03.ImGui\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TAnimControlModel.cpp">
+      <Filter>90.ShowModel\AnimControlModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TCameraView.cpp">
+      <Filter>03.ImGui\CameraView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TNavigationView.cpp">
+      <Filter>03.ImGui\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TParticleView.cpp">
+      <Filter>03.ImGui\TParticleView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TRotationEffectView.cpp">
+      <Filter>03.ImGui\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TBloodEffectView.cpp">
+      <Filter>03.ImGui\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TFireView.cpp">
+      <Filter>03.ImGui\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TFogView.cpp">
+      <Filter>03.ImGui\Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TProtoMaker.cpp">
+      <Filter>95.ProtoMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TUnityModelLoader.cpp">
+      <Filter>96.UnityModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TMapView.cpp">
+      <Filter>03.ImGui\MapView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\GraphEditor.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\ImCurveEdit.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\ImGradient.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\ImGuizmo.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\ImGui\ImSequencer.cpp">
+      <Filter>99.Default\ImGui\Guizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TGuizmoManager.cpp">
+      <Filter>91.GuizmoManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TEquipModel.cpp">
+      <Filter>90.ShowModel\EquipModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default\Ects</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Default\Ects</Filter>
+    </Image>
+    <Image Include="Tool.ico">
+      <Filter>99.Default\Ects</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

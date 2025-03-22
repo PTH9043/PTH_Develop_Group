@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\AAnimation.h" />
+    <ClInclude Include="..\Public\AAnimator.h" />
+    <ClInclude Include="..\Public\AAnimController.h" />
+    <ClInclude Include="..\Public\AAnimEvent.h" />
+    <ClInclude Include="..\Public\ACollisionManager.h" />
+    <ClInclude Include="..\Public\AMainLoop.h" />
+    <ClInclude Include="..\Public\ABoneNode.h" />
+    <ClInclude Include="..\Public\AChannel.h" />
+    <ClInclude Include="..\Public\AGameObject.h" />
+    <ClInclude Include="..\Public\AGameTimer.h" />
+    <ClInclude Include="..\Public\Allocator.h" />
+    <ClInclude Include="..\Public\AMonster.h" />
+    <ClInclude Include="..\Public\AMySqlConnector.h" />
+    <ClInclude Include="..\Public\AMySqlDriver.h" />
+    <ClInclude Include="..\Public\AMySqlTable.h" />
+    <ClInclude Include="..\Public\APawn.h" />
+    <ClInclude Include="..\Public\ARootBoneNode.h" />
+    <ClInclude Include="..\Public\ASqlLoginTable.h" />
+    <ClInclude Include="..\Public\CoreConcept.h" />
+    <ClInclude Include="..\Public\CoreDefines.h" />
+    <ClInclude Include="..\Public\CoreEnum.h" />
+    <ClInclude Include="..\Public\CoreFunction.h" />
+    <ClInclude Include="..\Public\CoreGrobal.h" />
+    <ClInclude Include="..\Public\CoreMacro.h" />
+    <ClInclude Include="..\Public\CorePacket.h" />
+    <ClInclude Include="..\Public\CoreStatic.h" />
+    <ClInclude Include="..\Public\CoreStruct.h" />
+    <ClInclude Include="..\Public\CoreTls.h" />
+    <ClInclude Include="..\Public\CoreTypecast.h" />
+    <ClInclude Include="..\Public\CoreTypedef.h" />
+    <ClInclude Include="..\Public\CustomString.h" />
+    <ClInclude Include="..\Public\DBDataGroup.h" />
+    <ClInclude Include="..\Public\Lock.h" />
+    <ClInclude Include="..\Public\LockFree.h" />
+    <ClInclude Include="..\Public\Memory.h" />
+    <ClInclude Include="..\Public\SmartPointer.h" />
+    <ClInclude Include="..\Public\ACoreApp.h" />
+    <ClInclude Include="..\Public\ACell.h" />
+    <ClInclude Include="..\Public\AStressClientService.h" />
+    <ClInclude Include="..\Public\ACollider.h" />
+    <ClInclude Include="..\Public\AJobTimer.h" />
+    <ClInclude Include="..\Public\ALogger.h" />
+    <ClInclude Include="..\Public\ALuaLoader.h" />
+    <ClInclude Include="..\Public\ANavigation.h" />
+    <ClInclude Include="..\Public\ARandomManager.h" />
+    <ClInclude Include="..\Public\ARoom.h" />
+    <ClInclude Include="..\Public\ARoomManager.h" />
+    <ClInclude Include="..\Public\AServerService.h" />
+    <ClInclude Include="..\Public\AService.h" />
+    <ClInclude Include="..\Public\ACoreBase.h" />
+    <ClInclude Include="..\Public\ACoreInstance.h" />
+    <ClInclude Include="..\Public\UDeadLockProfiler.h" />
+    <ClInclude Include="..\Public\ACoreObject.h" />
+    <ClInclude Include="..\Public\UObjectPool.h" />
+    <ClInclude Include="..\Public\ASession.h" />
+    <ClInclude Include="..\Public\ASpace.h" />
+    <ClInclude Include="..\Public\ASpaceManager.h" />
+    <ClInclude Include="..\Public\AThreadManager.h" />
+    <ClInclude Include="..\Public\ATransform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\AAnimation.cpp" />
+    <ClCompile Include="..\Private\AAnimator.cpp" />
+    <ClCompile Include="..\Private\AAnimController.cpp" />
+    <ClCompile Include="..\Private\AAnimEvent.cpp" />
+    <ClCompile Include="..\Private\ACollisionManager.cpp" />
+    <ClCompile Include="..\Private\AMainLoop.cpp" />
+    <ClCompile Include="..\Private\ABoneNode.cpp" />
+    <ClCompile Include="..\Private\AChannel.cpp" />
+    <ClCompile Include="..\Private\AGameObject.cpp" />
+    <ClCompile Include="..\Private\AGameTimer.cpp" />
+    <ClCompile Include="..\Private\Allocator.cpp" />
+    <ClCompile Include="..\Private\AMonster.cpp" />
+    <ClCompile Include="..\Private\AMySqlConnector.cpp" />
+    <ClCompile Include="..\Private\AMySqlDriver.cpp" />
+    <ClCompile Include="..\Private\AMySqlTable.cpp" />
+    <ClCompile Include="..\Private\APawn.cpp" />
+    <ClCompile Include="..\Private\ARootBoneNode.cpp" />
+    <ClCompile Include="..\Private\ASqlLoginTable.cpp" />
+    <ClCompile Include="..\Private\CoreGrobal.cpp" />
+    <ClCompile Include="..\Private\CustomString.cpp" />
+    <ClCompile Include="..\Private\DBDataGroup.cpp" />
+    <ClCompile Include="..\Private\Lock.cpp" />
+    <ClCompile Include="..\Private\LockFree.cpp" />
+    <ClCompile Include="..\Private\Memory.cpp" />
+    <ClCompile Include="..\Private\SmartPointer.cpp" />
+    <ClCompile Include="..\Private\ACoreApp.cpp" />
+    <ClCompile Include="..\Private\ACell.cpp" />
+    <ClCompile Include="..\Private\AStressClientService.cpp" />
+    <ClCompile Include="..\Private\ACollider.cpp" />
+    <ClCompile Include="..\Private\AJobTimer.cpp" />
+    <ClCompile Include="..\Private\ALogger.cpp" />
+    <ClCompile Include="..\Private\ALuaLoader.cpp" />
+    <ClCompile Include="..\Private\ANavigation.cpp" />
+    <ClCompile Include="..\Private\ARandomManager.cpp" />
+    <ClCompile Include="..\Private\ARoom.cpp" />
+    <ClCompile Include="..\Private\ARoomManager.cpp" />
+    <ClCompile Include="..\Private\AServerService.cpp" />
+    <ClCompile Include="..\Private\AService.cpp" />
+    <ClCompile Include="..\Private\ACoreBase.cpp" />
+    <ClCompile Include="..\Private\ACoreInstance.cpp" />
+    <ClCompile Include="..\Private\UDeadLockProfiler.cpp" />
+    <ClCompile Include="..\Private\ACoreObject.cpp" />
+    <ClCompile Include="..\Private\UObjectPool.cpp" />
+    <ClCompile Include="..\Private\ASession.cpp" />
+    <ClCompile Include="..\Private\ASpace.cpp" />
+    <ClCompile Include="..\Private\ASpaceManager.cpp" />
+    <ClCompile Include="..\Private\AThreadManager.cpp" />
+    <ClCompile Include="..\Private\ATransform.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{D13A36E2-A8C3-4333-A02A-DD0C41A389B0}</ProjectGuid>
+    <RootNamespace>ServerFramework</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Core</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Bin\debug\</OutDir>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Bin\release\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\Bin\debug\</OutDir>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\Bin\release\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Public\;..\ServerProtocol\</AdditionalIncludeDirectories>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <PreprocessorDefinitions>_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;CORE_EXPORTS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\ThirdPartyLib\</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Public\;..\ServerProtocol\</AdditionalIncludeDirectories>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <PreprocessorDefinitions>_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;CORE_EXPORTS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\ThirdPartyLib\</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Public\;..\ServerProtocol\</AdditionalIncludeDirectories>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <PreprocessorDefinitions>_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;CORE_EXPORTS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\ThirdPartyLib\</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Public\;..\ServerProtocol\</AdditionalIncludeDirectories>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <PreprocessorDefinitions>_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;CORE_EXPORTS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\ThirdPartyLib\</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

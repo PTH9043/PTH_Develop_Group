@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\public\AnimEventParents.h" />
+    <ClInclude Include="..\public\AnimOccursEvents.h" />
+    <ClInclude Include="..\public\AnimSectionEvents.h" />
+    <ClInclude Include="..\public\EngineConcept.h" />
+    <ClInclude Include="..\public\EngineDefine.h" />
+    <ClInclude Include="..\public\EngineEnum.h" />
+    <ClInclude Include="..\public\EngineFunction.h" />
+    <ClInclude Include="..\public\EngineMacro.h" />
+    <ClInclude Include="..\public\EngineMake.h" />
+    <ClInclude Include="..\public\EnginePacket.h" />
+    <ClInclude Include="..\public\EngineShaderParam.h" />
+    <ClInclude Include="..\public\EngineStruct.h" />
+    <ClInclude Include="..\public\EngineTypedef.h" />
+    <ClInclude Include="..\public\ImGui\GraphEditor.h" />
+    <ClInclude Include="..\public\ImGui\imconfig.h" />
+    <ClInclude Include="..\public\ImGui\ImCurveEdit.h" />
+    <ClInclude Include="..\public\ImGui\ImGradient.h" />
+    <ClInclude Include="..\public\ImGui\imgui.h" />
+    <ClInclude Include="..\public\ImGui\ImGuizmo.h" />
+    <ClInclude Include="..\public\ImGui\imgui_impl_dx12.h" />
+    <ClInclude Include="..\public\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="..\public\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\public\ImGui\ImSequencer.h" />
+    <ClInclude Include="..\public\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\public\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\public\ImGui\imstb_truetype.h" />
+    <ClInclude Include="..\public\ImGui\ImZoomSlider.h" />
+    <ClInclude Include="..\public\MathLib\CusMath.h" />
+    <ClInclude Include="..\public\UAxis.h" />
+    <ClInclude Include="..\public\UBlood.h" />
+    <ClInclude Include="..\public\UCombatCollGroupComp.h" />
+    <ClInclude Include="..\public\UCharacter.h" />
+    <ClInclude Include="..\public\UCharacterManager.h" />
+    <ClInclude Include="..\public\UController.h" />
+    <ClInclude Include="..\public\UDefensiveGear.h" />
+    <ClInclude Include="..\public\UDust.h" />
+    <ClInclude Include="..\public\UEquipment.h" />
+    <ClInclude Include="..\public\UFire.h" />
+    <ClInclude Include="..\public\UFog.h" />
+    <ClInclude Include="..\public\UFont.h" />
+    <ClInclude Include="..\public\UFontManager.h" />
+    <ClInclude Include="..\public\UGrid.h" />
+    <ClInclude Include="..\public\UAnimationController.h" />
+    <ClInclude Include="..\public\UGuard.h" />
+    <ClInclude Include="..\public\UInputReceiver.h" />
+    <ClInclude Include="..\public\UItem.h" />
+    <ClInclude Include="..\public\ULightCamera.h" />
+    <ClInclude Include="..\public\UMat.h" />
+    <ClInclude Include="..\public\UMeshFilter.h" />
+    <ClInclude Include="..\public\UNetworkQueryProcessing.h" />
+    <ClInclude Include="..\public\UNetworkSender.h" />
+    <ClInclude Include="..\public\UPlayer.h" />
+    <ClInclude Include="..\public\UMapLayout.h" />
+    <ClInclude Include="..\public\UMaterialManager.h" />
+    <ClInclude Include="..\public\UModelMaterial.h" />
+    <ClInclude Include="..\public\UPlayerJob.h" />
+    <ClInclude Include="..\public\URenderCommand.h" />
+    <ClInclude Include="..\public\UShadowCamera.h" />
+    <ClInclude Include="..\public\USmallDefferedCamera.h" />
+    <ClInclude Include="..\public\USound.h" />
+    <ClInclude Include="..\public\CustomMemory.h" />
+    <ClInclude Include="..\public\CustomString.h" />
+    <ClInclude Include="..\public\ServerUtility.h" />
+    <ClInclude Include="..\public\UActor.h" />
+    <ClInclude Include="..\public\UActorGroup.h" />
+    <ClInclude Include="..\public\UActorManager.h" />
+    <ClInclude Include="..\public\UAnimation.h" />
+    <ClInclude Include="..\public\UAnimModel.h" />
+    <ClInclude Include="..\public\UAudioSystem.h" />
+    <ClInclude Include="..\public\UAudioSystemManager.h" />
+    <ClInclude Include="..\public\UBoneNode.h" />
+    <ClInclude Include="..\public\UCamera.h" />
+    <ClInclude Include="..\public\UCell.h" />
+    <ClInclude Include="..\public\UAnimChannel.h" />
+    <ClInclude Include="..\public\UCollider.h" />
+    <ClInclude Include="..\public\UComponent.h" />
+    <ClInclude Include="..\public\UComponentManager.h" />
+    <ClInclude Include="..\public\UComputeRootSignature.h" />
+    <ClInclude Include="..\public\UDefaultCell.h" />
+    <ClInclude Include="..\public\UDefaultCube.h" />
+    <ClInclude Include="..\public\UDefaultDebugging.h" />
+    <ClInclude Include="..\public\UDefaultSphere.h" />
+    <ClInclude Include="..\public\UDefferedCamera.h" />
+    <ClInclude Include="..\public\UDelegate.h" />
+    <ClInclude Include="..\public\UFilePathManager.h" />
+    <ClInclude Include="..\public\UFrustomCulling.h" />
+    <ClInclude Include="..\public\UInputManager.h" />
+    <ClInclude Include="..\public\ULight.h" />
+    <ClInclude Include="..\public\ULoader.h" />
+    <ClInclude Include="..\public\UMeshContainer.h" />
+    <ClInclude Include="..\public\UModel.h" />
+    <ClInclude Include="..\public\UNavigation.h" />
+    <ClInclude Include="..\public\UNetworkBaseController.h" />
+    <ClInclude Include="..\public\UParticle.h" />
+    <ClInclude Include="..\public\UParticleSystem.h" />
+    <ClInclude Include="..\public\UPawn.h" />
+    <ClInclude Include="..\public\UPicking.h" />
+    <ClInclude Include="..\public\UPipeLine.h" />
+    <ClInclude Include="..\public\UProcessedData.h" />
+    <ClInclude Include="..\public\URectTransform.h" />
+    <ClInclude Include="..\public\URegion.h" />
+    <ClInclude Include="..\public\URenderer.h" />
+    <ClInclude Include="..\public\URenderTargetManager.h" />
+    <ClInclude Include="..\public\UBase.h" />
+    <ClInclude Include="..\public\UCloneObject.h" />
+    <ClInclude Include="..\public\UCommand.h" />
+    <ClInclude Include="..\public\UComputeCommand.h" />
+    <ClInclude Include="..\public\UComputeShader.h" />
+    <ClInclude Include="..\public\UDevice.h" />
+    <ClInclude Include="..\public\UGameInstance.h" />
+    <ClInclude Include="..\public\UGlobalConstantBuffer.h" />
+    <ClInclude Include="..\public\UGpuCommand.h" />
+    <ClInclude Include="..\public\UGraphicDevice.h" />
+    <ClInclude Include="..\public\UMethod.h" />
+    <ClInclude Include="..\public\UObject.h" />
+    <ClInclude Include="..\public\URenderTargetGroup.h" />
+    <ClInclude Include="..\public\UResource.h" />
+    <ClInclude Include="..\public\UResourceLoader.h" />
+    <ClInclude Include="..\public\UResourceManager.h" />
+    <ClInclude Include="..\public\URootBoneNode.h" />
+    <ClInclude Include="..\public\URootSignature.h" />
+    <ClInclude Include="..\public\UScene.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\public\USceneManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\public\UShader.h" />
+    <ClInclude Include="..\public\UShaderBufferManager.h" />
+    <ClInclude Include="..\public\UShaderConstantBuffer.h" />
+    <ClInclude Include="..\public\UShaderStructedBuffer.h" />
+    <ClInclude Include="..\public\UStage.h" />
+    <ClInclude Include="..\public\UStageManager.h" />
+    <ClInclude Include="..\public\USwapChain.h" />
+    <ClInclude Include="..\public\UTableDescriptor.h" />
+    <ClInclude Include="..\public\UTexGroup.h" />
+    <ClInclude Include="..\public\UTexture.h" />
+    <ClInclude Include="..\public\UThreadManager.h" />
+    <ClInclude Include="..\public\UTimer.h" />
+    <ClInclude Include="..\public\UTimerManager.h" />
+    <ClInclude Include="..\public\UTrail.h" />
+    <ClInclude Include="..\public\UTransform.h" />
+    <ClInclude Include="..\public\UUserInterface.h" />
+    <ClInclude Include="..\public\UVIBuffer.h" />
+    <ClInclude Include="..\public\UVIBufferCell.h" />
+    <ClInclude Include="..\public\UVIBufferCube.h" />
+    <ClInclude Include="..\public\UVIBufferGrid.h" />
+    <ClInclude Include="..\public\UVIBufferPlane.h" />
+    <ClInclude Include="..\public\UVIBufferPoint.h" />
+    <ClInclude Include="..\public\UVIBufferRect.h" />
+    <ClInclude Include="..\public\UVIBufferSphere.h" />
+    <ClInclude Include="..\public\UVIBufferTrail.h" />
+    <ClInclude Include="..\public\UWeapon.h" />
+    <ClInclude Include="..\public\UWorkThread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\private\AnimEventParents.cpp" />
+    <ClCompile Include="..\private\AnimOccursEvents.cpp" />
+    <ClCompile Include="..\private\AnimSectionEvents.cpp" />
+    <ClCompile Include="..\private\EngineStruct.cpp" />
+    <ClCompile Include="..\private\UAxis.cpp" />
+    <ClCompile Include="..\private\UBlood.cpp" />
+    <ClCompile Include="..\private\UCombatCollGroupComp.cpp" />
+    <ClCompile Include="..\private\UCharacter.cpp" />
+    <ClCompile Include="..\private\UCharacterManager.cpp" />
+    <ClCompile Include="..\private\UController.cpp" />
+    <ClCompile Include="..\private\UDefensiveGear.cpp" />
+    <ClCompile Include="..\private\UDust.cpp" />
+    <ClCompile Include="..\private\UEquipment.cpp" />
+    <ClCompile Include="..\private\UFire.cpp" />
+    <ClCompile Include="..\private\UFog.cpp" />
+    <ClCompile Include="..\private\UFont.cpp" />
+    <ClCompile Include="..\private\UFontManager.cpp" />
+    <ClCompile Include="..\private\UGrid.cpp" />
+    <ClCompile Include="..\private\UAnimationController.cpp" />
+    <ClCompile Include="..\private\UGuard.cpp" />
+    <ClCompile Include="..\private\UInputReceiver.cpp" />
+    <ClCompile Include="..\private\UItem.cpp" />
+    <ClCompile Include="..\private\ULightCamera.cpp" />
+    <ClCompile Include="..\private\UMat.cpp" />
+    <ClCompile Include="..\private\UMeshFilter.cpp" />
+    <ClCompile Include="..\private\UNetworkQueryProcessing.cpp" />
+    <ClCompile Include="..\private\UNetworkSender.cpp" />
+    <ClCompile Include="..\private\UPlayer.cpp" />
+    <ClCompile Include="..\private\UMapLayout.cpp" />
+    <ClCompile Include="..\private\UMaterialManager.cpp" />
+    <ClCompile Include="..\private\UModelMaterial.cpp" />
+    <ClCompile Include="..\private\UPlayerJob.cpp" />
+    <ClCompile Include="..\private\URenderCommand.cpp" />
+    <ClCompile Include="..\private\UShadowCamera.cpp" />
+    <ClCompile Include="..\private\USmallDefferedCamera.cpp" />
+    <ClCompile Include="..\private\USound.cpp" />
+    <ClCompile Include="..\private\CustomMemory.cpp" />
+    <ClCompile Include="..\private\CustomString.cpp" />
+    <ClCompile Include="..\private\ServerUtility.cpp" />
+    <ClCompile Include="..\private\UActor.cpp" />
+    <ClCompile Include="..\private\UActorGroup.cpp" />
+    <ClCompile Include="..\private\UActorManager.cpp" />
+    <ClCompile Include="..\private\UAnimation.cpp" />
+    <ClCompile Include="..\private\UAnimModel.cpp" />
+    <ClCompile Include="..\private\UAudioSystem.cpp" />
+    <ClCompile Include="..\private\UAudioSystemManager.cpp" />
+    <ClCompile Include="..\private\UBoneNode.cpp" />
+    <ClCompile Include="..\private\UCamera.cpp" />
+    <ClCompile Include="..\private\UCell.cpp" />
+    <ClCompile Include="..\private\UAnimChannel.cpp" />
+    <ClCompile Include="..\private\UCollider.cpp" />
+    <ClCompile Include="..\private\UComponent.cpp" />
+    <ClCompile Include="..\private\UComponentManager.cpp" />
+    <ClCompile Include="..\private\UComputeRootSignature.cpp" />
+    <ClCompile Include="..\private\UDefaultCell.cpp" />
+    <ClCompile Include="..\private\UDefaultCube.cpp" />
+    <ClCompile Include="..\private\UDefaultDebugging.cpp" />
+    <ClCompile Include="..\private\UDefaultSphere.cpp" />
+    <ClCompile Include="..\private\UDefferedCamera.cpp" />
+    <ClCompile Include="..\private\UDelegate.cpp" />
+    <ClCompile Include="..\private\UFilePathManager.cpp" />
+    <ClCompile Include="..\private\UFrustomCulling.cpp" />
+    <ClCompile Include="..\private\UInputManager.cpp" />
+    <ClCompile Include="..\private\ULight.cpp" />
+    <ClCompile Include="..\private\ULoader.cpp" />
+    <ClCompile Include="..\private\UMeshContainer.cpp" />
+    <ClCompile Include="..\private\UModel.cpp" />
+    <ClCompile Include="..\private\UNavigation.cpp" />
+    <ClCompile Include="..\private\UNetworkBaseController.cpp" />
+    <ClCompile Include="..\private\UParticle.cpp" />
+    <ClCompile Include="..\private\UParticleSystem.cpp" />
+    <ClCompile Include="..\private\UPawn.cpp" />
+    <ClCompile Include="..\private\UPicking.cpp" />
+    <ClCompile Include="..\private\UPipeLine.cpp" />
+    <ClCompile Include="..\private\UProcessedData.cpp" />
+    <ClCompile Include="..\private\URectTransform.cpp" />
+    <ClCompile Include="..\private\URegion.cpp" />
+    <ClCompile Include="..\private\URenderer.cpp" />
+    <ClCompile Include="..\private\URenderTargetManager.cpp" />
+    <ClCompile Include="..\private\UBase.cpp" />
+    <ClCompile Include="..\private\UCloneObject.cpp" />
+    <ClCompile Include="..\private\UCommand.cpp" />
+    <ClCompile Include="..\private\UComputeCommand.cpp" />
+    <ClCompile Include="..\private\UComputeShader.cpp" />
+    <ClCompile Include="..\private\UDevice.cpp" />
+    <ClCompile Include="..\private\UGameInstance.cpp" />
+    <ClCompile Include="..\private\UGlobalConstantBuffer.cpp" />
+    <ClCompile Include="..\private\UGpuCommand.cpp" />
+    <ClCompile Include="..\private\UGraphicDevice.cpp" />
+    <ClCompile Include="..\private\UMethod.cpp" />
+    <ClCompile Include="..\private\UObject.cpp" />
+    <ClCompile Include="..\private\URenderTargetGroup.cpp" />
+    <ClCompile Include="..\private\UResource.cpp" />
+    <ClCompile Include="..\private\UResourceLoader.cpp" />
+    <ClCompile Include="..\private\UResourceManager.cpp" />
+    <ClCompile Include="..\private\URootBoneNode.cpp" />
+    <ClCompile Include="..\private\URootSignature.cpp" />
+    <ClCompile Include="..\private\UScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\private\USceneManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\private\UShader.cpp" />
+    <ClCompile Include="..\private\UShaderBufferManager.cpp" />
+    <ClCompile Include="..\private\UShaderConstantBuffer.cpp" />
+    <ClCompile Include="..\private\UShaderStructedBuffer.cpp" />
+    <ClCompile Include="..\private\UStage.cpp" />
+    <ClCompile Include="..\private\UStageManager.cpp" />
+    <ClCompile Include="..\private\USwapChain.cpp" />
+    <ClCompile Include="..\private\UTableDescriptor.cpp" />
+    <ClCompile Include="..\private\UTexGroup.cpp" />
+    <ClCompile Include="..\private\UTexture.cpp" />
+    <ClCompile Include="..\private\UThreadManager.cpp" />
+    <ClCompile Include="..\private\UTimer.cpp" />
+    <ClCompile Include="..\private\UTimerManager.cpp" />
+    <ClCompile Include="..\private\UTrail.cpp" />
+    <ClCompile Include="..\private\UTransform.cpp" />
+    <ClCompile Include="..\private\UUserInterface.cpp" />
+    <ClCompile Include="..\private\UVIBuffer.cpp" />
+    <ClCompile Include="..\private\UVIBufferCell.cpp" />
+    <ClCompile Include="..\private\UVIBufferCube.cpp" />
+    <ClCompile Include="..\private\UVIBufferGrid.cpp" />
+    <ClCompile Include="..\private\UVIBufferPlane.cpp" />
+    <ClCompile Include="..\private\UVIBufferPoint.cpp" />
+    <ClCompile Include="..\private\UVIBufferRect.cpp" />
+    <ClCompile Include="..\private\UVIBufferSphere.cpp" />
+    <ClCompile Include="..\private\UVIBufferTrail.cpp" />
+    <ClCompile Include="..\private\UWeapon.cpp" />
+    <ClCompile Include="..\private\UWorkThread.cpp" />
+    <ClCompile Include="..\public\ImGui\GraphEditor.cpp" />
+    <ClCompile Include="..\public\ImGui\ImCurveEdit.cpp" />
+    <ClCompile Include="..\public\ImGui\ImGradient.cpp" />
+    <ClCompile Include="..\public\ImGui\imgui.cpp" />
+    <ClCompile Include="..\public\ImGui\ImGuizmo.cpp" />
+    <ClCompile Include="..\public\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\public\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\public\ImGui\imgui_impl_dx12.cpp" />
+    <ClCompile Include="..\public\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\public\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="..\public\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="..\public\ImGui\ImSequencer.cpp" />
+    <ClCompile Include="..\public\MathLib\CusMath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Shader\2DAnimateParticle.hlsl" />
+    <FxCompile Include="..\..\Shader\2DFire.hlsl" />
+    <FxCompile Include="..\..\Shader\2DFireShadow.hlsl" />
+    <FxCompile Include="..\..\Shader\2DFog.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticle.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleAttack.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleAttackTwo.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleBlood.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleFlare.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleFootPrint.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleHeal.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleOpenChest.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleRotation.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleSkull.hlsl" />
+    <FxCompile Include="..\..\Shader\2DParticleSlash.hlsl" />
+    <FxCompile Include="..\..\Shader\3DNormalCube.hlsl" />
+    <FxCompile Include="..\..\Shader\AnimDepthRecord.hlsl" />
+    <FxCompile Include="..\..\Shader\AnimModel.hlsl" />
+    <FxCompile Include="..\..\Shader\AnimNorPos.hlsl" />
+    <FxCompile Include="..\..\Shader\BackGroundUI.hlsl" />
+    <FxCompile Include="..\..\Shader\BlendDeffered.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Blood.hlsl" />
+    <FxCompile Include="..\..\Shader\Bloom.hlsl" />
+    <FxCompile Include="..\..\Shader\ButtonUI.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DAttackEffect.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DFootPrint.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DHeal.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DOpenChest.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DSlash.hlsl" />
+    <FxCompile Include="..\..\Shader\CoolTimeUI.hlsl" />
+    <FxCompile Include="..\..\Shader\DefaultHighlightUI.hlsl" />
+    <FxCompile Include="..\..\Shader\DefaultUI.hlsl" />
+    <FxCompile Include="..\..\Shader\DepthRecord.hlsl" />
+    <FxCompile Include="..\..\Shader\DownSampling.hlsl" />
+    <FxCompile Include="..\..\Shader\DownSamplingTwo.hlsl" />
+    <FxCompile Include="..\..\Shader\Dust.hlsl" />
+    <FxCompile Include="..\..\Shader\Equipment.hlsl" />
+    <FxCompile Include="..\..\Shader\GageUI.hlsl" />
+    <FxCompile Include="..\..\Shader\GrayScale.hlsl" />
+    <FxCompile Include="..\..\Shader\Guard.hlsl" />
+    <FxCompile Include="..\..\Shader\Hdr.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DBloodEffect.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DEmitParticle.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DParticle.hlsl" />
+    <FxCompile Include="..\..\Shader\Compute2DRotationEffect.hlsl" />
+    <FxCompile Include="..\..\Shader\ComputeAnimation.hlsl" />
+    <FxCompile Include="..\..\Shader\Debug2DTarget.hlsl" />
+    <FxCompile Include="..\..\Shader\DebugCell.hlsl" />
+    <FxCompile Include="..\..\Shader\DebugDefaultObject.hlsl" />
+    <FxCompile Include="..\..\Shader\DebugDefaultObjectWhite.hlsl" />
+    <FxCompile Include="..\..\Shader\FinalDeffered.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Grid.hlsl" />
+    <FxCompile Include="..\..\Shader\HdrTwo.hlsl" />
+    <FxCompile Include="..\..\Shader\HorizontalBlur.hlsl" />
+    <FxCompile Include="..\..\Shader\HpBarUI.hlsl" />
+    <FxCompile Include="..\..\Shader\LightDirection.hlsl" />
+    <FxCompile Include="..\..\Shader\LightPoint.hlsl" />
+    <FxCompile Include="..\..\Shader\LoadingDotUI.hlsl" />
+    <FxCompile Include="..\..\Shader\LoadingUI.hlsl" />
+    <FxCompile Include="..\..\Shader\Mat.hlsl" />
+    <FxCompile Include="..\..\Shader\MiddleRenderScreen.hlsl" />
+    <FxCompile Include="..\..\Shader\Model.hlsl" />
+    <FxCompile Include="..\..\Shader\MotionBlur.hlsl" />
+    <FxCompile Include="..\..\Shader\NormalObject.hlsl" />
+    <FxCompile Include="..\..\Shader\NorPos.hlsl" />
+    <FxCompile Include="..\..\Shader\PleaseWaitUI.hlsl" />
+    <FxCompile Include="..\..\Shader\Rect.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\ScreenRenderObj.hlsl" />
+    <FxCompile Include="..\..\Shader\Shadow.hlsl" />
+    <FxCompile Include="..\..\Shader\ShadowAnim.hlsl" />
+    <FxCompile Include="..\..\Shader\ShadowEquipment.hlsl" />
+    <FxCompile Include="..\..\Shader\Trail.hlsl" />
+    <FxCompile Include="..\..\Shader\UpSampling.hlsl" />
+    <FxCompile Include="..\..\Shader\UpSamplingGray.hlsl" />
+    <FxCompile Include="..\..\Shader\VerticalBlur.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Shader\ComputeFunc.hlsli" />
+    <None Include="..\..\Shader\LightShaderFunc.hlsli" />
+    <None Include="..\..\Shader\LightShaderParam.hlsli" />
+    <None Include="..\..\Shader\ShaderGrobalFunc.hlsli" />
+    <None Include="..\..\Shader\ShaderParams.hlsli" />
+    <None Include="..\public\MathLib\CusMath.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{79e8b0f6-d78a-40d1-b3a4-f1c3591955d3}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\bin\</OutDir>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\public\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\public\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>..\public\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>..\ThirdPartyLib\</AdditionalLibraryDirectories>
+    </Lib>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>..\public\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>..\ThirdPartyLib\</AdditionalLibraryDirectories>
+    </Lib>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

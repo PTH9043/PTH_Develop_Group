@@ -1,0 +1,159 @@
+syntax = "proto3";
+
+enum Direction{
+	UP = 0;
+	DOWN = 1;
+	LEFT = 2;
+	RIGHT = 3;
+}
+
+message VECTOR3 {
+float x = 1;
+float y = 2;
+float z = 3;
+}
+
+message VECTOR4
+{
+	float x = 1;
+	float y = 2;
+	float z = 3;
+	float w = 4;
+}
+
+message EQINFO
+{
+	float gold = 1;
+	float increasePower = 2;
+	float increaseDefensive = 3;
+	float increaseHp = 4;
+}
+
+// 움직였을 때 전송하는 함수 
+message CHARSTATE
+{
+	int64	id = 1;
+	// Move
+	float	posX = 2;
+	float	posY = 3;
+	float	posZ = 4;
+	// Rotate
+	float	rotateX = 5;
+	float	rotateY = 6;
+	float	rotateZ = 7;
+	int64	animationIndex = 8;
+	int64  state = 9;
+	int64	triggerOn = 10;
+}
+
+message MOBSTATE
+{
+	int64		id = 1;
+	// Move
+	float		posX = 2;
+	float		posY = 3;
+	float		posZ = 4;
+	// Rotate
+	float		rotateX = 5;
+	float		rotateY = 6;
+	float		rotateZ = 7;
+	int64		animationIndex = 8;
+	int64		state = 9;
+	bool		triggerOn = 10;
+	bool		foundOn = 11;
+	bool		remain1 = 12;
+	bool		remain2 = 13;
+	double	animtime = 14;
+}
+
+message COLLISIONDATA
+{
+	int64 id = 1;
+	int64 enemyID = 2;
+}
+
+
+/*
+======================================
+Server
+======================================
+*/
+
+/*
+ 클라이언트가 접속에 성공했다는 것
+*/
+message SC_CONNECTSUCCESS{
+	// id 
+	int64 id = 1;
+	// 시작 위치
+	int64 cellIndex = 2;
+	// 캐릭터 타입
+	int64 type = 4;
+}
+
+// 다른 클라이언트가 로그인 했을 때 
+message SC_OTHERCLIENTLOGIN 
+{
+	int64 id = 1;
+	int64 cellIndex = 2;
+	// 캐릭터 타입
+	int64 type = 3;
+}
+
+ message SC_MONSTERFIND 
+ {
+	 int64 id = 1;
+	 int64 findtype = 2;
+	 int64 targetID = 3;
+ }
+
+ message SC_DAMAGED
+ {
+	 int64 id = 1;
+	 float damage = 2;
+ }
+
+ message SC_DEAD
+ {
+	 int64 id = 1;
+ }
+
+ message SC_SEEPLAYERMOVE
+{
+	int64 id = 1;
+	// Move
+	float	posX = 2;
+	float	posY = 3;
+	float	posZ = 4;
+}
+
+/*
+======================================
+Client
+======================================
+*/
+
+// Client가 로그인 했음을 다른 클라이언트에게 알린다. 
+message CS_LOGIN 
+{
+	int64 id = 1;
+}
+
+// 공격했을 때 보내는 함수
+message CS_ATTACK
+{
+	int64 id = 1;
+	VECTOR3 attackPos = 2;
+	float damage = 3;
+}
+// 연결 해제
+message CS_DISCONNECT 
+{
+	int64 id = 1;
+}
+
+ message CS_DAMAGED
+ {
+	 int64 id = 1;
+	 float damage = 2;
+ }

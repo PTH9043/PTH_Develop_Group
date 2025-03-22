@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Shader">
+      <UniqueIdentifier>{42175221-1d75-481f-b8da-fba8281f2f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{ce4a6dc8-2215-4def-89b5-5ee8578d37a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Macro">
+      <UniqueIdentifier>{629b1ae2-bb85-43fc-b69a-7c34ffd4745b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object">
+      <UniqueIdentifier>{aca7933e-5144-4423-a3b9-ae731cfef7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager">
+      <UniqueIdentifier>{309c2295-ef00-4f65-b125-1dcba3813039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.ImGui">
+      <UniqueIdentifier>{f9d995a3-4e90-4574-aae7-c33352975111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Level">
+      <UniqueIdentifier>{740163a0-4ae9-4bdb-a897-00813abfc325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.ImGui\Manager">
+      <UniqueIdentifier>{466a6f80-eebd-406f-be35-b1b5fc1a1e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.ImGui\MainView">
+      <UniqueIdentifier>{0eb42224-d734-4462-bc56-eceeef3e9c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Level\Loading">
+      <UniqueIdentifier>{e7d84e7a-982a-45b0-8162-5bd874ceddbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Level\Loading\Loader">
+      <UniqueIdentifier>{324a3e97-81aa-47ab-80e7-0ea18af054f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Level\Logo">
+      <UniqueIdentifier>{f2735f85-6b0b-4eb3-8e1f-e43ed912380f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ModelFBX">
+      <UniqueIdentifier>{8760d8c7-f990-429e-96ca-207ca726b353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ModelFBX\HierachyNode">
+      <UniqueIdentifier>{acd07ff1-a5fa-40ad-86b8-85dbfff00c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ModelFBX\MeshContainer">
+      <UniqueIdentifier>{a87a5cef-18f5-4a8e-93d0-4c288e6e9f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ModelFBX\Animation">
+      <UniqueIdentifier>{7576fedf-b5d9-404f-af9c-04f514f21ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.ModelFBX\Animation\Channel">
+      <UniqueIdentifier>{662677d3-1cb4-4ac3-ada3-635f0a2293c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\Show">
+      <UniqueIdentifier>{2dd81153-5ded-4c95-81a9-1b4532f4f226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\Cam">
+      <UniqueIdentifier>{c2df2afb-6a86-47aa-893f-f6d1d8fbc8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\Anim">
+      <UniqueIdentifier>{a846c346-b1a3-410d-a932-d19dba31e358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.ImGui\CamTool">
+      <UniqueIdentifier>{fc6f768d-2531-45a0-8d5b-62e58a77419e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{d8d79b18-e2d0-4b11-bb64-18413290471a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\ImGui">
+      <UniqueIdentifier>{9ba7a3dd-88b0-42cc-b9f2-b4fcf35f7ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\Json">
+      <UniqueIdentifier>{ad9c45a0-ca57-40e6-a1c9-d0ee26a293d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModelConverter.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="reader.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="value.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="writer.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>99.Default\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="json-forwards.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json_tool.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json_features.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="forwards.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="assertions.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator.h">
+      <Filter>99.Default\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Model_Proto_Macro.h">
+      <Filter>97.Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Model_Layer_Macro.h">
+      <Filter>97.Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Model_Com_Macro.h">
+      <Filter>97.Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ModelMacro.h">
+      <Filter>97.Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ModelDefines.h">
+      <Filter>97.Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CData_Manager_MD.h">
+      <Filter>96.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CManager.h">
+      <Filter>96.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CImGui_Manager_MD.h">
+      <Filter>01.ImGui\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CIMGUI_MD.h">
+      <Filter>01.ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainView_MD.h">
+      <Filter>01.ImGui\MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Loading_MD.h">
+      <Filter>02.Level\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLoader_MD.h">
+      <Filter>02.Level\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Logo_MD.h">
+      <Filter>02.Level\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CModel_FBX.h">
+      <Filter>10.ModelFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHierarchyNode_FBX.h">
+      <Filter>10.ModelFBX\HierachyNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMeshContainer_FBX.h">
+      <Filter>10.ModelFBX\MeshContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAnimation_FBX.h">
+      <Filter>10.ModelFBX\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CChannel_FBX.h">
+      <Filter>10.ModelFBX\Animation\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAnimObject.h">
+      <Filter>04.Object\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamera_MD.h">
+      <Filter>04.Object\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CShowObject.h">
+      <Filter>04.Object\Show</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamTool_MD.h">
+      <Filter>01.ImGui\CamTool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="ModelConverter.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ModelConverter.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModelConverter.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>99.Default\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>99.Default\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CData_Manager_MD.cpp">
+      <Filter>96.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CManager.cpp">
+      <Filter>96.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CImGui_Manager_MD.cpp">
+      <Filter>01.ImGui\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CIMGUI_MD.cpp">
+      <Filter>01.ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainView_MD.cpp">
+      <Filter>01.ImGui\MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Loading_MD.cpp">
+      <Filter>02.Level\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLoader_MD.cpp">
+      <Filter>02.Level\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Logo_MD.cpp">
+      <Filter>02.Level\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CModel_FBX.cpp">
+      <Filter>10.ModelFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHierarchyNode_FBX.cpp">
+      <Filter>10.ModelFBX\HierachyNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMeshContainer_FBX.cpp">
+      <Filter>10.ModelFBX\MeshContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAnimation_FBX.cpp">
+      <Filter>10.ModelFBX\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CChannel_FBX.cpp">
+      <Filter>10.ModelFBX\Animation\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAnimObject.cpp">
+      <Filter>04.Object\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamera_MD.cpp">
+      <Filter>04.Object\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CShowObject.cpp">
+      <Filter>04.Object\Show</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamTool_MD.cpp">
+      <Filter>01.ImGui\CamTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>99.Default\ImGui</Filter>
+    </None>
+    <None Include="json_valueiterator.inl">
+      <Filter>99.Default\Json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxNorTex.hlsl">
+      <Filter>98.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxModel.hlsl">
+      <Filter>98.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxCubeTex.hlsl">
+      <Filter>98.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtxAnimModel.hlsl">
+      <Filter>98.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Shader_VtTex.hlsl">
+      <Filter>98.Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

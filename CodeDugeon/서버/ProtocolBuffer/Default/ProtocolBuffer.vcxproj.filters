@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{c1dcc643-ac1b-45e6-a19c-d5fcd03c742c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoFunc">
+      <UniqueIdentifier>{c5bd8b3d-6e93-4a17-afb8-7a75c40473d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoHeader">
+      <UniqueIdentifier>{daa154ca-f555-401c-9134-49e511ed48e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Tag.proto">
+      <Filter>Protocol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Protocol.proto">
+      <Filter>Protocol</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\ProtocolBuffer.h">
+      <Filter>ProtoFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerProtocol\Tag.pb.h">
+      <Filter>ProtoHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerProtocol\Protocol.pb.h">
+      <Filter>ProtoHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\ProtocolBuffer.cpp">
+      <Filter>ProtoFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerProtocol\Tag.pb.cc">
+      <Filter>ProtoHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerProtocol\Protocol.pb.cc">
+      <Filter>ProtoHeader</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

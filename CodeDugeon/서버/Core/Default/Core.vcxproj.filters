@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{2d92c9ba-fb70-495a-b2cb-27237017fc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{5121236a-45dc-4e7c-89a5-0a7a0e6bf6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\Thread">
+      <UniqueIdentifier>{451b4d18-b3df-4900-bd4f-b89a4a009efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.CoreInstance">
+      <UniqueIdentifier>{b3593e4a-d6a9-458e-9390-388768fdd94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.CoreGrobal">
+      <UniqueIdentifier>{cce573dc-41c4-4746-84fe-db1dfc769b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network">
+      <UniqueIdentifier>{f9f34431-a3ff-4ff2-a791-739328a22d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\Service">
+      <UniqueIdentifier>{0e44ce4c-1ee3-4dc5-897c-416bbcb16875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\Service\Server">
+      <UniqueIdentifier>{a66b5119-4dec-41d7-a49e-eea37e12cf99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\RandomManager">
+      <UniqueIdentifier>{99b09565-9bc8-471d-ac1b-234ce37782f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\Room">
+      <UniqueIdentifier>{e647efd8-c98c-4309-8ae6-79d10359b786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Debug">
+      <UniqueIdentifier>{65b6d4d5-e2dc-4cd2-a071-67116dea07d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Debug\DeadLockProfiler">
+      <UniqueIdentifier>{a0170836-5d8e-457b-ba57-c371fc562ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Super">
+      <UniqueIdentifier>{a5df70c3-53f2-4d85-96ec-37f9327d0d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Super\Object">
+      <UniqueIdentifier>{147a2659-d2cb-4b8a-aa58-cb4a3bca7e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Super\App">
+      <UniqueIdentifier>{a434c906-b883-4658-95d9-97e7fa7e9c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility">
+      <UniqueIdentifier>{27fa35e3-3988-4150-ba0f-cec3d67b2484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility\Lock">
+      <UniqueIdentifier>{d05bf69f-0859-40ae-94cc-ee7c8fcc25ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility\Memory">
+      <UniqueIdentifier>{4d7c1bef-33d4-4faa-ad0f-34a50cc99784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility\LFContainer">
+      <UniqueIdentifier>{b7395a0b-aaef-430e-b000-20fa8eaddee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility\ObjectPool">
+      <UniqueIdentifier>{230e67c7-1ad2-4f50-95c3-103334143824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility\LuaLoader">
+      <UniqueIdentifier>{2ad6d3ab-aa44-4faa-ba72-e8e3f280712e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Lua">
+      <UniqueIdentifier>{70a90b66-5918-41b3-8428-356a321ea39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GamePath">
+      <UniqueIdentifier>{2c9e0d8e-a040-4db2-b627-b425d77c9421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GamePath\Navigation">
+      <UniqueIdentifier>{535524e5-4cad-4fe8-a921-3c7fd6c1757b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GamePath\Navigation\Cell">
+      <UniqueIdentifier>{c2cf8271-240c-4bd8-9890-e934ae83d107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameSpace">
+      <UniqueIdentifier>{76fb96b1-d618-47cb-bd34-6fcedfab92f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameSpace\Space">
+      <UniqueIdentifier>{4bd16e08-66dc-4293-be69-f0af6d756305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component">
+      <UniqueIdentifier>{f501c7ca-7708-4935-bf29-9f5b917b2ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Collider">
+      <UniqueIdentifier>{1d442d0f-1a0e-40c8-88f7-502ca7ba6668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\Transform">
+      <UniqueIdentifier>{df148501-a305-4c30-8e17-32b87f6ba81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\SpaceManager">
+      <UniqueIdentifier>{d9f58a22-f13a-4cc0-ade8-6846179eaa09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.DataBase">
+      <UniqueIdentifier>{c407a3aa-7a7b-47bc-ba49-e4fb8705f1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\RoomManager">
+      <UniqueIdentifier>{894e260d-26ea-436b-9dd1-0a0181c46fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\JobTimer">
+      <UniqueIdentifier>{61a0a5f9-323f-42e3-9c95-123c650010e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\Service\StressClient">
+      <UniqueIdentifier>{6d84328e-d16c-47d5-8f77-cceb970cbeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility\DBClass">
+      <UniqueIdentifier>{8f9a5272-26cc-4a5c-9963-44eb50157a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility\CustomString">
+      <UniqueIdentifier>{be92a052-51f9-42ee-9fd8-b32828b83976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.DataBase\MySqlConnector">
+      <UniqueIdentifier>{a6aab818-4994-412e-ad91-dbeb6d6e60fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.DataBase\MySqlTable">
+      <UniqueIdentifier>{607effaa-e250-41ca-b9ba-4bbe909f0d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.DataBase\MySqlTable\LoginTable">
+      <UniqueIdentifier>{14e2df0d-fd6a-4cd5-aef1-ad1b1ce3049a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Utility\Logger">
+      <UniqueIdentifier>{7fd155e8-277c-4366-9709-58645d03818d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\AGameObject">
+      <UniqueIdentifier>{6eee76c7-f955-4782-896b-71c9159bd679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\AGameObject\Build">
+      <UniqueIdentifier>{a09e1466-cfe9-4c97-8c55-e53b63d09ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Animator">
+      <UniqueIdentifier>{99d09ad4-3f47-40f1-8629-d64e1ef74042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Animator\Event">
+      <UniqueIdentifier>{68732115-3168-41e7-aea6-b5ccf54b3dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Animator\Anim">
+      <UniqueIdentifier>{78d3622e-b359-43a5-afff-072e18961459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Animator\BoneNode">
+      <UniqueIdentifier>{90b06048-0eab-4997-846b-6f22f393cd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Animator\BoneNode\ARootBoneNode">
+      <UniqueIdentifier>{ee303e86-cfb7-4bcb-a15f-daffd7ba6947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Animator\Anim\Channel">
+      <UniqueIdentifier>{3b29fbae-b7c6-4b02-9a7f-416fce4b8241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\AGameObject\Pawn">
+      <UniqueIdentifier>{a2c6ab63-aac4-453a-a10d-3926abf45150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\AGameObject\Pawn\Monster">
+      <UniqueIdentifier>{11079654-7fd7-4cd8-be84-03a68cb1e14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\AGameObject\Pawn\Session">
+      <UniqueIdentifier>{113fff01-053a-454f-832b-fb5e44a5bd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameTimer">
+      <UniqueIdentifier>{18843ba4-c939-469d-8ba1-e00cf10eda36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Network\MainLoop">
+      <UniqueIdentifier>{e253d4e7-0e53-496a-a19d-4249d1a5d434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Animator\Controller">
+      <UniqueIdentifier>{aa34c3b8-2935-4b16-a5e9-3cb9009fb280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\CollisionManager">
+      <UniqueIdentifier>{756e784f-9d37-43a9-8671-a88b474f452b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\ACoreBase.h">
+      <Filter>96.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreDefines.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreEnum.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreFunction.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreMacro.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CorePacket.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreTls.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreTypedef.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreConcept.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lock.h">
+      <Filter>97.Utility\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UDeadLockProfiler.h">
+      <Filter>95.Debug\DeadLockProfiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Memory.h">
+      <Filter>97.Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AThreadManager.h">
+      <Filter>02.Manager\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ASession.h">
+      <Filter>03.Network\AGameObject\Pawn\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Allocator.h">
+      <Filter>97.Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LockFree.h">
+      <Filter>97.Utility\LFContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SmartPointer.h">
+      <Filter>97.Utility\LFContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACoreInstance.h">
+      <Filter>01.CoreInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreGrobal.h">
+      <Filter>00.CoreGrobal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UObjectPool.h">
+      <Filter>97.Utility\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreTypecast.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AService.h">
+      <Filter>03.Network\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACoreObject.h">
+      <Filter>96.Super\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AServerService.h">
+      <Filter>03.Network\Service\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AStressClientService.h">
+      <Filter>03.Network\Service\StressClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ARandomManager.h">
+      <Filter>02.Manager\RandomManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ALogger.h">
+      <Filter>97.Utility\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACoreApp.h">
+      <Filter>96.Super\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ARoom.h">
+      <Filter>03.Network\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ALuaLoader.h">
+      <Filter>97.Utility\LuaLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACell.h">
+      <Filter>04.GamePath\Navigation\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ANavigation.h">
+      <Filter>04.GamePath\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreStruct.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ASpace.h">
+      <Filter>05.GameSpace\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACollider.h">
+      <Filter>06.Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ATransform.h">
+      <Filter>06.Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ASpaceManager.h">
+      <Filter>02.Manager\SpaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ARoomManager.h">
+      <Filter>02.Manager\RoomManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AJobTimer.h">
+      <Filter>03.Network\JobTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DBDataGroup.h">
+      <Filter>97.Utility\DBClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CustomString.h">
+      <Filter>97.Utility\CustomString</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AMySqlDriver.h">
+      <Filter>07.DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AMySqlConnector.h">
+      <Filter>07.DataBase\MySqlConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AMySqlTable.h">
+      <Filter>07.DataBase\MySqlTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreStatic.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ASqlLoginTable.h">
+      <Filter>07.DataBase\MySqlTable\LoginTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AGameObject.h">
+      <Filter>03.Network\AGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AAnimEvent.h">
+      <Filter>08.Animator\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AMonster.h">
+      <Filter>03.Network\AGameObject\Pawn\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AAnimation.h">
+      <Filter>08.Animator\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AAnimator.h">
+      <Filter>08.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ABoneNode.h">
+      <Filter>08.Animator\BoneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ARootBoneNode.h">
+      <Filter>08.Animator\BoneNode\ARootBoneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AChannel.h">
+      <Filter>08.Animator\Anim\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\APawn.h">
+      <Filter>03.Network\AGameObject\Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AGameTimer.h">
+      <Filter>09.GameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AMainLoop.h">
+      <Filter>03.Network\MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AAnimController.h">
+      <Filter>08.Animator\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACollisionManager.h">
+      <Filter>02.Manager\CollisionManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\ACoreBase.cpp">
+      <Filter>96.Super</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lock.cpp">
+      <Filter>97.Utility\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UDeadLockProfiler.cpp">
+      <Filter>95.Debug\DeadLockProfiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Memory.cpp">
+      <Filter>97.Utility\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AThreadManager.cpp">
+      <Filter>02.Manager\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ASession.cpp">
+      <Filter>03.Network\AGameObject\Pawn\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Allocator.cpp">
+      <Filter>97.Utility\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LockFree.cpp">
+      <Filter>97.Utility\LFContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SmartPointer.cpp">
+      <Filter>97.Utility\LFContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACoreInstance.cpp">
+      <Filter>01.CoreInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CoreGrobal.cpp">
+      <Filter>00.CoreGrobal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UObjectPool.cpp">
+      <Filter>97.Utility\ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AService.cpp">
+      <Filter>03.Network\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACoreObject.cpp">
+      <Filter>96.Super\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AServerService.cpp">
+      <Filter>03.Network\Service\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AStressClientService.cpp">
+      <Filter>03.Network\Service\StressClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ARandomManager.cpp">
+      <Filter>02.Manager\RandomManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ALogger.cpp">
+      <Filter>97.Utility\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACoreApp.cpp">
+      <Filter>96.Super\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ARoom.cpp">
+      <Filter>03.Network\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ALuaLoader.cpp">
+      <Filter>97.Utility\LuaLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACell.cpp">
+      <Filter>04.GamePath\Navigation\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ANavigation.cpp">
+      <Filter>04.GamePath\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ASpace.cpp">
+      <Filter>05.GameSpace\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACollider.cpp">
+      <Filter>06.Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ATransform.cpp">
+      <Filter>06.Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ASpaceManager.cpp">
+      <Filter>02.Manager\SpaceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ARoomManager.cpp">
+      <Filter>02.Manager\RoomManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AJobTimer.cpp">
+      <Filter>03.Network\JobTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DBDataGroup.cpp">
+      <Filter>97.Utility\DBClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CustomString.cpp">
+      <Filter>97.Utility\CustomString</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AMySqlDriver.cpp">
+      <Filter>07.DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AMySqlConnector.cpp">
+      <Filter>07.DataBase\MySqlConnector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AMySqlTable.cpp">
+      <Filter>07.DataBase\MySqlTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ASqlLoginTable.cpp">
+      <Filter>07.DataBase\MySqlTable\LoginTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AGameObject.cpp">
+      <Filter>03.Network\AGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AAnimEvent.cpp">
+      <Filter>08.Animator\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AMonster.cpp">
+      <Filter>03.Network\AGameObject\Pawn\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AAnimation.cpp">
+      <Filter>08.Animator\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AAnimator.cpp">
+      <Filter>08.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ABoneNode.cpp">
+      <Filter>08.Animator\BoneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ARootBoneNode.cpp">
+      <Filter>08.Animator\BoneNode\ARootBoneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AChannel.cpp">
+      <Filter>08.Animator\Anim\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\APawn.cpp">
+      <Filter>03.Network\AGameObject\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AGameTimer.cpp">
+      <Filter>09.GameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AMainLoop.cpp">
+      <Filter>03.Network\MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AAnimController.cpp">
+      <Filter>08.Animator\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACollisionManager.cpp">
+      <Filter>02.Manager\CollisionManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

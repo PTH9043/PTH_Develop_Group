@@ -1,0 +1,171 @@
+#pragma once
+// Component
+#define PROTO_COMP_RENDERER TEXT("Prototype_Component_Renderer")
+#define PROTO_COMP_VIBUFFER_RECT L"Prototype_Component_VIBuffer_Rect"
+#define PROTO_COMP_VIBUFFER_TERRAIN L"Prototype_Component_VIBuffer_Terrain"
+#define PROTO_COMP_VIBUFFER_CUBE L"Prototype_Component_VIBuffer_Cube"
+#define PROTO_COMP_VIBUFFER_MODEL L"Prototype_Component_VIBuffer_Model"
+
+#define PROTO_COMP_SHADER_VTXTEX L"Prototype_Component_Shader_VTXTEX"
+#define PROTO_COMP_SHADER_VTXNORTEX L"Prototype_Component_Shader_VTXNORTEX"
+#define PROTO_COMP_SHADER_VTXCUBE L"Prototype_Component_Shader_VTTCUBETEX"
+#define PROTO_COMP_SHADER_VTXMODEL L"Prototype_Component_Shader_VTXMODEL"
+#define PROTO_COMP_SHADER_VTXANIMMODEL L"Prototype_Component_Shader_VTXANIMMODEL"
+#define PROTO_COMP_SHADER_VTXMODEL_EQUIP L"Prototype_Component_Shader_VTXMODEL_EQUIP"
+#define PROTO_COMP_SHADER_2DEFFECTPARTICLE L"Prototype_Component_Shader_2DEffectParticle"
+#define PROTO_COMP_SHADER_PARTICLE L"Prototype_Component_Shader_Particle"
+
+#define PROTO_COMP_TEXTURE_LOADING L"Prototype_Component_Texture_Loading"
+#define PROTO_COMP_TEXTURE_LOGO L"Prototype_Component_Texture_Logo"
+#define PROTO_COMP_TEXTURE_TERRAIN L"Prototype_Component_Texture_Terrain"
+#define PROTO_COMP_TEXTURE_TERRAIN_MIX L"Prototype_Component_Texture_Terrain_Mix"
+#define PROTO_COMP_TEXTURE_TERRIAN_MODIFY L"Prototype_Component_Texture_Terrain_Modify"
+#define PROTO_COMP_TEXTURE_SKYBOXGROUP L"Prototype_Component_Texture_SkyBoxGroup"
+
+#define PROTO_COMP_TRANSFORM L"Prototype_Component_Transform"
+#define PROTO_COMP_RECTTRANSFORM L"Prototype_Component_RectTransform"
+
+#define PROTO_COMP_AABBCOLLIDER L"Prototype_Component_AABBCollider"
+#define PROTO_COMP_OBBCOLLIDER L"Prototype_Component_OBBCollider"
+#define PROTO_COMP_SPHERECOLLIDER L"Prototype_Component_SPHERECollider"
+
+#define PROTO_COMP_MODEL_PLAYER L"Proto_Component_Model_Player"
+#define PROTO_COMP_MODEL_GIANTDEVIL_NORMAL L"Proto_Component_Model_GiantDevil_Normal"
+#define PROTO_COMP_MODEL_GIANTDEVIL_SP1 L"Proto_Component_Model_GiantDevil_Sp1"
+#define PROTO_COMP_MODEL_GIANTDEVIL_SP2 L"Proto_Component_Model_GiantDevil_Sp2"
+
+
+#define PROTO_COMP_MODEL_GIANTWHITEDEVIL L"Prototype_Component_Model_GiantWhiteDevil"
+#define PROTO_COMP_MODEL_MONKEYDEVIL_V1 L"Prototype_Component_Model_MonkeyDevil_V1"
+#define PROTO_COMP_MODEL_MONKEYDEVIL_V2 L"Prototype_Component_Modelt_MonkeyDevil_V2"
+#define PROTO_COMP_MODEL_SLIMEDEVIL_V1 L"Prototype_Component_Model_SlimeDevil_V1"
+#define PROTO_COMP_MODEL_SLIMEDEVIL_V2 L"Prototype_Component_Model_SlimeDevil_V2"
+#define PROTO_COMP_MODEL_URCHINDEVIL_V1 L"Prototype_Component_Model_UrchineDevil_V1"
+#define PROTO_COMP_MODEL_URCHINDEVIL_V2 L"Prototype_Component_Model_UrchineDevil_V2"
+#define PROTO_COMP_MODEL_WOLFDEVIL_V1 L"Prototype_Component_Model_WolfDevil_V1"
+#define PROTO_COMP_MODEL_WOLFDEVIL_V2 L"Prototype_Component_Model_WolfDevil_V2"
+
+
+#define PROTO_COMP_MODEL_ANCIENTHANNIBAL L"Proto_Component_Model_AncientHannibal"
+#define PROTO_COMP_MODEL_GATEKEEPERWOMAN L"Proto_Component_Model_GateKeeperWoman"
+#define PROTO_COMP_MODEL_NORMALGREATSWORDA L"Proto_Component_Model_NormalGreatSwordA"
+
+#define PROTO_COMP_MODEL_ALISASWORD L"Proto_Component_Model_AlisaSword"
+#define PROTO_COMP_MODEL_BLACKBAYONET L"Proto_Component_Model_BlackBayonet"
+#define PROTO_COMP_MODEL_BLACKGREATSWORD L"Proto_Component_Model_BlackGreatSword"
+#define PROTO_COMP_MODEL_BLACKHALBERD L"Proto_Component_Model_BlackHalberd"
+#define PROTO_COMP_MODEL_BLACKSWORD L"Proto_Component_Model_BlackSword"
+#define PROTO_COMP_MODEL_BURNINGSWORD L"Proto_Component_Model_BurningSwrod"
+#define PROTO_COMP_MODEL_ELINAHALBERD L"Proto_Component_Model_ElinaHalbered"
+#define PROTO_COMP_MODEL_EVILSUPERIORBLADE_ANIM L"Proto_Component_Model_EvilSuperiorBlade_Anim"
+#define PROTO_COMP_MODEL_EVILSUPERIORBLADE_CLOSE L"Proto_Component_Model_EvilSuperiorBlade_Close"
+#define PROTO_COMP_MODEL_EXECUTIONERHALBERD L"Proto_Component_Model_ExecutionerHalberd"
+#define PROTO_COMP_MODEL_GATEKEEPERSWORD L"Proto_Component_Model_GateKeeperSword"
+#define PROTO_COMP_MODEL_GHOSTHALBERD L"Proto_Component_Model_GhostHalbered"
+#define PROTO_COMP_MODEL_GHOSTSWORD L"Proto_Component_Model_GhostSword"
+#define PROTO_COMP_MODEL_GREATSWROD L"Proto_Component_Model_GreatSword"
+#define PROTO_COMP_MODEL_HAMMERCONCRETE "Proto_Component_Model_HammerConcrete"
+#define PROTO_COMP_MODEL_HANNIBALGREATSWROD L"Proto_Component_Model_HanibalGreatSword"
+#define PROTO_COMP_MODEL_HANNIBALHAMMER L"Proto_Component_Model_HannibalHammer"
+#define PROTO_COMP_MODEL_HANNIBALSWORD L"Proto_Component_Model_HanniBalSword"
+#define PROTO_COMP_MODEL_MARDUKBAYONET L"Proto_Component_Model_MardukBayonet"
+#define PROTO_COMP_MODEL_MARDUKGREATSWORD L"Proto_Component_Model_MardukGreatSword"
+#define PROTO_COMP_MODEL_ANCIENTHANNIBALSWORD L"Proto_Component_Model_AncientHannibalSword"
+
+
+#define PROTO_COMP_MODEL_SKYSPHERE_ST07 L"Proto_Comp_Model_SkySphere_St07"
+#define PROTO_COMP_MODEL_PLAYERMUFFLER L"Proto_Comp_Model_PlayerMuffler"
+
+/* 몬스터들 */
+#define PROTO_COMP_MODEL_GIANTEVIL_LARGEGREATSWORD L"Proto_Component_GiantEvil, LargetGreatSword"
+#define PROTO_COMP_MODEL_GIANTEVIL_LARGEGREATHAMMER L"Proto_Component_GiantEvil, LargetGreatHammer"
+
+#define PROTO_COMP_MODEL_MONKEYDEVIL_BURNINGSWORD L"Proto_Component_Model_MonkeyDevil_BurningSword"
+#define PROTO_COMP_MODEL_MONKEYDEVIL_MARDUKHAMMER L"Proto_Component_Model_MonkeyDevil_MardukHammer"
+
+#define PROTO_COMP_MODEL_GIANTWHITEDEVIL_WHITELARGEHALBERD L"Proto_Component_Model_GiantWhiteDevil_WhiteLargeHalberd"
+#define PROTO_COMP_MODEL_GATEKEEPERWOMAN_SWORD L"Proto_Component_Model_GateKeeperWomanSword"
+
+#define PROTO_COMP_TEXTURE_UIGROUP L"Proto_Component_Texture_UIGroup"
+
+#define PROTO_GOB_DRAGONHAND_PARTICLE L"Proto_Component_DragonHandParticle"
+
+// Backgorund
+#define PROTO_GOB_BACKGROUND L"Prototype_GameObject_Background"
+// Button
+#define PROTO_GOB_BUTTON L"Prototype_GameObject_Button"
+// Text
+#define PROTO_GOB_TEXT L"Prototype_GameObject_Text"
+// Terrain 
+#define PROTO_GOB_TERRAIN L"Prototype_GameObject_Terrain"
+#define PROTO_GOB_FLOORTERRAIN L"Prototype_GameObject_FloorTerrain"
+
+#define PROTO_GOB_PLAYER L"Prototype_GameObject_Player"
+#define PROTO_GOB_WOEFFECT L"Prototype_GameObject_WOEffect"
+
+#define PROTO_GOB_GIANTDEVIL L"Prototye_GameObject_GiantDevil"
+#define PROTO_GOB_GIANTWHITEDEVIL L"Prototype_GameObject_GiantWhiteDevil"
+#define PROTO_GOB_MONKEYDEVIL L"Prototype_GameObject_MonkeyDevil"
+#define PROTO_GOB_SLIMEDEVIL L"Prototype_GameObject_SlimeDevil"
+#define PROTO_GOB_URCHINDEVI L"Prototype_GameObject_UrchineDevil"
+#define PROTO_GOB_WOLFDEVIL L"Prototype_GameObject_WolfDevil"
+#define PROTO_GOB_ANCIENTHANNIBAL L"Prototype_GameObject_AncientHannibal"
+#define PROTO_GOB_GATEKEEPERWOMAN L"Prototype_GameObject_GateKeeperWoman"
+
+#define PROTO_GOB_TWOHANDWORD L"Prototype_GameObject_TwoHandSword"
+#define PROTO_GOB_HAMMER L"Prototype_GameObject_Hammer"
+#define PROTO_GOB_ONEHANDSWORD L"Prototype_GameaObject_OneHandSword"
+#define PROTO_GOB_GUNSWORD				L"Prototype_GameObject_GunSword"
+#define PROTO_GOB_HALBERD L"Prototype_GameObject_Halberd"
+#define PROTO_GOB_GUNSWROD L"Prototype_GameObject_GunSword"
+
+#define PROTO_GOB_WORLDOBJ L"Prototype_GameObject_Floor"
+#define PROTO_GOB_CHECKPOINT L"Prototype_GameObject_CheckPoint"
+#define PROTO_GOB_SKYBOX L"Prototype_GameObject_SkyBox"
+#define PROTO_GOB_CUBOBJ L"Prototype_GameObject_CubeObj"
+
+
+#define PROTO_GOB_DEBUGMODEL L"Prototype_GameObject_DebugMode"
+// Camera 
+#define PROTO_GOB_CAMERA_FREE L"Prototype_GameObject_CameraFree"
+#define PROTO_GOB_CAMERA_TOOL L"Prototype_GameObject_CameraTool"
+#define PROTO_GOB_CAMERA_LOGO L"Prototype_GameObject_CameraLogo"
+#define PROTO_GOB_CAMERA_MINIMAP L"Prototype_GameObject_CameraMinimap"
+
+
+#define PROTO_GOB_UI_HPBAR L"Prototype_GameObject_UI_HPBar"
+#define PROTO_GOB_UI_MPBAR L"Prototype_GameObject_UI_MpBar"
+#define PROTO_GOB_UI_MINIMAP L"Prototyoe_GameObject_UI_Minimap"
+#define PROTO_GOB_UI_LOADINGIMG L"Prototype_GameObject_UI_LoadingImg"
+#define PROTO_GOB_UI_KNOWNKEY_UI L"Prototype_GameObject_UI_KnownKey"
+#define PROTO_GOB_UI_MOVETOCHECKPOINTIMG L"Prototype_GameObject_UI_MoveToCheckPointImg"
+#define PROTO_GOB_UI_CHECKPOINTINTERFACE L"Prototype_GameObject_UI_CheckPointInterface"
+
+
+#define PROTO_COMP_TEXTURE_PARTICLEGROUP L"Proto_Comp_Texture_ParticleGroup"
+#define PROTO_COMP_TEXTURE_EFFECTGROUP L"Proto_Comp_Texture_EffectGroup"
+#define PROTO_GOB_EFFECT_CHECKPOINT L"Prototype_GameObject_Effect_CheckPoints"
+#define PROTO_GOB_EFFPARTICLE_PLAYER_MOVEEFFECT L"Prototype_GameObject_EffParticle_Player_MoveEffect"
+#define PROTO_GOB_EFFPARTICLE_PLAYER_SWORLDPARTICLE L"Prototype_GameObject_EffParticle_Player_SworldParitcle"
+#define PROTO_GOB_EFFPARTICLE_WOG_BLOODHEART_1 L"Prototype_GameObject_EffParticle_Wog_BloodHeart_1"
+#define PROTO_GOB_EFFPARTICLE_WOG_BLOODHEART_2 L"Prototype_GameObject_EffParticle_Wog_BloodHeart_2"
+
+#define PROTO_GOB_EFFPARTICLE_BLOOD_1 L"Prototype_GameObject_EffParticle_Blood_1"
+#define PROTO_GOB_EFFPARTICLE_BLOOD_2 L"Prototype_GameObject_EffParticle_Blood_2"
+#define PROTO_GOB_EFFPARTICLE_BLOOD_3 L"Prototype_GameObject_EffParticle_Blood_3"
+#define PROTO_GOB_EFFPARTICLE_FIREWALL L"Prototype_GameObject_EffParticle_FireWall"
+
+#define PROTO_GOB_EFFPARTICLE_JUMP_DUST_GROUP L"Prototype_GameObject_EffParticle_Jump_Dust_Group"
+#define PROTO_GOB_EFFPARTICLE_JUMP_DUST_LITTLE L"Prototype_GameObject_EffParticle_Jump_Dust_Little"
+#define PROTO_GOB_EFFPARTICLE_POTAL L"Prototype_GameObject_EffParticle_Potal"
+
+
+#define PROTO_GOB_EFFPARTICLE_DEAD L"Prototype_GameObject_EffParticle_Dead"
+#define PROTO_GOB_EFFPARTICLE_DRAGON_MAGIC L"Protot_GameObject_EffParticle_DragonMagic"
+#define PROTO_GOB_EFFPARTICLE_GTKWOOM_MAGIC L"Proto_GameObject_EffParticle_GateKeeperWoman_Magic"
+#define PROTO_GOB_MUFFLER L"Proto_Gob_Muffler"
+#define PROTO_GOB_CINEMATICCAM L"Proto_GameObjet_CinematicCamera"
+#define PROTO_GOB_POTAL L"Proto_GameObject_Potal" 
+#define PROTO_GOB_EFFPARTICLE_ICEBOSSATTACK L"Proto_GameObject_EffPartricle_IceBossAttack"
+#define PROTO_GOB_EFFPARTICLE_BOSSROAD L"Proto_GameObject_EffParticle_BossRoad"
+#define PROTO_GOB_EFFPARTICLE_BOSSUP L"Proto_GameObject_EffParticle_BossUp"

@@ -1,0 +1,14 @@
+*.db
+.vs/
+ipch/
+Debug/
+x64/
+Reference/
+*.log
+*.obj
+*.pdb
+*.cso
+*.ini
+*.lib
+*.dll
+/GameServer/과제/07_2018184040/Client/2023_0413_동접Client/protocol.h

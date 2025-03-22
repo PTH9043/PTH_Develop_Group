@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{e0b8128a-00dd-4589-8508-7243f9e633a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{dc8c6006-72b3-41c2-9af3-47c85893c17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.ServerApp">
+      <UniqueIdentifier>{30a72322-098b-45cb-be43-a9af84a48672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session">
+      <UniqueIdentifier>{9187a522-5423-4d0f-a953-e634f4e8138a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Network">
+      <UniqueIdentifier>{09bbe56e-9b37-4089-a483-508f03258725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Network\ServerAdimin">
+      <UniqueIdentifier>{84df9930-7505-4a48-a840-308fd3035637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Player">
+      <UniqueIdentifier>{fdbc3898-3fdd-429b-8d81-5c07c9bc6fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Monster">
+      <UniqueIdentifier>{01034477-172e-4fe5-99d8-30cd68b9e117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Network\Timer">
+      <UniqueIdentifier>{d8599901-690b-4de0-a434-a98974f5b5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Network\Timer\MobTimer">
+      <UniqueIdentifier>{fb6a57da-c2ae-4834-ad4e-4bfef13a6f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Monster\Mummy">
+      <UniqueIdentifier>{1b75ba95-dd13-41bf-aae7-68463e2918b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Monster\Sarcophagus">
+      <UniqueIdentifier>{c83cc4ed-dea4-4893-87bc-b3d943f032f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="90.Loader">
+      <UniqueIdentifier>{b3e501cf-4932-4d39-9682-305c4e252747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.AnimController">
+      <UniqueIdentifier>{7fda923f-8616-4b92-be59-619b8052fc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.AnimController\Mummy">
+      <UniqueIdentifier>{15646b13-3bc0-4d7b-bb45-bc82ec3e4d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.AnimController\Sacrophagus">
+      <UniqueIdentifier>{d2bfc898-87ac-4435-8a85-192f4eec63ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Monster\Chest">
+      <UniqueIdentifier>{495a9a85-7b70-4dc0-a256-85e81f03b31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="91.Saver">
+      <UniqueIdentifier>{9412cc0a-2d52-4538-a62c-0a3f0c793a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.AnimController\Chest">
+      <UniqueIdentifier>{5d7cd28b-96ed-4c94-8b72-613be2ab66c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.AnimController\Minotaur">
+      <UniqueIdentifier>{87439335-b12c-40f9-bc20-7f1c7b6e93f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.AnimController\Harlequin">
+      <UniqueIdentifier>{459b4758-5d83-47a1-9178-be3fe54c2f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.AnimController\Anubis">
+      <UniqueIdentifier>{637bbda7-78bf-4cd5-9d13-c44a7ed082e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Monster\Mimic">
+      <UniqueIdentifier>{cca80810-ca35-4f15-a2ba-2f4ef7fd3f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Monster\Harlequin">
+      <UniqueIdentifier>{12775f33-b5da-4794-afd6-cfe67982657d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Monster\Minotaur">
+      <UniqueIdentifier>{5d1b1984-f22f-4fd7-aad7-e5fb0a968cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session\Monster\Anubis">
+      <UniqueIdentifier>{b27ad188-2619-4e3a-bf7f-39498a9b66a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.AnimController\Mimic">
+      <UniqueIdentifier>{7b28baa7-8314-4f8a-9a8c-87eb5e490693}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CServerApp.cpp">
+      <Filter>01.ServerApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CServerAdiminstor.cpp">
+      <Filter>02.Network\ServerAdimin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayerSession.cpp">
+      <Filter>03.Session\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonsterJobTimer.cpp">
+      <Filter>02.Network\Timer\MobTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMummy.cpp">
+      <Filter>03.Session\Monster\Mummy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSarcophagus.cpp">
+      <Filter>03.Session\Monster\Sarcophagus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMobLayoutLoader.cpp">
+      <Filter>90.Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSacrophagusAnimController.cpp">
+      <Filter>05.AnimController\Sacrophagus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMummyAnimController.cpp">
+      <Filter>05.AnimController\Mummy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CChest.cpp">
+      <Filter>03.Session\Monster\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMobLayOutSaver.cpp">
+      <Filter>91.Saver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CChestAnimController.cpp">
+      <Filter>05.AnimController\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMimic.cpp">
+      <Filter>03.Session\Monster\Mimic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHarlequin.cpp">
+      <Filter>03.Session\Monster\Harlequin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMinotaur.cpp">
+      <Filter>03.Session\Monster\Minotaur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAnubis.cpp">
+      <Filter>03.Session\Monster\Anubis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAnubisAnimController.cpp">
+      <Filter>05.AnimController\Anubis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHarlequinAnimController.cpp">
+      <Filter>05.AnimController\Harlequin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMinotaurAnimController.cpp">
+      <Filter>05.AnimController\Minotaur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMimicAnimController.cpp">
+      <Filter>05.AnimController\Mimic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CServerMonster.cpp">
+      <Filter>03.Session\Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\CServerApp.h">
+      <Filter>01.ServerApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ServerDefines.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CServerAdiminstor.h">
+      <Filter>02.Network\ServerAdimin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayerSession.h">
+      <Filter>03.Session\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonsterJobTimer.h">
+      <Filter>02.Network\Timer\MobTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMummy.h">
+      <Filter>03.Session\Monster\Mummy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSarcophagus.h">
+      <Filter>03.Session\Monster\Sarcophagus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMobLayoutLoader.h">
+      <Filter>90.Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSacrophagusAnimController.h">
+      <Filter>05.AnimController\Sacrophagus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMummyAnimController.h">
+      <Filter>05.AnimController\Mummy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CChest.h">
+      <Filter>03.Session\Monster\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMobLayOutSaver.h">
+      <Filter>91.Saver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CChestAnimController.h">
+      <Filter>05.AnimController\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMimic.h">
+      <Filter>03.Session\Monster\Mimic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHarlequin.h">
+      <Filter>03.Session\Monster\Harlequin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMinotaur.h">
+      <Filter>03.Session\Monster\Minotaur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAnubis.h">
+      <Filter>03.Session\Monster\Anubis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAnubisAnimController.h">
+      <Filter>05.AnimController\Anubis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHarlequinAnimController.h">
+      <Filter>05.AnimController\Harlequin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMinotaurAnimController.h">
+      <Filter>05.AnimController\Minotaur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMimicAnimController.h">
+      <Filter>05.AnimController\Mimic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CServerMonster.h">
+      <Filter>03.Session\Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

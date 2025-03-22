@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{c589ba5a-8933-44d4-a189-9a7d2d4bd99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.ClientApp">
+      <UniqueIdentifier>{1e655642-da5e-488b-a22f-456946c18643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Defines">
+      <UniqueIdentifier>{c071762e-2038-44de-8bfe-6b4dbccb818a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Server">
+      <UniqueIdentifier>{5d4f5c49-410f-4489-8243-1375700409cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{c6cadfa5-92bb-4b82-9d86-ceaed19852ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\MainScene">
+      <UniqueIdentifier>{85ce25c6-8eab-4e65-b924-cb53f184f799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Proto">
+      <UniqueIdentifier>{e090c57f-1917-4666-871f-7a48cd38e90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera">
+      <UniqueIdentifier>{e6285eec-562a-4b9c-93b8-37fe04699a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera\MainCam">
+      <UniqueIdentifier>{b81b5b43-6d49-47eb-a3e3-a4768a4bf6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects">
+      <UniqueIdentifier>{c96c525d-c5ca-481e-9244-7042d8a7b985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects">
+      <UniqueIdentifier>{5e5fb12b-5aaf-42dd-9274-d11e93e770da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character">
+      <UniqueIdentifier>{f17d528d-508f-457e-9367-cba79070f001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character\WarriorPlayer">
+      <UniqueIdentifier>{fa8eff8b-5b3b-4859-90ec-629d5124286f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.DataManager">
+      <UniqueIdentifier>{56833de1-230e-4865-b804-4ae6b5960b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.DataManager\ModelManager">
+      <UniqueIdentifier>{997b2e9d-0c23-492e-8d22-0471076a83f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp">
+      <UniqueIdentifier>{34ca669c-6ae7-451f-8b72-65ea605e1694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller">
+      <UniqueIdentifier>{4ea4b5fc-9281-41f6-8aa8-c95243cc1db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character\Mob">
+      <UniqueIdentifier>{30c56fa7-f7be-40cc-a4e6-d9bb2330a1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character\Mob\Mummy">
+      <UniqueIdentifier>{5663ec90-eafd-425b-ab17-4fd180f0b2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character\Mob\Mummy\Sarcophagus">
+      <UniqueIdentifier>{31bb1955-26f5-4600-a91e-f2f0c691126d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\WarriorPlayer">
+      <UniqueIdentifier>{8e65972a-1a9b-4fbc-b8bf-becdde15900f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Logo">
+      <UniqueIdentifier>{015198a0-1235-4fa2-8256-779fd2151a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\WarriorPlayer\User">
+      <UniqueIdentifier>{28019f93-f266-458d-b80d-44906ae9e0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\WarriorPlayer\Network">
+      <UniqueIdentifier>{735716c5-05aa-4508-87a1-47c9ac944ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.NavigationManager">
+      <UniqueIdentifier>{7f384494-a96d-43c6-8e68-97b1019739b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Server\Controller">
+      <UniqueIdentifier>{905061dc-5702-4185-a1ee-7675ff181f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.Server\Query">
+      <UniqueIdentifier>{2d63f30f-8770-4a82-b8c1-bb5e23d23348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\ItemChest">
+      <UniqueIdentifier>{eebb04af-b87a-4a58-9d81-ff49a6d27511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character\Mob\Minotaur">
+      <UniqueIdentifier>{6c5c1ca6-90fb-4a2f-9031-c84814cdb111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\Rooms">
+      <UniqueIdentifier>{783c0105-2ccc-4d69-94cd-c94ed23468a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\StaticObjects">
+      <UniqueIdentifier>{0baf0576-c976-43a1-b37c-609f41e33825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\StaticObjects\Ironbars">
+      <UniqueIdentifier>{f8f0498b-d9ea-4010-a95b-2724ebabb8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\StaticObjects\Torch">
+      <UniqueIdentifier>{c62b57e0-9fcf-4186-924d-c05e87282c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Map">
+      <UniqueIdentifier>{ca64ec19-5e4a-46e5-90fe-e6c88e0d0d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI">
+      <UniqueIdentifier>{291dc451-d470-4076-9445-ecdb1f8b4afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\Background">
+      <UniqueIdentifier>{7414b15e-89e4-42df-bac3-83d809c031a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\Image">
+      <UniqueIdentifier>{cc6f704a-c09b-4453-b03b-39691ba726c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character\Mob\Harlequinn">
+      <UniqueIdentifier>{25b897e8-6731-4480-a35a-4b69465773a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\Weapons">
+      <UniqueIdentifier>{15e7d5ab-400e-41bb-bef7-c92b39c9707b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\Weapons\Shurikens">
+      <UniqueIdentifier>{33ffae41-a7fd-4978-982d-68e251d213e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\Weapons\Sword">
+      <UniqueIdentifier>{eb6c9e65-4ba8-4b07-8410-31a799c24c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character\Mob\Anubis">
+      <UniqueIdentifier>{fcf64ec0-1e3c-45c3-a721-df65c23b5da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\Weapons\AnubisStaff">
+      <UniqueIdentifier>{89acc89b-44a7-4665-b66a-3b4c74e997e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\Character\Mob\Mimic">
+      <UniqueIdentifier>{77c1135d-0f6c-4341-b162-b2fd437ec8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\Button">
+      <UniqueIdentifier>{94413744-fb03-458f-9961-978d544906ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\Loading">
+      <UniqueIdentifier>{aa086bab-c5d1-4ff4-ab18-dd9608ad1145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.UI\HP">
+      <UniqueIdentifier>{39df75d3-ba44-4fb1-9b9b-e2f69cd2b6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\StaticObjects\Cores">
+      <UniqueIdentifier>{4e016d66-4aec-4ed7-99f0-6d3dd4892a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Objects\ModelObjects\StaticObjects\Statue">
+      <UniqueIdentifier>{42811dff-5f82-4d5f-9433-45ec2d741e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController">
+      <UniqueIdentifier>{31cc6bb4-1f28-4cfd-be72-3b61116a902a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Logo\Loading">
+      <UniqueIdentifier>{8267953d-ddfb-42e8-8d2b-9366d350317a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Client">
+      <UniqueIdentifier>{f5dcb8f8-8605-43a6-91c6-547fd6313582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Client\Mummy">
+      <UniqueIdentifier>{d8d4649f-7429-418e-9892-1d154660c603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Client\Mummy\Sarcophagus">
+      <UniqueIdentifier>{7cb8b3b7-4d4b-4879-a8fc-22626d27452c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Client\Anubis">
+      <UniqueIdentifier>{d40f1837-17e8-4770-a84a-0446a88b1b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Client\Chest">
+      <UniqueIdentifier>{1e1c8903-9b1f-41c8-9252-457c36619fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Client\Harlequinn">
+      <UniqueIdentifier>{4153a380-debe-4b94-91e6-e73e29016bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Client\Mimic">
+      <UniqueIdentifier>{f7842d32-ca05-4f19-b835-29b116ce5388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Client\Minotaur">
+      <UniqueIdentifier>{894a6e00-a512-431a-b630-87aa3b846df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Network">
+      <UniqueIdentifier>{98b7fcd2-a9d6-457a-8daf-9b8b4203f6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Network\Mummy">
+      <UniqueIdentifier>{cc920fec-6b76-47c7-a5a1-046dc1af541a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Network\Minotaur">
+      <UniqueIdentifier>{17e1be10-651c-4bb1-9def-a62c6ac3b2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Network\Mimic">
+      <UniqueIdentifier>{7e76d965-534b-4be8-a591-cf71dcd8932d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Network\Chest">
+      <UniqueIdentifier>{735891b9-eae4-48a1-8c06-379da5a65fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Network\Harlequinn">
+      <UniqueIdentifier>{2fb38f08-1804-4f49-b925-0cb4b52b6a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Comp\Controller\MonsterAnimController\Network\Anubis">
+      <UniqueIdentifier>{0d2b1971-745d-4fa7-9ad3-3a25a017a733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Camera\FreeModeCam">
+      <UniqueIdentifier>{0e8f6ea6-5eac-4da7-ba47-f385b74aedde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\ClientDefines.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ClientProto.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeDungeon.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CClientApp.h">
+      <Filter>00.ClientApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainScene.h">
+      <Filter>01.Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CProtoMaker.h">
+      <Filter>97.Proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainCamera.h">
+      <Filter>04.Camera\MainCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CRooms.h">
+      <Filter>05.Objects\ModelObjects\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CDataManager.h">
+      <Filter>11.DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CModelManager.h">
+      <Filter>11.DataManager\ModelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMap.h">
+      <Filter>05.Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CModelObjects.h">
+      <Filter>05.Objects\ModelObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWarriorPlayer.h">
+      <Filter>05.Objects\Character\WarriorPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSword.h">
+      <Filter>05.Objects\ModelObjects\Weapons\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMummy.h">
+      <Filter>05.Objects\Character\Mob\Mummy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSarcophagus.h">
+      <Filter>05.Objects\Character\Mob\Mummy\Sarcophagus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMummyAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Mummy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSarcophagusAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Mummy\Sarcophagus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMob.h">
+      <Filter>05.Objects\Character\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLogoScene.h">
+      <Filter>01.Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CIronBars.h">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Ironbars</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CUserWarriorAnimController.h">
+      <Filter>06.Comp\Controller\WarriorPlayer\User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkWarriorPlayerController.h">
+      <Filter>06.Comp\Controller\WarriorPlayer\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CItemChest.h">
+      <Filter>05.Objects\ModelObjects\ItemChest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CItemChestAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CTorch.h">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNavigationManager.h">
+      <Filter>12.NavigationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkClientController.h">
+      <Filter>20.Server\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkQueryProcessor.h">
+      <Filter>20.Server\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMinotaur.h">
+      <Filter>05.Objects\Character\Mob\Minotaur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMinotaurAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Minotaur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CBackgroundUI.h">
+      <Filter>07.UI\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CImageUI.h">
+      <Filter>07.UI\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHarlequinn.h">
+      <Filter>05.Objects\Character\Mob\Harlequinn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHarlequinnAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Harlequinn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CShuriken.h">
+      <Filter>05.Objects\ModelObjects\Weapons\Shurikens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CShurikenThrowing.h">
+      <Filter>05.Objects\ModelObjects\Weapons\Shurikens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAnubis.h">
+      <Filter>05.Objects\Character\Mob\Anubis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAnubisAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Anubis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CAnubisStaff.h">
+      <Filter>05.Objects\ModelObjects\Weapons\AnubisStaff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMimic.h">
+      <Filter>05.Objects\Character\Mob\Mimic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMimicAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Mimic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CButtonUI.h">
+      <Filter>07.UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLoadingUI.h">
+      <Filter>07.UI\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CHpBarUI.h">
+      <Filter>07.UI\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCoreAnubis.h">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCoreHarlequinn.h">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCoreMinotaur.h">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CStatue.h">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Statue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonsterAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainSceneLoading.h">
+      <Filter>01.Scene\Logo\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkMummyAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Mummy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkMinotaurAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Minotaur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkMimicAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Mimic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkHarlequinnAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Harlequinn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkItemChestAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CNetworkAnubisAnimController.h">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Anubis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CFreeModeCamera.h">
+      <Filter>04.Camera\FreeModeCam</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="CodeDungeon.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CodeDungeon.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CClientApp.cpp">
+      <Filter>00.ClientApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainScene.cpp">
+      <Filter>01.Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CProtoMaker.cpp">
+      <Filter>97.Proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainCamera.cpp">
+      <Filter>04.Camera\MainCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CRooms.cpp">
+      <Filter>05.Objects\ModelObjects\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CDataManager.cpp">
+      <Filter>11.DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CModelManager.cpp">
+      <Filter>11.DataManager\ModelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMap.cpp">
+      <Filter>05.Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CModelObjects.cpp">
+      <Filter>05.Objects\ModelObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWarriorPlayer.cpp">
+      <Filter>05.Objects\Character\WarriorPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSword.cpp">
+      <Filter>05.Objects\ModelObjects\Weapons\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMummy.cpp">
+      <Filter>05.Objects\Character\Mob\Mummy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSarcophagus.cpp">
+      <Filter>05.Objects\Character\Mob\Mummy\Sarcophagus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMummyAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Mummy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSarcophagusAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Mummy\Sarcophagus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMob.cpp">
+      <Filter>05.Objects\Character\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLogoScene.cpp">
+      <Filter>01.Scene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CIronBars.cpp">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Ironbars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CUserWarriorAnimController.cpp">
+      <Filter>06.Comp\Controller\WarriorPlayer\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkWarriorPlayerController.cpp">
+      <Filter>06.Comp\Controller\WarriorPlayer\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CItemChest.cpp">
+      <Filter>05.Objects\ModelObjects\ItemChest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CItemChestAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CTorch.cpp">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkClientController.cpp">
+      <Filter>20.Server\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNavigationManager.cpp">
+      <Filter>12.NavigationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkQueryProcessor.cpp">
+      <Filter>20.Server\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMinotaur.cpp">
+      <Filter>05.Objects\Character\Mob\Minotaur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMinotaurAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Minotaur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CBackgroundUI.cpp">
+      <Filter>07.UI\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CImageUI.cpp">
+      <Filter>07.UI\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHarlequinn.cpp">
+      <Filter>05.Objects\Character\Mob\Harlequinn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHarlequinnAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Harlequinn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CShuriken.cpp">
+      <Filter>05.Objects\ModelObjects\Weapons\Shurikens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CShurikenThrowing.cpp">
+      <Filter>05.Objects\ModelObjects\Weapons\Shurikens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAnubis.cpp">
+      <Filter>05.Objects\Character\Mob\Anubis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAnubisAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Anubis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CAnubisStaff.cpp">
+      <Filter>05.Objects\ModelObjects\Weapons\AnubisStaff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMimic.cpp">
+      <Filter>05.Objects\Character\Mob\Mimic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMimicAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Client\Mimic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CButtonUI.cpp">
+      <Filter>07.UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLoadingUI.cpp">
+      <Filter>07.UI\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CHpBarUI.cpp">
+      <Filter>07.UI\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCoreAnubis.cpp">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCoreHarlequinn.cpp">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCoreMinotaur.cpp">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CStatue.cpp">
+      <Filter>05.Objects\ModelObjects\StaticObjects\Statue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonsterAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainSceneLoading.cpp">
+      <Filter>01.Scene\Logo\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkMummyAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Mummy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkMinotaurAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Minotaur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkMimicAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Mimic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkHarlequinnAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Harlequinn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkItemChestAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CNetworkAnubisAnimController.cpp">
+      <Filter>06.Comp\Controller\MonsterAnimController\Network\Anubis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CFreeModeCamera.cpp">
+      <Filter>04.Camera\FreeModeCam</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CodeDungeon.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

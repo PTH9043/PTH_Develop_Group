@@ -1,0 +1,934 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{ac8e47ac-96fa-4003-9cf7-918a87c65921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.MainGame">
+      <UniqueIdentifier>{436e7c6a-faa5-452c-9e4d-a314f413302b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\99.Header">
+      <UniqueIdentifier>{96189493-df80-46db-b264-0d8a4743727e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj">
+      <UniqueIdentifier>{972d049d-f874-453d-9926-92b33cdd3836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\00.Parents">
+      <UniqueIdentifier>{b7c30880-dc9e-435e-919f-8c6f8bf43ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\90.Animator">
+      <UniqueIdentifier>{a10dff28-d66e-4bb8-bc02-64bb191bd012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\90.Animator\00.Animator">
+      <UniqueIdentifier>{118a1c5f-ca40-4f54-9147-fb66554502e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\90.Animator\01.Aninmation">
+      <UniqueIdentifier>{4f8602dd-9923-458e-903f-4bcdb4d7874a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\90.Animator\02.AnimClip">
+      <UniqueIdentifier>{81b18771-7fca-417b-b831-c6f334db94fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager">
+      <UniqueIdentifier>{655edbcb-9974-4213-8702-71cfea0ddcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\00.GameManager">
+      <UniqueIdentifier>{e7e77810-1cff-4fb7-8206-6632c742d6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\00.GameManager\00.SingleTon">
+      <UniqueIdentifier>{8a36e663-8388-4df0-af4e-02587934a393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager">
+      <UniqueIdentifier>{16e614c2-bdc2-4034-a1eb-00276087e6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\02.ScrollManager">
+      <UniqueIdentifier>{47922921-f949-43da-8010-0ecfa11b0ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\01.CBmpManager">
+      <UniqueIdentifier>{ac77ba12-9d19-47bb-be19-9d0b43aa595b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\01.CBmpManager\MyBitmap">
+      <UniqueIdentifier>{011b7085-fb3a-4cd3-b9bf-0da6d339b4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\00.Manager">
+      <UniqueIdentifier>{d0f755b0-b9d0-4b3c-aa2d-23a375d59dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\04.LineMgr">
+      <UniqueIdentifier>{77e60595-9f61-4e06-ba5d-db2a034d72c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\04.LineMgr\Line">
+      <UniqueIdentifier>{f3678322-f973-463f-acd7-7201f64de269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\05.InputMgr">
+      <UniqueIdentifier>{2e3b4c6e-6f1f-485a-b2d2-fc6dcfa11450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\06.ObjManger">
+      <UniqueIdentifier>{8f9601d2-e7a1-418e-af2b-216f6b4be28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI">
+      <UniqueIdentifier>{d8867e5f-4596-4f7d-b30c-ae67f595917f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\00.Parents">
+      <UniqueIdentifier>{1c2749c9-cc26-4695-ab06-54b15c50ab66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor">
+      <UniqueIdentifier>{52f19d58-0edc-4c7e-9aec-94ad788de249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character">
+      <UniqueIdentifier>{36d3e582-9526-4cde-b67f-933495e8086c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\00.Parents">
+      <UniqueIdentifier>{9d25960b-808f-4134-8e7f-99cc81f37b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\01.Player">
+      <UniqueIdentifier>{e19b27bf-cefb-4484-a3de-6d7248f1adfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\00.Parents">
+      <UniqueIdentifier>{83a0b429-99f2-43ec-83cb-067e3d7bff18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\01.Bar">
+      <UniqueIdentifier>{f744646a-b0b5-4358-afc9-e0b2a923a3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\02.Slot">
+      <UniqueIdentifier>{b032febb-0a32-42cd-bd36-6bb4a96f4daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\03.Inventory">
+      <UniqueIdentifier>{61faecc1-c948-4374-9991-f38681e34391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\01.Bar\00.Parents">
+      <UniqueIdentifier>{1eab1abb-0ffc-491d-965c-aed6f6207103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\01.Bar\01.HpBar">
+      <UniqueIdentifier>{8d073db1-4616-4cd6-9bd8-f1bb6bb89ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster">
+      <UniqueIdentifier>{412f1418-35a6-4535-88e6-2160ec105c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\00.Parents">
+      <UniqueIdentifier>{f350d5ee-275f-4ce1-aa66-789d6e193b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\01.Bar\02.MpBar">
+      <UniqueIdentifier>{50be0f13-a917-47bd-ad49-484343918386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\02.Slot\00.Parents">
+      <UniqueIdentifier>{91671519-54c6-40ee-9268-750bf4c129c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\04.Text">
+      <UniqueIdentifier>{ab5621e8-9b00-45f7-95a3-e53f26b8ed47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\04.Text\00.Parents">
+      <UniqueIdentifier>{1de528ff-3423-4135-b7a8-818bfcd153cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\04.Text\01.DamageText">
+      <UniqueIdentifier>{ce51e6bc-ff1d-4bc0-8e3b-f44ee011ae47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\02.Slot\01. ActionSlot">
+      <UniqueIdentifier>{187e2ae0-8096-4ea9-a043-de993d7a1fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\02.Slot\02.ItemSlot">
+      <UniqueIdentifier>{c12d00a7-86a9-4781-b044-baf54eb590ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\02.Slot\03.InvenSlot">
+      <UniqueIdentifier>{17901ce8-654f-4032-b271-17ddb6e79335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\85. AI">
+      <UniqueIdentifier>{2e917d48-49af-431b-b707-2aa36a3b5b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\85. AI\00.Parents">
+      <UniqueIdentifier>{c9f24e7a-5b12-4025-ae47-de2e09a1ed45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\85. AI\01.MonsterAI">
+      <UniqueIdentifier>{abe5cbd2-642a-42ec-bb46-c98a07390549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\01.Boss">
+      <UniqueIdentifier>{a07b370d-c8ac-4130-baf4-152712d96c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\01.Boss\00.Parents">
+      <UniqueIdentifier>{9fedf7c2-6467-4afb-81f2-d953f97b3189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\01.Boss\01.Castle">
+      <UniqueIdentifier>{ad474c4f-1432-4bd6-8247-b825881527d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\07.SoundManager">
+      <UniqueIdentifier>{97bce81f-31c4-42f4-8614-fef90dd7c1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager">
+      <UniqueIdentifier>{6b44ab90-8bb4-4f16-86e1-07365d65fcf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene">
+      <UniqueIdentifier>{08319464-b6f9-468a-9fec-71ec24533ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents">
+      <UniqueIdentifier>{8211cbec-7b68-4e29-a33c-4f81e4dd9629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor">
+      <UniqueIdentifier>{20a05eda-1957-4d63-81d0-b99d2f1b19aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\00.Parents">
+      <UniqueIdentifier>{10a68706-2615-43d5-bbcf-c11250aedcb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\01.Floor">
+      <UniqueIdentifier>{4f0fa1e6-12c7-4272-b5c4-2f1f26b0e2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\01.Floor\00.Parents">
+      <UniqueIdentifier>{cda0dbc1-3744-4cfc-a241-95c2c766fc26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\02.Wall">
+      <UniqueIdentifier>{8fb8b2c9-cd5a-4277-b8a7-be8cb6a0c136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\02.Wall\00.Paretns">
+      <UniqueIdentifier>{bc84cddc-c00e-4e31-8f92-098678c0c639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\02.Wall\01.DownWall">
+      <UniqueIdentifier>{7fc20d0e-95d5-4f01-bdb4-1653ea96919c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\03.Potal">
+      <UniqueIdentifier>{8de59c44-3822-40c9-8f14-e9951ab44948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\01.IntroScene">
+      <UniqueIdentifier>{8c4e9290-950b-43f2-90c4-cecb5923d469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\90.Animator\02.AnimClip\00.Parents">
+      <UniqueIdentifier>{b23d92cb-85d1-45cd-b8db-967846fe0c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\90.Animator\02.AnimClip\01.AnimClip_N">
+      <UniqueIdentifier>{f9ad0c27-2ac0-4875-823c-a58812fe8d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\90.Animator\01.Aninmation\00.Base">
+      <UniqueIdentifier>{692e2b96-d04d-4300-b37c-226b5ac606ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\85. AI\01.MonsterAI\00.Parents">
+      <UniqueIdentifier>{65999c01-9d95-4980-bc79-5234e0040f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\85. AI\01.MonsterAI\01.BossMonsterAI">
+      <UniqueIdentifier>{98fa9d47-dfc2-47f3-81e6-5dfb06a7b2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\04.Text\02.ButtonText">
+      <UniqueIdentifier>{2213b306-b5c8-4f37-ba79-dd752990251d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\01.Bar\03.BossHpBar">
+      <UniqueIdentifier>{102bbb99-7a56-4c9a-9ee2-71fc3c416546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\10.UI\04.Text\03.FollowText">
+      <UniqueIdentifier>{2eab1449-78cb-482d-9844-ee848a7651ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\17.Effect">
+      <UniqueIdentifier>{eb427343-f420-4f7c-817f-f3041c2f6f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\17.Effect\00.Parents">
+      <UniqueIdentifier>{8379be3e-2695-4e37-9e30-094dc37f936f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item">
+      <UniqueIdentifier>{f83625f6-6dca-402e-a5c5-3edbdd4f81f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\00.Parents">
+      <UniqueIdentifier>{8fb9718c-2adc-4730-a723-3b95e908b492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip">
+      <UniqueIdentifier>{ad19e39e-3dd3-4735-a1e2-50ac0acaa871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\00.Parents">
+      <UniqueIdentifier>{d8f5bbb2-193d-401c-8724-81a0ca1e24ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon">
+      <UniqueIdentifier>{8be775e0-53b2-413b-b904-d4b74558c144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\00.Parents">
+      <UniqueIdentifier>{268aa925-3a7f-4f75-9de7-8b689626ad33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword">
+      <UniqueIdentifier>{07276721-f42a-4f63-8d29-1b57fbeaf02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\00.Parents">
+      <UniqueIdentifier>{21984201-5ec1-46b3-a886-74d0f8c412aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\01.BossSword">
+      <UniqueIdentifier>{0bf1be82-d1e9-4050-b559-b2e703c5c223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal">
+      <UniqueIdentifier>{1d187669-10cf-420f-9105-cc4b3ccc8c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\02.Gradius">
+      <UniqueIdentifier>{9e4e40c0-190b-43af-8b40-750707a2f5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\00.GameManager\01.Collision">
+      <UniqueIdentifier>{43743e89-66a4-4ad2-a59d-cd35267d1010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\AbomiGreen">
+      <UniqueIdentifier>{8a189851-b0e4-4b75-9c3b-97c4ea518a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\03.WorldObj">
+      <UniqueIdentifier>{a0aec4fa-c997-4d04-ad08-e64268313077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\03.WorldObj\00.Parents">
+      <UniqueIdentifier>{f1cdb8db-94b3-40ac-988f-9ad49b491778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\02.GameScene1">
+      <UniqueIdentifier>{61bba523-9e93-4048-9505-889c0536dfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\10.BossScene1">
+      <UniqueIdentifier>{92d940c4-f907-4530-8cf1-94b84094ad56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\Spawner">
+      <UniqueIdentifier>{ef96159d-9696-4851-b002-be50c859dcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\Spawner\00.Parents">
+      <UniqueIdentifier>{34c54445-0ce5-4883-be5f-3cec74581b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\03.WorldObj\01.Shop">
+      <UniqueIdentifier>{51631a6b-2e72-405f-9c84-e7ad1c62371c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\03.Posion">
+      <UniqueIdentifier>{3d08073f-b6a0-4468-a3ed-5e50d494d216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\02.Bow">
+      <UniqueIdentifier>{d89adc0f-1c2f-42ce-a0b5-731dbedd2f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\02.Bow\00.Parents">
+      <UniqueIdentifier>{02861931-a4b3-4858-b753-2e5a3a4cc4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\02.Arrow">
+      <UniqueIdentifier>{f7e4419c-0d77-4264-b010-0d5fd291e2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\02.Arrow\00.Parents">
+      <UniqueIdentifier>{f900d471-8e66-43b8-95dc-beff201c75a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\03. OneHand">
+      <UniqueIdentifier>{85c94ba4-780c-4a39-bb2a-92d22f1916a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\04.TwoHand">
+      <UniqueIdentifier>{56cf72f9-6069-4629-88f4-441d6498b093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\05.Dagger">
+      <UniqueIdentifier>{b31bd3ff-6415-4c67-871d-43f2d5a289bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\03.Magic">
+      <UniqueIdentifier>{1d799cfa-846c-4b2a-a9a5-439992876782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\DemonAssasin">
+      <UniqueIdentifier>{1edcd5b2-9a75-4598-a1b9-372350bdea87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\Demoness">
+      <UniqueIdentifier>{30e8ecf7-08dc-4101-a3dd-05df2fc5396e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\ZombieGirl">
+      <UniqueIdentifier>{dad8e008-804c-4398-b862-b06f8f0d542a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\SkeletonAcher">
+      <UniqueIdentifier>{c31210c0-1853-4c6f-b828-5c7a45b3a8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\DemonAxe">
+      <UniqueIdentifier>{f768757a-7ac3-4705-9649-cbcd986366cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\03.GameScene2">
+      <UniqueIdentifier>{3cdedd8c-272a-41df-bab5-b08d3bb69038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\04.GameScene3">
+      <UniqueIdentifier>{cc32c9af-c72c-4871-9c2d-1a3a877d22bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\05.GameScene4">
+      <UniqueIdentifier>{986bf92e-ecbf-4b5d-a583-d5cda4efea1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\17.Effect\02.Blood_Effect">
+      <UniqueIdentifier>{7afc54c2-24a5-41ad-acf8-ef1859f7c38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\17.Effect\18.Particle">
+      <UniqueIdentifier>{7ae9d56f-7a8b-454b-98e2-ea417f3a956c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\17.Effect\18.Particle\00,.Parents">
+      <UniqueIdentifier>{5195f8d5-7f47-4b92-b0cc-3356660fa8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\08.ParticleManager">
+      <UniqueIdentifier>{2188505c-a9ea-4cd1-ae70-281df9abfe37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\00.GameManager\01.Manager\09.EffectMgr">
+      <UniqueIdentifier>{868d8138-2232-4952-8630-6bb5d73a2940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\01.Actor\02.Item\04.Key">
+      <UniqueIdentifier>{f7783348-a142-4b2f-ab0a-6fdc9cf9a5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\03.WorldObj\02.Door">
+      <UniqueIdentifier>{53160a26-6d03-46dc-a0ba-95c6bbb4a345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\03.WorldObj\03.Box">
+      <UniqueIdentifier>{1c3eeae0-f4b0-4b5c-8fc3-5940e53de8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.Obj\17.Effect\18.Particle\01.BossParticle">
+      <UniqueIdentifier>{3efe4804-4e58-405f-a3ca-85b58bffae8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PTH_Framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Scripts\99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Scripts\99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainGame.h">
+      <Filter>Scripts\00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Scripts\99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Scripts\99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleTon.h">
+      <Filter>Scripts\00.GameManager\00.GameManager\00.SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="Method.h">
+      <Filter>Scripts\99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>Scripts\02.Obj\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CBmpMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\01.CBmpManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyBmp.h">
+      <Filter>Scripts\00.GameManager\01.Manager\01.CBmpManager\MyBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="CScrollMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\02.ScrollManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacter.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMgr.h">
+      <Filter>Scripts\00.GameManager\00.GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CManager.h">
+      <Filter>Scripts\00.GameManager\01.Manager\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CLine.h">
+      <Filter>Scripts\00.GameManager\01.Manager\04.LineMgr\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\05.InputMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLineMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\04.LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPotal.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\03.Potal</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneActive.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene1.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\02.GameScene1</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\06.ObjManger</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntroScene.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\01.IntroScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserInterface.h">
+      <Filter>Scripts\02.Obj\10.UI\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CActor.h">
+      <Filter>Scripts\02.Obj\01.Actor\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CBar.h">
+      <Filter>Scripts\02.Obj\10.UI\01.Bar\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpBar.h">
+      <Filter>Scripts\02.Obj\10.UI\01.Bar\01.HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CMpBar.h">
+      <Filter>Scripts\02.Obj\10.UI\01.Bar\02.MpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CText.h">
+      <Filter>Scripts\02.Obj\10.UI\04.Text\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CDamageText.h">
+      <Filter>Scripts\02.Obj\10.UI\04.Text\01.DamageText</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlot.h">
+      <Filter>Scripts\02.Obj\10.UI\02.Slot\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CActionSlot.h">
+      <Filter>Scripts\02.Obj\10.UI\02.Slot\01. ActionSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemSlot.h">
+      <Filter>Scripts\02.Obj\10.UI\02.Slot\02.ItemSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="CInvenSlot.h">
+      <Filter>Scripts\02.Obj\10.UI\02.Slot\03.InvenSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventory.h">
+      <Filter>Scripts\02.Obj\10.UI\03.Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="CEquip.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeapon.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossScene1.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\10.BossScene1</Filter>
+    </ClInclude>
+    <ClInclude Include="CWall.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\02.Wall\00.Paretns</Filter>
+    </ClInclude>
+    <ClInclude Include="CFloor.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\01.Floor\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CDownWall.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\02.Wall\01.DownWall</Filter>
+    </ClInclude>
+    <ClInclude Include="CCastle.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\01.Boss\01.Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\01.Boss\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimClip.h">
+      <Filter>Scripts\90.Animator\02.AnimClip\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimClip_N.h">
+      <Filter>Scripts\90.Animator\02.AnimClip\01.AnimClip_N</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation_L.h">
+      <Filter>Scripts\90.Animator\01.Aninmation\00.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Scripts\90.Animator\01.Aninmation\00.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterAI.h">
+      <Filter>Scripts\85. AI\01.MonsterAI\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\07.SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyAI.h">
+      <Filter>Scripts\85. AI\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonText.h">
+      <Filter>Scripts\02.Obj\10.UI\04.Text\02.ButtonText</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossMonsterAI.h">
+      <Filter>Scripts\85. AI\01.MonsterAI\01.BossMonsterAI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossHpBar.h">
+      <Filter>Scripts\02.Obj\10.UI\01.Bar\03.BossHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CFollowText.h">
+      <Filter>Scripts\02.Obj\10.UI\04.Text\03.FollowText</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>Scripts\02.Obj\17.Effect\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CSword.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossSword.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\01.BossSword</Filter>
+    </ClInclude>
+    <ClInclude Include="CGradius.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\02.Gradius</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollision.h">
+      <Filter>Scripts\00.GameManager\00.GameManager\01.Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CAbomiGreen.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\AbomiGreen</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorldObj.h">
+      <Filter>Scripts\02.Obj\03.WorldObj\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\Spawner\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CArrow.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\02.Arrow\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CShop.h">
+      <Filter>Scripts\02.Obj\03.WorldObj\01.Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="CPosion.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\03.Posion</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Scripts\90.Animator\00.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CBow.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\02.Bow\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="COneHandSword.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\03. OneHand</Filter>
+    </ClInclude>
+    <ClInclude Include="CTwoHandSword.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\04.TwoHand</Filter>
+    </ClInclude>
+    <ClInclude Include="CDagger.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\05.Dagger</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagic.h">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\03.Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="CDemonAssasin.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\DemonAssasin</Filter>
+    </ClInclude>
+    <ClInclude Include="CDemoness.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\Demoness</Filter>
+    </ClInclude>
+    <ClInclude Include="CZombieGirl.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\ZombieGirl</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkeletonArcher.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\SkeletonAcher</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CDemonAxe.h">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\DemonAxe</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene2.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\03.GameScene2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene3.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\04.GameScene3</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene4.h">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\05.GameScene4</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticle.h">
+      <Filter>Scripts\02.Obj\17.Effect\18.Particle\00,.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlood.h">
+      <Filter>Scripts\02.Obj\17.Effect\02.Blood_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\08.ParticleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectMgr.h">
+      <Filter>Scripts\00.GameManager\01.Manager\09.EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoor.h">
+      <Filter>Scripts\02.Obj\03.WorldObj\02.Door</Filter>
+    </ClInclude>
+    <ClInclude Include="CBox.h">
+      <Filter>Scripts\02.Obj\03.WorldObj\03.Box</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossParticle.h">
+      <Filter>Scripts\02.Obj\17.Effect\18.Particle\01.BossParticle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PTH_Framework.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainGame.cpp">
+      <Filter>Scripts\00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CSingleTon.cpp">
+      <Filter>Scripts\00.GameManager\00.GameManager\00.SingleTon</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>Scripts\02.Obj\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Scripts\90.Animator\00.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CBmpMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\01.CBmpManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyBmp.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\01.CBmpManager\MyBitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="CScrollMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\02.ScrollManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacter.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameMgr.cpp">
+      <Filter>Scripts\00.GameManager\00.GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CManager.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CLine.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\04.LineMgr\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="CLineMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\04.LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\05.InputMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPotal.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\03.Potal</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneActive.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene1.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\02.GameScene1</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\06.ObjManger</Filter>
+    </ClCompile>
+    <ClCompile Include="CIntroScene.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\01.IntroScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserInterface.cpp">
+      <Filter>Scripts\02.Obj\10.UI\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CActor.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CBar.cpp">
+      <Filter>Scripts\02.Obj\10.UI\01.Bar\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpBar.cpp">
+      <Filter>Scripts\02.Obj\10.UI\01.Bar\01.HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CMpBar.cpp">
+      <Filter>Scripts\02.Obj\10.UI\01.Bar\02.MpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CText.cpp">
+      <Filter>Scripts\02.Obj\10.UI\04.Text\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CDamageText.cpp">
+      <Filter>Scripts\02.Obj\10.UI\04.Text\01.DamageText</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlot.cpp">
+      <Filter>Scripts\02.Obj\10.UI\02.Slot\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CActionSlot.cpp">
+      <Filter>Scripts\02.Obj\10.UI\02.Slot\01. ActionSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemSlot.cpp">
+      <Filter>Scripts\02.Obj\10.UI\02.Slot\02.ItemSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="CInvenSlot.cpp">
+      <Filter>Scripts\02.Obj\10.UI\02.Slot\03.InvenSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventory.cpp">
+      <Filter>Scripts\02.Obj\10.UI\03.Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="CEquip.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeapon.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossScene1.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\10.BossScene1</Filter>
+    </ClCompile>
+    <ClCompile Include="CWall.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\02.Wall\00.Paretns</Filter>
+    </ClCompile>
+    <ClCompile Include="CFloor.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\01.Floor\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CDownWall.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\StageActor\02.Wall\01.DownWall</Filter>
+    </ClCompile>
+    <ClCompile Include="CCastle.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\01.Boss\01.Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\01.Boss\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimClip.cpp">
+      <Filter>Scripts\90.Animator\02.AnimClip\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimClip_N.cpp">
+      <Filter>Scripts\90.Animator\02.AnimClip\01.AnimClip_N</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation_L.cpp">
+      <Filter>Scripts\90.Animator\01.Aninmation\00.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Scripts\90.Animator\01.Aninmation\00.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterAI.cpp">
+      <Filter>Scripts\85. AI\01.MonsterAI\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\07.SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyAI.cpp">
+      <Filter>Scripts\85. AI\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonText.cpp">
+      <Filter>Scripts\02.Obj\10.UI\04.Text\02.ButtonText</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossMonsterAI.cpp">
+      <Filter>Scripts\85. AI\01.MonsterAI\01.BossMonsterAI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossHpBar.cpp">
+      <Filter>Scripts\02.Obj\10.UI\01.Bar\03.BossHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CFollowText.cpp">
+      <Filter>Scripts\02.Obj\10.UI\04.Text\03.FollowText</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>Scripts\02.Obj\17.Effect\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CSword.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossSword.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\01.BossSword</Filter>
+    </ClCompile>
+    <ClCompile Include="CGradius.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\02.Gradius</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollision.cpp">
+      <Filter>Scripts\00.GameManager\00.GameManager\01.Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CAbomiGreen.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\AbomiGreen</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorldObj.cpp">
+      <Filter>Scripts\02.Obj\03.WorldObj\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\00.Parents\Spawner\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CArrow.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\02.Arrow\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CShop.cpp">
+      <Filter>Scripts\02.Obj\03.WorldObj\01.Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="CPosion.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\03.Posion</Filter>
+    </ClCompile>
+    <ClCompile Include="CBow.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\02.Bow\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="COneHandSword.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\03. OneHand</Filter>
+    </ClCompile>
+    <ClCompile Include="CTwoHandSword.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\04.TwoHand</Filter>
+    </ClCompile>
+    <ClCompile Include="CDagger.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\01.Sword\05.Dagger</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagic.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\02.Item\01.Equip\01.Weapon\03.Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="CDemonAssasin.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\DemonAssasin</Filter>
+    </ClCompile>
+    <ClCompile Include="CDemoness.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\Demoness</Filter>
+    </ClCompile>
+    <ClCompile Include="CZombieGirl.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\ZombieGirl</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkeletonArcher.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\SkeletonAcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CDemonAxe.cpp">
+      <Filter>Scripts\02.Obj\01.Actor\01.Character\02.Monster\02.Normal\DemonAxe</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene2.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\03.GameScene2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene3.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\04.GameScene3</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene4.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\03.SceneManager\CScene\05.GameScene4</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticle.cpp">
+      <Filter>Scripts\02.Obj\17.Effect\18.Particle\00,.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlood.cpp">
+      <Filter>Scripts\02.Obj\17.Effect\02.Blood_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\08.ParticleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectMgr.cpp">
+      <Filter>Scripts\00.GameManager\01.Manager\09.EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoor.cpp">
+      <Filter>Scripts\02.Obj\03.WorldObj\02.Door</Filter>
+    </ClCompile>
+    <ClCompile Include="CBox.cpp">
+      <Filter>Scripts\02.Obj\03.WorldObj\03.Box</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossParticle.cpp">
+      <Filter>Scripts\02.Obj\17.Effect\18.Particle\01.BossParticle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PTH_Framework.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PTH_Framework.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
