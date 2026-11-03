@@ -1,0 +1,143 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SHDL DIALOGEX 0, 0, 417, 291
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "상점"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "구매하기",SHDL_BUTTON_PURCHASE,174,264,53,20
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER1,20,36,55,45,BS_BITMAP
+    LTEXT           "1",SHDL_TEXT_GOLD_NUM,257,220,83,11
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER2,90,36,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER3,162,36,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER4,19,84,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER5,89,84,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER6,161,84,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER7,19,133,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER8,89,133,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER9,161,133,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER10,19,182,55,45,BS_BITMAP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER11,89,182,55,45,BS_BITMAP
+    CONTROL         "",SHDL_PICTURE_SHOW,"Static",SS_BLACKFRAME,257,46,128,118,WS_EX_CLIENTEDGE
+    LISTBOX         SHDL_LIST_TOWER_EXPLAIN,257,165,127,52,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Button1",SHDL_BUTTON_TOWER12,161,182,55,45,BS_BITMAP
+END
+
+IDD_WINLOSE DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "다시하기",WLDL_RETURN,77,155,50,14
+    PUSHBUTTON      "종료하기",WLDL_EXIT,177,155,50,14
+    LISTBOX         WLDL_LIST,7,28,295,108,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SHDL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 410
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 284
+    END
+
+    IDD_WINLOSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SHDL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WINLOSE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

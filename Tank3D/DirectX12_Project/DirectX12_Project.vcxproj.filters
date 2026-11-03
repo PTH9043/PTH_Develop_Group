@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="00.Game">
+      <UniqueIdentifier>{08b46d36-61e8-4a38-bb01-f8b49fe9a8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Defines">
+      <UniqueIdentifier>{66fb3983-5a20-4333-823d-b7a0631450c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Using">
+      <UniqueIdentifier>{160c30b2-7d61-4837-9a42-4d9caf153088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Base">
+      <UniqueIdentifier>{d2d3b348-5893-4cfb-b24b-d74cfb4b7adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Game\GameManager">
+      <UniqueIdentifier>{9444a900-d19f-48db-bc12-567b5683ed78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.PipeLine">
+      <UniqueIdentifier>{54a156e6-25dd-4eb7-9889-f34c9dc487fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Game\Utility">
+      <UniqueIdentifier>{ff82771c-7020-4e7b-88e6-49cadada3580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Game\GameApp">
+      <UniqueIdentifier>{7abad46c-8b9b-40d2-81c3-4052855cd965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Game\Timer">
+      <UniqueIdentifier>{5f0660db-bc2d-4bc5-a01f-bda3726ae7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Game\Timer\Manager">
+      <UniqueIdentifier>{0366c6ba-37b6-4f7e-80fd-dd83680f0f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Picking">
+      <UniqueIdentifier>{f44d3a28-ac84-4cb1-a015-96c379c3d697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object">
+      <UniqueIdentifier>{afa94c83-dcff-45f5-b5fa-36a344d0e636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor">
+      <UniqueIdentifier>{e93d0760-4b45-4f08-b09e-382755d5acf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Group">
+      <UniqueIdentifier>{f125c344-f6a5-40d2-b7d0-67aad8b87bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Manager">
+      <UniqueIdentifier>{6c095088-1d13-4e31-93ac-41ca95a40a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Camera">
+      <UniqueIdentifier>{beb0cf1a-8a44-4b39-bcd1-7faeec98e4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Cube">
+      <UniqueIdentifier>{8f72392f-631c-4806-ab54-c55a574c9235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component">
+      <UniqueIdentifier>{8ceec275-edea-4c04-9071-bcead58f02a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\Transform">
+      <UniqueIdentifier>{edf0b021-c85f-42ca-87d4-c0f0c652b3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\00.Manager">
+      <UniqueIdentifier>{40dc6bd7-8c29-484b-8d06-a18cdb460238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\Renderer">
+      <UniqueIdentifier>{1d7a705a-732c-4e3c-b477-d3b45bb610d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\PolyGon">
+      <UniqueIdentifier>{64767954-d991-4a6a-b68a-e9f4f4922289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\PolyGon\Buffer">
+      <UniqueIdentifier>{f8985fa2-c232-4507-88c4-54a97f858016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\PolyGon\Buffer\Cube">
+      <UniqueIdentifier>{7f210131-e532-414a-beff-387fbef399ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{50d81b6c-e810-49c1-9cc2-af5c25d00267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn">
+      <UniqueIdentifier>{3e3090e8-48f7-4b4e-ab7d-7416644e72d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\PolyGon\Buffer\Floor">
+      <UniqueIdentifier>{8797d86c-0121-4d55-89ff-e4cdb2e70f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\Collider">
+      <UniqueIdentifier>{ee4a2369-88ee-4d35-8bbc-c6f2ea255c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\Collider\OBBCollider">
+      <UniqueIdentifier>{594f0bf1-cb0b-4fb5-9e5b-d38c20cb914d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\Collider\AABBCollider">
+      <UniqueIdentifier>{5040fdc6-1cc6-4790-adfa-0e088710f808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\Floor">
+      <UniqueIdentifier>{d90370a7-24d5-46c5-9955-5d3541014e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Scene">
+      <UniqueIdentifier>{8330953f-b3b8-434d-81d3-73a746ba52f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Scene\GameScene">
+      <UniqueIdentifier>{efd63958-82da-4473-a142-30a3cf7e5eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\EmptyObject">
+      <UniqueIdentifier>{510fe96f-6348-4f50-a00b-d6e8e421440e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Camera\MainCamera">
+      <UniqueIdentifier>{759a0153-f06a-4899-82e1-ad90a77b9cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\Controller">
+      <UniqueIdentifier>{d5c61a32-df4a-409e-8e8c-6bec1b2f518c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\Character">
+      <UniqueIdentifier>{6b23d12c-c2c5-4d6e-bb1e-4dd269f8da79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\Character\Tank">
+      <UniqueIdentifier>{7c147778-b0fe-45e7-84ff-c10789d25ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\Character\Monster">
+      <UniqueIdentifier>{c34b5de6-1df1-4a81-a45a-3a8926b5a423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\UI">
+      <UniqueIdentifier>{5542f284-6451-447d-b222-1ac26214bdd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\RectTransform">
+      <UniqueIdentifier>{0a9d1617-39cf-406e-ba4a-c71373059908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\UI\Text">
+      <UniqueIdentifier>{68643746-9842-46d9-8a99-f886010ad6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Scene\LogoScene">
+      <UniqueIdentifier>{6465b2ca-8bf5-45ba-a1bc-0e1be2fdb818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\UI\Button">
+      <UniqueIdentifier>{5d1b0dd6-34d6-43f9-b58b-589c22d2425f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\UI\Text\ButtonText">
+      <UniqueIdentifier>{4571d1ce-fe20-456f-9359-4c0fb512bd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02.Component\PolyGon\Buffer\Cristal">
+      <UniqueIdentifier>{30bc4d7c-36e6-482e-a3b6-829d13b91dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\Resource">
+      <UniqueIdentifier>{1218f0fb-b2fb-4e26-9381-65d3139df59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\Character\Cristal">
+      <UniqueIdentifier>{10bbb9b5-cc96-4399-8c2a-493f188e5ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\Character\Monster\ShooterMonster">
+      <UniqueIdentifier>{79c99ba6-b8eb-4684-ab56-5cbcbc8f886d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\Character\Monster\ShooterMonster\CCubeMonster">
+      <UniqueIdentifier>{7d97565f-d389-4102-963b-e365e408a0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\Character\Monster\NormalMonster">
+      <UniqueIdentifier>{bead7176-c892-417e-8064-200b21ad5c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Blood">
+      <UniqueIdentifier>{57821d54-b076-451e-b896-2f7a268a1bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\CubePawn">
+      <UniqueIdentifier>{5c4bcc72-8ee0-4773-b3c5-2d7fc8fb0236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\CubePawn\TankPosin">
+      <UniqueIdentifier>{f357010e-24df-4294-bc0a-6fe7c4fd3c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\CubePawn\TankHead">
+      <UniqueIdentifier>{34118e71-4717-42b9-af89-d6d8bce43ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\CubePawn\Shooter">
+      <UniqueIdentifier>{b333fa55-c193-47e6-b381-3f219e0e54bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\CubePawn\Bullet">
+      <UniqueIdentifier>{176a1f7f-d182-4b8f-9254-5b46ae631c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Actor\Pawn\CubePawn\Bullet\NormalBullet">
+      <UniqueIdentifier>{26576812-e070-4623-892e-03c24591ddf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX12_Project.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="DxStruct.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmartPointerFactory.h">
+      <Filter>97.Using</Filter>
+    </ClInclude>
+    <ClInclude Include="DxTypedef.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="DxRedefines.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="CMethod.h">
+      <Filter>97.Using</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99.Default\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CBase.h">
+      <Filter>96.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DxMacro.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="DxMethod.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="CActor.h">
+      <Filter>02.Object\01.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CActorGroup.h">
+      <Filter>02.Object\01.Actor\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>02.Object\02.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransform.h">
+      <Filter>02.Object\02.Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="CActor_Manager.h">
+      <Filter>02.Object\01.Actor\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent_Manager.h">
+      <Filter>02.Object\02.Component\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameInstance.h">
+      <Filter>00.Game\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderer.h">
+      <Filter>02.Object\02.Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPipeLine.h">
+      <Filter>95.PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput_Manager.h">
+      <Filter>00.Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuffer.h">
+      <Filter>02.Object\02.Component\PolyGon\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>02.Object\01.Actor\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CCubeBuffer.h">
+      <Filter>02.Object\02.Component\PolyGon\Buffer\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="CPolygon.h">
+      <Filter>02.Object\02.Component\PolyGon</Filter>
+    </ClInclude>
+    <ClInclude Include="CCube.h">
+      <Filter>02.Object\01.Actor\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="CDelegate.h">
+      <Filter>97.Using</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameApp.h">
+      <Filter>00.Game\GameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>00.Game\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer_Manager.h">
+      <Filter>00.Game\Timer\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPicking.h">
+      <Filter>96.Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CPawn.h">
+      <Filter>02.Object\01.Actor\Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CTank.h">
+      <Filter>02.Object\01.Actor\Pawn\Character\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="CFloorBuffer.h">
+      <Filter>02.Object\02.Component\PolyGon\Buffer\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="COBBCollider.h">
+      <Filter>02.Object\02.Component\Collider\OBBCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>02.Object\02.Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CAABBCollider.h">
+      <Filter>02.Object\02.Component\Collider\AABBCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="CPosin.h">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\TankPosin</Filter>
+    </ClInclude>
+    <ClInclude Include="CCubePawn.h">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CControlHead.h">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\TankHead</Filter>
+    </ClInclude>
+    <ClInclude Include="CFloor.h">
+      <Filter>02.Object\01.Actor\Pawn\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>01.Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene.h">
+      <Filter>01.Scene\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CEmptyObject.h">
+      <Filter>02.Object\01.Actor\EmptyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainCamera.h">
+      <Filter>02.Object\01.Actor\Camera\MainCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="CShooter.h">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\Shooter</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CController.h">
+      <Filter>02.Object\02.Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CNormalBullet.h">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\Bullet\NormalBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>02.Object\01.Actor\Pawn\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacter.h">
+      <Filter>02.Object\01.Actor\Pawn\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CCubeMonster.h">
+      <Filter>02.Object\01.Actor\Pawn\Character\Monster\ShooterMonster\CCubeMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserInterface.h">
+      <Filter>02.Object\01.Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectTransform.h">
+      <Filter>02.Object\02.Component\RectTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="CText.h">
+      <Filter>02.Object\01.Actor\UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogoScene.h">
+      <Filter>01.Scene\Scene\LogoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>02.Object\01.Actor\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextButton.h">
+      <Filter>02.Object\01.Actor\UI\Text\ButtonText</Filter>
+    </ClInclude>
+    <ClInclude Include="CCristal.h">
+      <Filter>02.Object\01.Actor\Pawn\Character\Cristal</Filter>
+    </ClInclude>
+    <ClInclude Include="CCristalBuffer.h">
+      <Filter>02.Object\02.Component\PolyGon\Buffer\Cristal</Filter>
+    </ClInclude>
+    <ClInclude Include="CShooterMonster.h">
+      <Filter>02.Object\01.Actor\Pawn\Character\Monster\ShooterMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CNormalMonster.h">
+      <Filter>02.Object\01.Actor\Pawn\Character\Monster\NormalMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlood.h">
+      <Filter>02.Object\01.Actor\Blood</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Default\Resource</Filter>
+    </Image>
+    <Image Include="DirectX12_Project.ico">
+      <Filter>99.Default\Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX12_Project.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmartPointerFactory.cpp">
+      <Filter>97.Using</Filter>
+    </ClCompile>
+    <ClCompile Include="CMethod.cpp">
+      <Filter>97.Using</Filter>
+    </ClCompile>
+    <ClCompile Include="CBase.cpp">
+      <Filter>96.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CActor.cpp">
+      <Filter>02.Object\01.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>02.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CActorGroup.cpp">
+      <Filter>02.Object\01.Actor\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>02.Object\02.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransform.cpp">
+      <Filter>02.Object\02.Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CActor_Manager.cpp">
+      <Filter>02.Object\01.Actor\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent_Manager.cpp">
+      <Filter>02.Object\02.Component\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameInstance.cpp">
+      <Filter>00.Game\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderer.cpp">
+      <Filter>02.Object\02.Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CPipeLine.cpp">
+      <Filter>95.PipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput_Manager.cpp">
+      <Filter>00.Game\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuffer.cpp">
+      <Filter>02.Object\02.Component\PolyGon\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>02.Object\01.Actor\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CCubeBuffer.cpp">
+      <Filter>02.Object\02.Component\PolyGon\Buffer\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CPolygon.cpp">
+      <Filter>02.Object\02.Component\PolyGon</Filter>
+    </ClCompile>
+    <ClCompile Include="CCube.cpp">
+      <Filter>02.Object\01.Actor\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CDelegate.cpp">
+      <Filter>97.Using</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameApp.cpp">
+      <Filter>00.Game\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>00.Game\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer_Manager.cpp">
+      <Filter>00.Game\Timer\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPicking.cpp">
+      <Filter>96.Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CPawn.cpp">
+      <Filter>02.Object\01.Actor\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CTank.cpp">
+      <Filter>02.Object\01.Actor\Pawn\Character\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="CFloorBuffer.cpp">
+      <Filter>02.Object\02.Component\PolyGon\Buffer\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>02.Object\02.Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="COBBCollider.cpp">
+      <Filter>02.Object\02.Component\Collider\OBBCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="CAABBCollider.cpp">
+      <Filter>02.Object\02.Component\Collider\AABBCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="CPosin.cpp">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\TankPosin</Filter>
+    </ClCompile>
+    <ClCompile Include="CCubePawn.cpp">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CControlHead.cpp">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\TankHead</Filter>
+    </ClCompile>
+    <ClCompile Include="CFloor.cpp">
+      <Filter>02.Object\01.Actor\Pawn\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>01.Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DxEnumes.h">
+      <Filter>98.Defines</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene.cpp">
+      <Filter>01.Scene\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CEmptyObject.cpp">
+      <Filter>02.Object\01.Actor\EmptyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainCamera.cpp">
+      <Filter>02.Object\01.Actor\Camera\MainCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="CShooter.cpp">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\Shooter</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CController.cpp">
+      <Filter>02.Object\02.Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CNormalBullet.cpp">
+      <Filter>02.Object\01.Actor\Pawn\CubePawn\Bullet\NormalBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>02.Object\01.Actor\Pawn\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacter.cpp">
+      <Filter>02.Object\01.Actor\Pawn\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="CCubeMonster.cpp">
+      <Filter>02.Object\01.Actor\Pawn\Character\Monster\ShooterMonster\CCubeMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserInterface.cpp">
+      <Filter>02.Object\01.Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectTransform.cpp">
+      <Filter>02.Object\02.Component\RectTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="CText.cpp">
+      <Filter>02.Object\01.Actor\UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogoScene.cpp">
+      <Filter>01.Scene\Scene\LogoScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>02.Object\01.Actor\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextButton.cpp">
+      <Filter>02.Object\01.Actor\UI\Text\ButtonText</Filter>
+    </ClCompile>
+    <ClCompile Include="CCristal.cpp">
+      <Filter>02.Object\01.Actor\Pawn\Character\Cristal</Filter>
+    </ClCompile>
+    <ClCompile Include="CCristalBuffer.cpp">
+      <Filter>02.Object\02.Component\PolyGon\Buffer\Cristal</Filter>
+    </ClCompile>
+    <ClCompile Include="CShooterMonster.cpp">
+      <Filter>02.Object\01.Actor\Pawn\Character\Monster\ShooterMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CNormalMonster.cpp">
+      <Filter>02.Object\01.Actor\Pawn\Character\Monster\NormalMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlood.cpp">
+      <Filter>02.Object\01.Actor\Blood</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectX12_Project.rc">
+      <Filter>99.Default\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

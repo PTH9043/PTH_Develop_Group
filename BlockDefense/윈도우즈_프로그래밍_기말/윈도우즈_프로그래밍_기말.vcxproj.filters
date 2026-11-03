@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="메인 파일">
+      <UniqueIdentifier>{1afc50b9-4649-4270-9662-be0984826623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.Function">
+      <UniqueIdentifier>{b85c337a-4c62-4eb0-9bd4-2aff515da4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Manager">
+      <UniqueIdentifier>{7f169bfe-7d83-48d1-b10c-893bc08e4e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Game">
+      <UniqueIdentifier>{b5bfefc2-4d3b-4bea-9798-6c880bbc5d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component">
+      <UniqueIdentifier>{3a310702-b812-4ebc-821e-4045c0fe5b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor">
+      <UniqueIdentifier>{df2923b7-da7b-4c4b-a676-e5a06fa714fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\00.Parents">
+      <UniqueIdentifier>{9099f7c9-7089-4755-bbaf-8385545b2f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\00.Parents">
+      <UniqueIdentifier>{730cc956-1987-418c-83ae-16dc2366c4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\01.SpriteComp">
+      <UniqueIdentifier>{5ee433ed-d779-445a-8919-1358290b5522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\01.SpriteComp\00.Parents">
+      <UniqueIdentifier>{01edeb58-de2f-4037-b968-5e34c1707df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\01.SpriteComp\01.SimpleSpriteComp">
+      <UniqueIdentifier>{c274432b-8b92-4d8f-afa9-51f393f6e37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\01.ABackground">
+      <UniqueIdentifier>{656a1e8f-2fe8-42cd-9ba0-e4b30b71c80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\01.ABackground\00.Parents">
+      <UniqueIdentifier>{0397f6c8-d896-48db-b445-433b6b186e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\02.Pawn">
+      <UniqueIdentifier>{99d42bc0-dbc8-43de-8e6f-c7effb237ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\02.Pawn\00.Parents">
+      <UniqueIdentifier>{9f35baa4-f99d-4883-be93-fad7672bfad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\02.MovementComp">
+      <UniqueIdentifier>{6f6ffe34-a7ba-415b-865f-bbccd55ed01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\02.MovementComp\00.Parents">
+      <UniqueIdentifier>{678020be-c517-43d6-b8b5-01792760d817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\01.ABackground\01.Background1">
+      <UniqueIdentifier>{24f07a86-cd05-4ad5-8091-01b1622f854e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower">
+      <UniqueIdentifier>{e0499f8c-2cca-4f81-8205-59b43f589fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\00.Parents">
+      <UniqueIdentifier>{69b26f55-4c94-4f1d-a68e-63375524b2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\04.Bullet">
+      <UniqueIdentifier>{f963d1fc-48b6-49eb-9806-5761b2fa94be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\04.Bullet\00.Parents">
+      <UniqueIdentifier>{26680c94-b184-4cec-a270-53e3c2e46cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\03.CollisionComp">
+      <UniqueIdentifier>{03213546-839a-4cfd-af65-5ce11bb17ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\03.CollisionComp\00.Parents">
+      <UniqueIdentifier>{28d3004d-214a-4e33-883b-4281d7eb8f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\01.Tower1">
+      <UniqueIdentifier>{11290880-e678-4790-97b2-e1a13b4a48a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Component\01.SpriteComp\02.BackgroundSpriteComp">
+      <UniqueIdentifier>{2d296b14-f624-45bd-97b3-ef30b721626c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Manager\00.Parents">
+      <UniqueIdentifier>{97c6aacc-9945-4692-b17d-afefd67d46e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Manager\01.ShopManager">
+      <UniqueIdentifier>{b5bad42b-13dc-441a-8790-3f7a8682cc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\02.Tower2">
+      <UniqueIdentifier>{e8be51d3-d341-43d4-8c37-4af6b44aa420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\03.Tower3">
+      <UniqueIdentifier>{9aed3617-8268-41f0-a65f-2c35ceb3e26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\04.Tower4">
+      <UniqueIdentifier>{836f62ef-82a3-4287-aea2-f7dbf1137f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\05.Tower5">
+      <UniqueIdentifier>{6c959fa5-424c-4c99-8498-28f662f3c4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\06.Tower6">
+      <UniqueIdentifier>{88bc5bf0-ec8f-4019-913b-c93ca16aca44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\07.Tower7">
+      <UniqueIdentifier>{9e0c96e8-a9c1-4b52-abb7-fd88a2f43891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\08.Tower8">
+      <UniqueIdentifier>{3cdf6a00-5309-44f1-b58f-08db3dd64317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\11.Tower11">
+      <UniqueIdentifier>{2e294c9e-8fad-4d26-a986-f6080f544dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\09.Tower9">
+      <UniqueIdentifier>{38047b38-9e4b-41bb-9cf5-2d9854195ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\10.Tower10">
+      <UniqueIdentifier>{4ceb5ed6-4c5a-446e-a38b-e895621396b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\03.Tower\12.Tower12">
+      <UniqueIdentifier>{eda89567-0f76-4658-a255-57df358d26d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Manager\03.StageManager">
+      <UniqueIdentifier>{b9fee66b-56e8-4bb7-9c00-463e75a38418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Manager\02.PlayerManager">
+      <UniqueIdentifier>{b4d23dfa-4a9f-4a1a-acbe-6daf46fe5f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Manager\04.ReinforceManager">
+      <UniqueIdentifier>{592c2b58-1144-4453-8c3a-11bc599b6382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Manager\05.InfoManager">
+      <UniqueIdentifier>{b4287b94-6e1d-47a1-8b94-d704810273d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Manager\06.EnemyManager">
+      <UniqueIdentifier>{e5bf6d38-7669-456d-b4f1-091e7e428652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\05.AEnemy">
+      <UniqueIdentifier>{852f1753-9a7c-4d83-9702-bd34ef07d2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\05.AEnemy\00.Parents">
+      <UniqueIdentifier>{fda12247-97fc-493b-bb04-c0d5da67c75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\05.AEnemy\01.Mob">
+      <UniqueIdentifier>{3c68c186-4125-4090-afea-0d771f7d134e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Actor\05.AEnemy\02.Boss">
+      <UniqueIdentifier>{7896d616-6720-4f74-88ee-412727bbbcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.Sound">
+      <UniqueIdentifier>{f2e69db4-efb6-4fc6-b5db-a2dc8e0e91ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UGame.h">
+      <Filter>소스 파일\02.Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>소스 파일\00.Function</Filter>
+    </ClInclude>
+    <ClInclude Include="UComponent.h">
+      <Filter>소스 파일\03.Component\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="AActor.h">
+      <Filter>소스 파일\04.Actor\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="USpriteComponent.h">
+      <Filter>소스 파일\03.Component\01.SpriteComp\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="USimpleSpriteComponent.h">
+      <Filter>소스 파일\03.Component\01.SpriteComp\01.SimpleSpriteComp</Filter>
+    </ClInclude>
+    <ClInclude Include="ABackground.h">
+      <Filter>소스 파일\04.Actor\01.ABackground\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="APawn.h">
+      <Filter>소스 파일\04.Actor\02.Pawn\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="ABackground1.h">
+      <Filter>소스 파일\04.Actor\01.ABackground\01.Background1</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower.h">
+      <Filter>소스 파일\04.Actor\03.Tower\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="ABullet.h">
+      <Filter>소스 파일\04.Actor\04.Bullet\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="UMovementComponent.h">
+      <Filter>소스 파일\03.Component\02.MovementComp\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>소스 파일\00.Function</Filter>
+    </ClInclude>
+    <ClInclude Include="UCollisionComponent.h">
+      <Filter>소스 파일\03.Component\03.CollisionComp\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="UBackgroundSpriteComponent.h">
+      <Filter>소스 파일\03.Component\01.SpriteComp\02.BackgroundSpriteComp</Filter>
+    </ClInclude>
+    <ClInclude Include="UManager.h">
+      <Filter>소스 파일\01.Manager\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="UShopManager.h">
+      <Filter>소스 파일\01.Manager\01.ShopManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower2.h">
+      <Filter>소스 파일\04.Actor\03.Tower\02.Tower2</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower3.h">
+      <Filter>소스 파일\04.Actor\03.Tower\03.Tower3</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower4.h">
+      <Filter>소스 파일\04.Actor\03.Tower\04.Tower4</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower5.h">
+      <Filter>소스 파일\04.Actor\03.Tower\05.Tower5</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower6.h">
+      <Filter>소스 파일\04.Actor\03.Tower\06.Tower6</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower7.h">
+      <Filter>소스 파일\04.Actor\03.Tower\07.Tower7</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower8.h">
+      <Filter>소스 파일\04.Actor\03.Tower\08.Tower8</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower9.h">
+      <Filter>소스 파일\04.Actor\03.Tower\09.Tower9</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower10.h">
+      <Filter>소스 파일\04.Actor\03.Tower\10.Tower10</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower11.h">
+      <Filter>소스 파일\04.Actor\03.Tower\11.Tower11</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower12.h">
+      <Filter>소스 파일\04.Actor\03.Tower\12.Tower12</Filter>
+    </ClInclude>
+    <ClInclude Include="ATower1.h">
+      <Filter>소스 파일\04.Actor\03.Tower\01.Tower1</Filter>
+    </ClInclude>
+    <ClInclude Include="UPlayerManager.h">
+      <Filter>소스 파일\01.Manager\02.PlayerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UReinForceManager.h">
+      <Filter>소스 파일\01.Manager\04.ReinforceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UInfoManager.h">
+      <Filter>소스 파일\01.Manager\05.InfoManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UEnemyManager.h">
+      <Filter>소스 파일\01.Manager\06.EnemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AEnemy.h">
+      <Filter>소스 파일\04.Actor\05.AEnemy\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="AMob.h">
+      <Filter>소스 파일\04.Actor\05.AEnemy\01.Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="ABoss.h">
+      <Filter>소스 파일\04.Actor\05.AEnemy\02.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="UStageManager.h">
+      <Filter>소스 파일\01.Manager\03.StageManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>메인 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UGame.cpp">
+      <Filter>소스 파일\02.Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UComponent.cpp">
+      <Filter>소스 파일\03.Component\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="AActor.cpp">
+      <Filter>소스 파일\04.Actor\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="USpriteComponent.cpp">
+      <Filter>소스 파일\03.Component\01.SpriteComp\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="USimpleSpriteComponent.cpp">
+      <Filter>소스 파일\03.Component\01.SpriteComp\01.SimpleSpriteComp</Filter>
+    </ClCompile>
+    <ClCompile Include="ABackground.cpp">
+      <Filter>소스 파일\04.Actor\01.ABackground\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="APawn.cpp">
+      <Filter>소스 파일\04.Actor\02.Pawn\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="ABackground1.cpp">
+      <Filter>소스 파일\04.Actor\01.ABackground\01.Background1</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="ABullet.cpp">
+      <Filter>소스 파일\04.Actor\04.Bullet\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="UMovementComponent.cpp">
+      <Filter>소스 파일\03.Component\02.MovementComp\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="UCollisionComponent.cpp">
+      <Filter>소스 파일\03.Component\03.CollisionComp\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="UBackgroundSpriteComponent.cpp">
+      <Filter>소스 파일\03.Component\01.SpriteComp\02.BackgroundSpriteComp</Filter>
+    </ClCompile>
+    <ClCompile Include="UManager.cpp">
+      <Filter>소스 파일\01.Manager\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="UShopManager.cpp">
+      <Filter>소스 파일\01.Manager\01.ShopManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower2.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\02.Tower2</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower3.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\03.Tower3</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower4.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\04.Tower4</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower5.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\05.Tower5</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower6.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\06.Tower6</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower7.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\07.Tower7</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower8.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\08.Tower8</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower9.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\09.Tower9</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower10.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\10.Tower10</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower11.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\11.Tower11</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower12.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\12.Tower12</Filter>
+    </ClCompile>
+    <ClCompile Include="ATower1.cpp">
+      <Filter>소스 파일\04.Actor\03.Tower\01.Tower1</Filter>
+    </ClCompile>
+    <ClCompile Include="UPlayerManager.cpp">
+      <Filter>소스 파일\01.Manager\02.PlayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UReinForceManager.cpp">
+      <Filter>소스 파일\01.Manager\04.ReinforceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UInfoManager.cpp">
+      <Filter>소스 파일\01.Manager\05.InfoManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UEnemyManager.cpp">
+      <Filter>소스 파일\01.Manager\06.EnemyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AEnemy.cpp">
+      <Filter>소스 파일\04.Actor\05.AEnemy\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="AMob.cpp">
+      <Filter>소스 파일\04.Actor\05.AEnemy\01.Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="ABoss.cpp">
+      <Filter>소스 파일\04.Actor\05.AEnemy\02.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="UStageManager.cpp">
+      <Filter>소스 파일\01.Manager\03.StageManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="윈도우즈_프로그래밍_기말.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
