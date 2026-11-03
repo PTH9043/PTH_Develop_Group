@@ -1,5 +1,21 @@
-# Block Defense
+# 블록 디펜스
 
-개인 WinAPI 타워 디펜스 프로젝트. Visual Studio 솔루션, C++ 소스와 프로젝트에 포함된 비트맵 리소스입니다.
+개인 프로젝트로 만든 WinAPI 타워 디펜스 게임입니다. 타워를 구입해 배치하고 강화하며, 사거리 안으로 들어온 적을 자동으로 공격합니다.
 
-시연 영상: https://youtu.be/R18WjZfERNw
+## 작업한 내용
+
+- 보유 골드와 선택한 타워를 확인해 설치 비용을 차감하고 배치했습니다.
+- 타워의 공격력과 공격 속도를 강화하고, 강화할수록 다음 비용이 높아지도록 했습니다.
+- 타워가 사거리 안의 적을 찾으면 총알을 생성하고, 총알이 이동과 충돌 피해를 처리하도록 나눴습니다.
+- 골드와 타워 능력치, 강화 비용의 변경을 화면에 반영했습니다.
+
+## 관련 코드
+
+- [타워 판매](./%EC%9C%88%EB%8F%84%EC%9A%B0%EC%A6%88_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EA%B8%B0%EB%A7%90/UShopManager.cpp)
+- [타워 강화](./%EC%9C%88%EB%8F%84%EC%9A%B0%EC%A6%88_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EA%B8%B0%EB%A7%90/UReinForceManager.cpp)
+- [플레이어의 골드와 타워](./%EC%9C%88%EB%8F%84%EC%9A%B0%EC%A6%88_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EA%B8%B0%EB%A7%90/UPlayerManager.cpp)
+- [타워와 자동 공격](./%EC%9C%88%EB%8F%84%EC%9A%B0%EC%A6%88_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EA%B8%B0%EB%A7%90/ATower.cpp)
+
+C++과 WinAPI를 사용했습니다. [프로젝트 시연 영상](https://youtu.be/R18WjZfERNw)
+
+저장소에는 Visual Studio 솔루션과 소스, 원본 프로젝트의 비트맵 리소스를 넣었습니다. 빌드·실행은 문서 정리 시 다시 확인하지 않았습니다.
